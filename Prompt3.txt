@@ -1,0 +1,1 @@
+note - Aage jo baaki hain wo banao, ek bar me, aur telegram bot ka webhook banao jo /start Command ka reply de aur 2fa bhi dekh le.
