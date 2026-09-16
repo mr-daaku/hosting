@@ -7,3 +7,5 @@ aur internet par search karo aur kya dalun aur ek test mode bhi do jisse user si
 2fa enable karne ke liye account me jaye aur enable button par click kare fir ek link aaye yese "http://t.me/CosCom2faBot?start=random" aur bot start hone par 2fa lag jaye.
 login me bina 2fa account direct login, agar 2fa hoga to login fir 2fa page aur telegram me user user userid pe ek otp jaye aur websites pe OTP dalne par login secusfully aur season token ko local me save nahi karo aur device fingerprint lo taki merchant device dekh ke logout kar sake 
 account me sare firchers do aur attech ko token ke tarik internet par search karo aur hard security banao, aur kon kon se method se website pe atteck aur kon kon se security lagane se hack hone se bach jayega wo sab add karo.
+
+bot token - 8885275310:AAFTHSGEzyp7BKeJkq80vWv64vF0J-Xq2so
