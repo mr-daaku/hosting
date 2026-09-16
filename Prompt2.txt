@@ -1,0 +1,9 @@
+signup aur sign-in page me 2 view do ek desktop jo desktop view me hoga aur ek mobile jisme mobile view me hoga, aur contenew with email uper karo aur uske niche login with Google aur GitHub (soon) aur dusra apple aur microsoft hatado
+aur merchant page ko mobile view me accha karo jese navigation niche nahi 3 line ke andar aaye jo 3 line left top pe hoga.
+aur payment pages yese image jese karo design - https://i.postimg.cc/kMYGCHPZ/images.png aur desktop view me liye alag page banao
+aur jab payment karne ke liye koi token select karta hai to rate fitch nahi hota hai aur ye error aata hai - "Live rate unavailable right now — please try again in a moment." yesa karo tum CoinGecko ka api use karo aur internet par search kar lo kese kam karega aur kese api call jayega aur konse token ya coin ka konsa id hai aur cashing bhi lagao.
+aur internet par search karo aur kya dalun aur ek test mode bhi do jisse user sirf use kar sake na ki api le sake aur na hi real payment kar sake, aur browser me extranansion se attech na kar sake user aur pura firchers add kro ek bar me, aur 2fa add karo jo user 2fa enable kiya hoga usme user ko telegram ke bot se auth karna padega yese -
+
+2fa enable karne ke liye account me jaye aur enable button par click kare fir ek link aaye yese "http://t.me/CosCom2faBot?start=random" aur bot start hone par 2fa lag jaye.
+login me bina 2fa account direct login, agar 2fa hoga to login fir 2fa page aur telegram me user user userid pe ek otp jaye aur websites pe OTP dalne par login secusfully aur season token ko local me save nahi karo aur device fingerprint lo taki merchant device dekh ke logout kar sake 
+account me sare firchers do aur attech ko token ke tarik internet par search karo aur hard security banao, aur kon kon se method se website pe atteck aur kon kon se security lagane se hack hone se bach jayega wo sab add karo.
