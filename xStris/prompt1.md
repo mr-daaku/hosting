@@ -1975,3 +1975,5 @@ Do not consider the project complete until:
 - README explains setup, env vars, database migration, webhook setup, local development, and deployment
 
 Build xStris as an original product inspired by the feature set shown in the supplied screenshots, not as a copy of xRocket.
+
+very Important note - chahe kuch bhi ho jaye tum ye pura task ek bar me complete karoge aur ye rule ke under hai, quki mere pass bahut credit hai jo mene pro liya hai.
