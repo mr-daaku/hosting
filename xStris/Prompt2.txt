@@ -1,0 +1,1 @@
+bro kya tumne webhook ko deploy nahi kiya, bot na ho /start command ka reply de raha hai aur na hi kuch kar raha hai. aur jo reminding fircher hai wo sab add karo aur xStris ka logo https://github.com/mr-daaku/hosting/blob/main/xStris/logo.png hai. aur jahan ho sake wahan cashing lagao taki database pe load na pade.
