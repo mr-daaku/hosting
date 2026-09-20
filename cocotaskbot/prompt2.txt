@@ -15,3 +15,5 @@ Today’s rewards" hata do.
 jab kisi ka value ko change karta hai admin to setting me to fir bhi save nahi ota hai database me aur na hi wo kam karta hai, big problem fix karo.
 aur users tab me admins ko pin rakho admin panel me. aur jab user withdraw karta hai to amount dalke withdraw button par click karta hai to "Minimum withdrawal is undefined CoCo." aata hai.
 very big problem - jab user payment kar deta hai aur app par return ho jata hai to "Still confirming on the network. Your balance updates shortl" aata hai aur deposit nahi hota hai user ke balance me, jab secuss return ho direct deposit ho jaye aur database me save ho jaye.
+
+aur jab bot me /start command dalta hun to koi replay nahi aata hai, webhook ko deploy karo aur accha banao.
