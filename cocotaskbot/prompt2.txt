@@ -1,0 +1,17 @@
+Jab user task create karne jata hai aur form fill karke fund and publish button par click karta hai to account se gram(TON) amount nahi cut hota hai, aur na hi koi message deta hai aapka task under review me hai, jabki task review me chala jata hai. Aur create task ka pop-up nahi uske gajah page banao,  aur top pe 2 tab dena, ek create ka aur dusra my task ka, create me user apna task create kar sakega aur my task me sabhi created tasks hoga (under review wala bhi)
+
+Aur admin panel me pura setting nahi hai jo ek admin ko chahiye, jitna ho sake sab kai control admin panel me do aur admin setting me accha page banao na ki kahin bhi kuch bhi dal do jese-
+
+Task reward [..]
+Withdraw fee [%/coco][..]
+
+Etc yese, ek line me ek hi koi setting.
+
+aur tum welcome message ke sath me image jo bhejte ho wo tum khud create karo, aur bahut sara admin panel me control do, aur isme se bahut ka control nahi hai admin ke pass aur bahut kuch chhut gaya hai.
+home page se - "Welcome back, ＤＡＡＫＵ
+
+Today’s rewards" hata do.
+
+jab kisi ka value ko change karta hai admin to setting me to fir bhi save nahi ota hai database me aur na hi wo kam karta hai, big problem fix karo.
+aur users tab me admins ko pin rakho admin panel me. aur jab user withdraw karta hai to amount dalke withdraw button par click karta hai to "Minimum withdrawal is undefined CoCo." aata hai.
+very big problem - jab user payment kar deta hai aur app par return ho jata hai to "Still confirming on the network. Your balance updates shortl" aata hai aur deposit nahi hota hai user ke balance me, jab secuss return ho direct deposit ho jaye aur database me save ho jaye.
