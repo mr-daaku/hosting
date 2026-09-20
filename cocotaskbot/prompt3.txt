@@ -9,3 +9,4 @@ aur webapp ko redesign karo jese ye prompt me likha hai -
 4. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJxEgxzdGl0Y2hfZmlsZXMaYQosc3RpdGNoX2h0bWxfMDAwNjViZTUyOWI3ZDZmNDAyZDNmYzc0MzExZWIwZDMSCxIHEPS_h-iHCBgBkgEjCgpwcm9qZWN0X2lkEhVCEzIwNzMxMTY4NTczNjUxMjc3NjQ&filename=&opi=89354086
 5. https://contribution.usercontent.google.com/download?c=CgthaWRhX2NvZGVmeBJxEgxzdGl0Y2hfZmlsZXMaYQosc3RpdGNoX2h0bWxfMDAwNjViZTUyOWNiZTBmYTAyYTliZDFkNjkxMjE2MWESCxIHEPS_h-iHCBgBkgEjCgpwcm9qZWN0X2lkEhVCEzIwNzMxMTY4NTczNjUxMjc3NjQ&filename=&opi=89354086"
 
+admin panel me payout me withdraw request me ek copy button do jispe click karne par address copy hoga, aur ek pay button do jispe click karne par ton wallet open ho jisme already address, amount aur comment set hoga, admin sirf pay button par click karega aur app pe aake paid karega.
