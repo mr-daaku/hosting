@@ -1,0 +1,51 @@
+bro ye kya hua, isme to sara native aur stable coin sara kuch delete que kiya?
+
+pahle jesa tha wesa karo sirf coins aur tokens ko, ye sab lao - USDT, USDC, BNB, BTC, TRX, GRAM, SOL aur ETH sal lao jo deposit ke frent me hi hoga.
+
+aur coin listing me yese que nahi hai - chain > name > symbol > contact address > details > confirm > done
+
+Aur list chain ko hata do quki fix ye sab chain hoga - BEP20, ERC20, TRC20, SOL, GRAM, BTC, Arbitrum aur Base bas itna hi.
+
+Aur admin panel ka button yese nahi dikho, jab admin /admin_daaku dale tab hi admin panel open ho.
+
+Aur exchange, P2P aur subscription hata do.
+
+Aur bot me lgega inline command bhi do jab user about xStris me jaye to back aur legal button dikhe.
+
+Mene bola tha sara users ka account delete karne na ki sara tokens aur coin delete karne. Aur tranjection check hota hai na real wala aur deposit address jahan deta hai wahan show QR ke sath me ek check deposit button do jisse click karne par deposit check hoga sirf wahi address ka aur new milne par user ke account me add kar do.
+
+tranjection check karne me RPC free public api ka use karo, jese -
+
+"BEP20  → https://bsc-rpc.publicnode.com
+ERC20  → https://ethereum-rpc.publicnode.com
+TRC20  → https://tron-rpc.publicnode.com
+SOL    → https://solana-rpc.publicnode.com
+GRAM   → https://toncenter.com/api/v2/jsonRPC
+BTC    → https://bitcoin-rpc.publicnode.com
+Arbitrum → https://arbitrum-one-rpc.publicnode.com
+Base   → https://base-rpc.publicnode.com"
+
+aur sabhi contact address ye hai -
+"USDT : BSC      : 0x55d398326f99059fF775485246999027B3197955
+USDT : Ethereum : 0xdAC17F958D2ee523a2206206994597C13D831ec7
+USDT : TRON     : TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t
+USDT : Solana   : Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB
+USDT : Arbitrum : 0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9
+USDT : Base     : 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913
+
+USDC : BSC      : 0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d
+USDC : Ethereum : 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48
+USDC : Solana   : EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v
+USDC : Arbitrum : 0xaf88d065e77c8cC2239327C5EDb3A432268e5831
+USDC : Base     : 0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913
+
+BNB  : BSC      : NATIVE
+BTC  : Bitcoin  : NATIVE
+TRX  : TRON     : NATIVE
+GRAM : TON      : NATIVE
+SOL  : Solana   : NATIVE
+ETH  : Ethereum : NATIVE"
+
+aur native me contact address nahi hai, kabhi kabhi 0x000.. use hota hai, internet par search kar lena aur pura security verification laga dena, please.
+
+note please: ye pura kam ek bar me karo, aur admin panel ko thoda aasan tarah se banao taki admin confused na ho.
