@@ -177,3 +177,5 @@ Required checks:
 9. Regenerated types match the migrations; RLS/grants audit result reported.
 
 Finally, give me a **short manual test checklist** to run inside Telegram with a real small TON payment (minimum deposit), covering: pay → return → balance updates automatically; close app right after paying → balance still updates and Telegram message arrives; cancel in wallet → no credit.
+
+and add a option in tasks (admin panel) create partner task.
