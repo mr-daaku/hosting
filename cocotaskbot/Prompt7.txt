@@ -1,0 +1,1 @@
+bro telegram bot /start Command ka reply nahi de raha hai, kya tumne backend deploy nahi kiya, agar nahi to deploy karo.
