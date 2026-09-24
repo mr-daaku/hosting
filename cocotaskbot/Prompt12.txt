@@ -1,0 +1,5 @@
+App ka refer link https://t.me/MyTelegramTaskBot/startapp se https://t.me/MyTelegramTaskBot/Miniapp karo.
+
+Aur loading page/animation me Credit ke gajah MyTelegramTaskBot kro.
+
+Aur /start Command ka welcome open Miniapp link https://t.me/MyTelegramTaskBot/Miniapp yesa karo
