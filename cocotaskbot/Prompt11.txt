@@ -1,0 +1,3 @@
+top par jo heading hai jisme MyTelegramTask likha hai aur balance dikhata hai, usme MyTelegramTask se MTT karo name ko.
+aur kya tumne backend deploy nahi kiya? jab user bot me /start Command dalta hai to old wala hi welcome image aata hai jabki new image aana chahiye.
+aur daily task me +1 Credit · resets every 24h que likha hua hai. jabki +1 Credit · resets next day likha hona chahiye quki wo reset 0 UTC me hoga.
