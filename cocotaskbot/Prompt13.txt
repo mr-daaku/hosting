@@ -1,0 +1,27 @@
+I have a TON deposit issue in my app (files: src/lib/deposits.server.ts, src/lib/app.functions.ts, src/routes/deposit.tsx, src/routes/admin.tsx). TON deposits use ONE shared address (app_settings.ton_address, edited from the Admin panel) and each user is identified by a unique memo/comment (app_settings.memo_prefix + telegram id, stored in users.ton_memo). Deposits stopped auto-confirming after the admin changed the TON deposit address to a new one. Please debug and fix this end-to-end:
+
+1. Verify the Admin Settings save flow (admin.tsx + admin.functions.ts) actually persists `ton_address` to the `app_settings` table correctly, and that `getSettings()` in core.server.ts always reads the latest value with no stale caching anywhere in the request path.
+
+2. Harden `scanTon()` in deposits.server.ts:
+   - Add pagination (use `before_lt` from tonapi.io) instead of a single `limit=100` call, so older/newer events aren't missed as the account gets more activity.
+   - In addition to `/v2/accounts/{address}/events`, also call `/v2/accounts/{address}/jettons/{USDT_MASTER}/history` (same approach as my reference scan.html) for USDT jetton transfers specifically, since jetton transfers are sometimes missing/delayed in the general events feed. Merge and dedupe results from both sources by tx hash.
+   - Normalize the jetton master address comparison so it matches regardless of raw (0:...) vs friendly (EQ.../UQ...) format.
+   - Stop silently swallowing fetch errors with only console.error — surface a clear error (e.g. return {ok:false, reason} or throw) when tonapi.io calls fail (rate limit / network / bad response) so the UI can tell the user "couldn't verify right now, try again" instead of the misleading "No new deposit found yet".
+   - Add retry with backoff for tonapi.io 429 rate-limit responses.
+   - Trim/normalize memo comparison (case + whitespace) when matching `ton_memo`.
+
+3. On the `/deposit` page (deposit.tsx), for the TON asset specifically:
+   - Rename the existing "Check Deposit" button to "Didn't receive deposit? Check now" (keep the existing manual re-check logic, just wire it to the hardened scanTon above).
+   - If the scan call fails/errors, show a clear toast like "Couldn't verify right now, please try again in a minute" instead of implying no deposit was found.
+   - Keep crediting behavior exactly as is (via the existing credit_deposit RPC) — only fix detection reliability, don't change the crediting/balance logic.
+
+4. Add server-side logging (console.log with the address, memo, and number of events/jetton-history items fetched) in scanTon and scanUser so that if this happens again, logs clearly show whether the problem is "no matching memo found" vs "tonapi.io call failed" vs "address misconfigured".
+
+5. Double check the current `app_settings.ton_address` value in the database matches the actual address shown to users on the deposit page, and that the wallet at that address is capable of receiving TON/USDT normally (it doesn't need any special on-chain activation for this to work).
+
+Please make these changes without altering the wallet.server.ts address derivation logic for EVM/TRON/Solana, which is working fine — this is only about the shared TON address + memo deposit flow.
+
+aur jab user kisi ko share karta hai to user ko "https://t.me/MyTelegramTaskBot/Miniapp?startapp=7206619137
+Join me on Credit!" yesa milta hai, jabki mene tumhe bola hai join credit nahi join My Telegram Task ho.
+
+most important - ek check deposit kabhi button do aur check deposit button par click karne par ye https://raw.githubusercontent.com/mr-daaku/hosting/main/cocotaskbot/scan.html file ke method se tranjection check karo aur new milne par user ke balance me add karo do. sayad deposit catch kar raha hai par deposit nahi kar raha hai quki mene dekha database ke deposit_attempts me kuch deposits the.
