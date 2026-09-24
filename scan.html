@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TON Scanner</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0a0a0a; color: #fff; font-family: system-ui, sans-serif; min-height: 100vh; padding: 20px; }
+  h1 { font-size: 20px; font-weight: 700; color: #c8ff00; margin-bottom: 4px; }
+  .subtitle { font-size: 12px; color: #555; margin-bottom: 20px; word-break: break-all; }
+  .controls { display: flex; gap: 10px; margin-bottom: 20px; }
+  input {
+    flex: 1; background: #111; border: 1px solid #222; color: #fff;
+    padding: 10px 14px; border-radius: 10px; font-size: 13px; outline: none;
+  }
+  input:focus { border-color: #c8ff00; }
+  button {
+    background: #c8ff00; color: #000; font-weight: 700; border: none;
+    padding: 10px 18px; border-radius: 10px; cursor: pointer; font-size: 13px;
+    white-space: nowrap;
+  }
+  button:disabled { background: #333; color: #666; cursor: not-allowed; }
+  .stats { display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap; }
+  .stat-card {
+    background: #111; border: 1px solid #222; border-radius: 12px;
+    padding: 12px 16px; flex: 1; min-width: 120px;
+  }
+  .stat-label { font-size: 11px; color: #555; margin-bottom: 4px; }
+  .stat-val { font-size: 20px; font-weight: 700; color: #c8ff00; }
+  .filter-bar { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+  .filter-btn {
+    background: #111; border: 1px solid #222; color: #888;
+    padding: 6px 14px; border-radius: 20px; cursor: pointer; font-size: 12px;
+  }
+  .filter-btn.active { background: #c8ff00; color: #000; border-color: #c8ff00; font-weight: 700; }
+  .search-memo { flex: 1; min-width: 160px; }
+  .tx-list { display: flex; flex-direction: column; gap: 10px; }
+  .tx-card {
+    background: #111; border: 1px solid #222; border-radius: 14px;
+    padding: 14px; position: relative; overflow: hidden;
+  }
+  .tx-card.usdt { border-left: 3px solid #26a69a; }
+  .tx-card.ton { border-left: 3px solid #0088cc; }
+  .tx-card.match { border-left: 3px solid #c8ff00; background: #111a00; }
+  .tx-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
+  .tx-amount { font-size: 16px; font-weight: 700; }
+  .tx-amount.usdt-color { color: #26a69a; }
+  .tx-amount.ton-color { color: #0088cc; }
+  .tx-amount.match-color { color: #c8ff00; }
+  .tx-type { font-size: 10px; padding: 3px 8px; border-radius: 20px; font-weight: 700; }
+  .badge-usdt { background: #0d2e2b; color: #26a69a; }
+  .badge-ton { background: #001a33; color: #0088cc; }
+  .badge-match { background: #1a2e00; color: #c8ff00; }
+  .tx-row { display: flex; gap-6: gap; margin-bottom: 4px; font-size: 11px; color: #888; }
+  .tx-row span { color: #ccc; word-break: break-all; }
+  .tx-label { min-width: 60px; color: #555; }
+  .tx-hash a { color: #555; font-size: 10px; text-decoration: none; }
+  .tx-hash a:hover { color: #c8ff00; }
+  .memo-tag {
+    display: inline-block; background: #1a1a1a; border: 1px solid #333;
+    padding: 2px 8px; border-radius: 6px; font-family: monospace; font-size: 11px; color: #c8ff00;
+    margin-top: 4px;
+  }
+  .empty { text-align: center; color: #444; padding: 40px; font-size: 14px; }
+  .loading { text-align: center; color: #555; padding: 30px; }
+  .spinner {
+    width: 32px; height: 32px; border: 3px solid #222;
+    border-top-color: #c8ff00; border-radius: 50%;
+    animation: spin 0.8s linear infinite; margin: 0 auto 10px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .error { background: #1a0000; border: 1px solid #440000; border-radius: 10px; padding: 12px; color: #ff6666; font-size: 13px; margin-bottom: 16px; }
+  .time { font-size: 10px; color: #444; }
+  .row { display: flex; justify-content: space-between; margin-bottom: 3px; }
+</style>
+</head>
+<body>
+
+<h1>⛓ TON Scanner</h1>
+<div class="subtitle" id="addressLabel">Address: UQAhcyEB-MBTsbK6POiIRQVvUEHDEuJcg9EF9dspeK1xSzmu</div>
+
+<div class="controls">
+  <input type="text" id="memoFilter" placeholder="🔍 Search by memo..." class="search-memo" oninput="applyFilter()">
+  <button id="refreshBtn" onclick="loadTx()">↻ Refresh</button>
+</div>
+
+<div class="stats">
+  <div class="stat-card">
+    <div class="stat-label">Total Tx</div>
+    <div class="stat-val" id="statTotal">—</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-label">USDT Received</div>
+    <div class="stat-val" id="statUsdt">—</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-label">Last Update</div>
+    <div class="stat-val" id="statTime" style="font-size:13px;margin-top:4px">—</div>
+  </div>
+</div>
+
+<div class="filter-bar">
+  <button class="filter-btn active" onclick="setType('all', this)">All</button>
+  <button class="filter-btn" onclick="setType('usdt', this)">USDT Only</button>
+  <button class="filter-btn" onclick="setType('ton', this)">TON Only</button>
+  <button class="filter-btn" onclick="setType('memo', this)">Has Memo</button>
+</div>
+
+<div id="errorBox" style="display:none" class="error"></div>
+<div id="txList" class="tx-list"><div class="loading"><div class="spinner"></div>Loading transactions...</div></div>
+
+<script>
+const ADDRESS = "UQAhcyEB-MBTsbK6POiIRQVvUEHDEuJcg9EF9dspeK1xSzmu";
+const USDT_MASTER = "EQCxE6mUtQJKFnGfaROTKOt1lZbDiiX1kCixRv7Nw2Id_sDs";
+const TONAPI = "https://tonapi.io/v2";
+
+let allTx = [];
+let activeType = "all";
+
+document.getElementById("addressLabel").textContent = "Address: " + ADDRESS;
+
+async function loadTx() {
+  const btn = document.getElementById("refreshBtn");
+  btn.disabled = true;
+  btn.textContent = "Loading...";
+  document.getElementById("errorBox").style.display = "none";
+  document.getElementById("txList").innerHTML = '<div class="loading"><div class="spinner"></div>Fetching transactions...</div>';
+
+  try {
+    // Fetch USDT jetton history
+    const usdtRes = await fetch(`${TONAPI}/accounts/${encodeURIComponent(ADDRESS)}/jettons/${encodeURIComponent(USDT_MASTER)}/history?limit=50`);
+    const usdtData = await usdtRes.json();
+
+    // Fetch TON events
+    const tonRes = await fetch(`${TONAPI}/accounts/${encodeURIComponent(ADDRESS)}/events?limit=30`);
+    const tonData = await tonRes.json();
+
+    allTx = [];
+    let totalUsdt = 0;
+
+    // Parse USDT events
+    (usdtData.events || []).forEach(event => {
+      (event.actions || []).forEach(action => {
+        if (action.type === "JettonTransfer") {
+          const t = action.JettonTransfer;
+          const amt = Number(t.amount) / 1_000_000;
+          totalUsdt += amt;
+          allTx.push({
+            type: "usdt",
+            amount: amt.toFixed(4),
+            memo: t.comment || "",
+            from: t.sender?.address || "",
+            hash: event.event_id,
+            ts: event.timestamp,
+          });
+        }
+      });
+    });
+
+    // Parse TON events
+    (tonData.events || []).forEach(event => {
+      (event.actions || []).forEach(action => {
+        if (action.type === "TonTransfer") {
+          const t = action.TonTransfer;
+          const amt = Number(t.amount) / 1_000_000_000;
+          allTx.push({
+            type: "ton",
+            amount: amt.toFixed(4),
+            memo: t.comment || "",
+            from: t.sender?.address || "",
+            hash: event.event_id,
+            ts: event.timestamp,
+          });
+        }
+      });
+    });
+
+    // Sort by timestamp desc
+    allTx.sort((a, b) => b.ts - a.ts);
+
+    document.getElementById("statTotal").textContent = allTx.length;
+    document.getElementById("statUsdt").textContent = totalUsdt.toFixed(2);
+    document.getElementById("statTime").textContent = new Date().toLocaleTimeString();
+
+    applyFilter();
+  } catch (e) {
+    document.getElementById("errorBox").style.display = "block";
+    document.getElementById("errorBox").textContent = "Error fetching transactions: " + e.message;
+    document.getElementById("txList").innerHTML = '<div class="empty">Failed to load.</div>';
+  }
+
+  btn.disabled = false;
+  btn.textContent = "↻ Refresh";
+}
+
+function setType(type, el) {
+  activeType = type;
+  document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+  el.classList.add("active");
+  applyFilter();
+}
+
+function applyFilter() {
+  const memo = document.getElementById("memoFilter").value.trim().toLowerCase();
+  let filtered = allTx;
+
+  if (activeType === "usdt") filtered = filtered.filter(t => t.type === "usdt");
+  else if (activeType === "ton") filtered = filtered.filter(t => t.type === "ton");
+  else if (activeType === "memo") filtered = filtered.filter(t => t.memo);
+
+  if (memo) filtered = filtered.filter(t => t.memo.toLowerCase().includes(memo) || t.from.toLowerCase().includes(memo));
+
+  render(filtered);
+}
+
+function render(txs) {
+  const list = document.getElementById("txList");
+  if (!txs.length) { list.innerHTML = '<div class="empty">No transactions found.</div>'; return; }
+
+  const memo = document.getElementById("memoFilter").value.trim();
+  list.innerHTML = txs.map(tx => {
+    const isMatch = memo && tx.memo.toLowerCase().includes(memo.toLowerCase());
+    const cardClass = isMatch ? "match" : tx.type;
+    const amtClass = isMatch ? "match-color" : (tx.type === "usdt" ? "usdt-color" : "ton-color");
+    const badgeClass = isMatch ? "badge-match" : (tx.type === "usdt" ? "badge-usdt" : "badge-ton");
+    const symbol = tx.type === "usdt" ? "USDT" : "TON";
+    const date = new Date(tx.ts * 1000).toLocaleString();
+    const shortHash = tx.hash ? tx.hash.slice(0, 10) + "..." + tx.hash.slice(-6) : "—";
+
+    return `
+      <div class="tx-card ${cardClass}">
+        <div class="tx-top">
+          <div class="tx-amount ${amtClass}">${tx.amount} ${symbol}</div>
+          <div class="tx-type ${badgeClass}">${isMatch ? "✅ MATCH" : symbol}</div>
+        </div>
+        ${tx.memo ? `<div class="memo-tag">📝 ${tx.memo}</div>` : ""}
+        <div style="margin-top:8px">
+          <div class="row">
+            <span style="color:#555;font-size:11px">From</span>
+            <span style="font-size:10px;color:#666;word-break:break-all;max-width:70%;text-align:right">${tx.from || "—"}</span>
+          </div>
+          <div class="row">
+            <span style="color:#555;font-size:11px">Time</span>
+            <span style="font-size:11px;color:#555">${date}</span>
+          </div>
+          <div class="row">
+            <span style="color:#555;font-size:11px">Hash</span>
+            <a href="https://tonscan.org/tx/${tx.hash}" target="_blank" style="font-size:10px;color:#444;text-decoration:none" onmouseover="this.style.color='#c8ff00'" onmouseout="this.style.color='#444'">${shortHash} 🔗</a>
+          </div>
+        </div>
+      </div>`;
+  }).join("");
+}
+
+// Auto load on start
+loadTx();
+// Auto refresh every 30 seconds
+setInterval(loadTx, 30000);
+</script>
+</body>
+</html>
