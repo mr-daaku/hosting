@@ -1,0 +1,3 @@
+Jab user daily check-in ke claim button par click kare to ads run ho monetag ka. Aur jab user promo code claim kare to user ko adsgram ka ads dikhe. Aur jab user app open kare to user ko monetag ka ads dikhe, ek bar sirf.
+
+Admin panel ke setting me ek aur option do jisme kitna second ka condown ho, jab tak countdown ho tab tak user dobara ads na dekh sake, aur ye defolt 15 second ho aur ye admin change kar sake. Aur welcome image ko change karo aur usme credit nahi likhan, app name MyTelegramTask hai na ki Credit, Credit app ka currency hai na ki name. Aur daily check-in 0 UTC me reset ho na ki claim ke 24h bad. Aur mene adsgram ka block I'd change kar diya hun, tum pura backend fir se deploy karo.
