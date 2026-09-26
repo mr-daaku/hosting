@@ -1,0 +1,2 @@
+bro Live conversion (price fich) nahi ho raha hai 😭😭 fix karo. tum ye file "" dekho aur usi method se call karo aur price fich karo. 
+aur tum internet par search karo kya ye backend me allowed nahi karta hai, aur test bhi karo public api response de raha hai ya nahi.
