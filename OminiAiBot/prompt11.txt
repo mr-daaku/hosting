@@ -6,3 +6,5 @@ file 2- https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/ton-scan.js
 
 aur koi bhi native coin minimum utna ka hi ho jitna hai minimum usdt hai, jese minimum mano 0.1$ USDT hai to bnb/eth/gram bhi minimum 0.1$ ka ho.
 aur withdraw request submit kare to wo bhi message aaye bot se aur admin panel me kitan user ka freeze balance hai wo bhi dikhaoa aur unfreeze balance ka bhi option do.
+
+admin panel me deposit tab me deposits list me wallet index bhi dikhao.
