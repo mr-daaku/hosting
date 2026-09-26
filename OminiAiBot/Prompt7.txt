@@ -1,0 +1,6 @@
+bro ye kya ho raha hai 😭😭 jab user check deposit button par click karta hai to deposit milta hi nahi hai jabki user ne deposit Kiya hai aur wo bscscan.com par bhi dikha raha hai, tum check deposit system fix karo aur jonse method se ye tranjection check kar raha hai usi method se test karo aur admin panel me ek check deposit ka tab add karo jisme address dale admin aur uska sara tranjection dikha de.
+
+https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/package.json
+https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/eth-scan.js
+https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/bsc-scan.js
+https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/ton-scan.js
