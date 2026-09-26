@@ -1,0 +1,1 @@
+bro price fiche karne me problem aa raha hai isliye tum binance ka api use karo jese "" use karta hai, aur bar bar call na kare cashing bhi lagao.
