@@ -1,1 +1,3 @@
 bro price fiche karne me problem aa raha hai isliye tum binance ka api use karo jese "https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/price-ficher.js" use karta hai, aur bar bar call na kare cashing bhi lagao. aur jab user app open kare to channels join ka pop-up tabhi aaye jab user channels join na kiya ho tab.
+
+aur admin panel me withdraw requests me total withdrawal + total time withdrawal bhi dikhao, aur wahin se balance freeze ka button do jispe click karne par balance freeze ho jaye jitna withdraw request Kiya tha user, aur already ho to add ho jaye. aur tranjection history bhi dikhao profile/account page me aur filters bhi dena.
