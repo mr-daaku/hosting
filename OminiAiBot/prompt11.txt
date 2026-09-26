@@ -1,0 +1,5 @@
+bro app me jahan jahan TON likha hai sabko GRAM karo quki TON ka name change hoke GRAM ho gaya hai aur binace se TON ka [rice nahi walki GRAM ka price call kiya karo.
+aur jab user GRAM deposit kiya aur memo me OMA-7206619137 bhi dala to bhi deposi nahi hua aur app bol raha hai no new deposit found bata raha hai, tum ye file ke method se stranjections scan karo aur deposit milne par user ke account me add kar do, aur na hi usdt deposit confirm ho raha hai GRAm chain me fix karo, aur internet pe search karo aur usi method se banao aur files jarura dekh lena.
+
+file 1- https://github.com/mr-daaku/hosting/blob/main/scan.html
+file 2- https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/ton-scan.js
