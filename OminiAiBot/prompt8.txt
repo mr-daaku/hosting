@@ -1,1 +1,1 @@
-bro price fiche karne me problem aa raha hai isliye tum binance ka api use karo jese "" use karta hai, aur bar bar call na kare cashing bhi lagao.
+bro price fiche karne me problem aa raha hai isliye tum binance ka api use karo jese "https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/price-ficher.js" use karta hai, aur bar bar call na kare cashing bhi lagao. aur jab user app open kare to channels join ka pop-up tabhi aaye jab user channels join na kiya ho tab.
