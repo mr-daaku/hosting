@@ -1,0 +1,6 @@
+bro tum database me se device_fingerprints, tranjections, wallets tables ko hata do aur user ko deposit address instant get karke do na ki database se lo jese-
+user select payment method (bnb/bsc-usdt/eth/eth-usdt me) > backend user ka wallet index dekhega > wallet secret word se wo index ke address ko genrate karega > fir users ko dikhayega. aur GRAM/GRAM-USDT me yese hoga - deposit page address fix jo ek hi hoga, memo userid hoga jo telegram sdk se lega aur isme database ko sirf address lene ke liye call karega.
+aur tranjections me koi tranjections save nahi hoga, direct balance update/cut/add hoga.
+aur device_fingerprints bhi nahi hoga, multiple account ban ka system hatao aur device_fingerprints table bhi hatao.
+wallet bhi hatao quki index to users table me hoga. aur refer me sirf instant reward hoga 10 coin + 1 box, aur 5% deposit bonus hata do.
+aur admin panel me paid/reject withdraws ko admin delete kar sake.
