@@ -1,0 +1,8 @@
+bro abhi bhi app open nahi ho raha hai, jabki mene transactions ke sara andar ka datas ko delete kar diya aur "drop table if exists public.wallets cascade;
+drop table if exists public.device_fingerprints cascade;" chalake wallet aur device_fingerprints tables ko bhi delete kar diya par fir bhi nahi app open hua.
+
+kya database reset karne se ho jayega kam? aur mera bahut importents datas withdrawals deposits app_settings users referrals ye sab tabels me hai, kya ye sab datas dusre database me chala jayega permanently? agar mera datas nahi milega to ye nahi karna abhi tab tak me na bolun.
+
+note- tum apne AGENT.md me ye save kar lo jab me hii message karun to me bol raha hun new prompt dekho matla mano agar me abhi "https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/prompt20.txt" diya aur mene hii likha to tum agle bar "https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/prompt21.txt" dekhoge agar nahi milega to "https://github.com/mr-daaku/hosting/blob/main/OminiAiBot" folder ka sabse bada/baad prompt dekhoge.
+
+abhi tum ye karo- tum ek /datas ka page banao jisme me jaunga aur project ko download kar lunga aur ye sayad role key se hota hai ki me project ko download kar sakun, quki tum na hi projet ke SUPABASE_SERVICE_ROLE_KEY ko dekh sakte ho quki ye secret me fix hai, isliye tum yesa function banao jisme SUPABASE_SERVICE_ROLE_KEY se hi me datas download kar sakun aur kam hone ke bad /datas page ko delete kar dunga. /datas page brodser me bhi open ho okey, aur sabhi ya koi ek ek table ka datas download kar sakun csv file me.
