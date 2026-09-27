@@ -1,0 +1,6 @@
+bro jab user ko refer income milta hai to wo user claim nahi ka pata hai, isliye tum freinds page me ek total refer income aur ek unclaimed refer income do, aur ek claim button do jispe click karne par user ke main withdrawel balance me add ho jaye.
+aur multiple accounts ko allow do aur device fingerprint nahi lo. aur database par bahut jyada load par raha hai, koi tarika lao jisse database par jyada load na pade aur wo smooth kam kare, aur jahan ho sake wahan cashing lagao.
+aur address me evm aur ton hi save karo, btc aur tron aur sol ko hata do. aur top par jo online dikhata hai wo hata do, aur database me bhi save nahi karo.
+aur broadcast me jyada user hone par kuch logon ko jata hai aur fail ho jata hai, tum yesa karo 50-50 karke user ko message send karo, aur kitna ko gaya kitana fail hua sab result do.
+
+note - jo mene bola hai wahi files ko edit/add/change karna uske alawa koi bhi file ya code ko change nahi karna jese deposit system, gitf system, aur amdin panel me bhi safe edit karna okey.
