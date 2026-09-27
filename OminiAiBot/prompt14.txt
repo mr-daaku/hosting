@@ -1,2 +1,3 @@
 bro admin panel me withdraw open aur close ka button do, open hone par user withdraw kar sake, aur close hone par withdraw off ho aur user withdraw na kar paye, aur pop-up me message aaye.
 jab user ka withdraw requests aaye to usme ek view account ka button do jispe click karne par user ke account ka details pop-up me aaye jis user ka withdraw request ho uss user ka.
+new user ka account ban que ho raha hai.
