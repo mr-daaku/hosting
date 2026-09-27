@@ -108,3 +108,5 @@ the database from becoming the bottleneck as users grow, put these in place:
   that repeated opens within the cache TTL don't hit the database again.
 - Load-test (or simulate) several app opens for the same user in quick succession and confirm the
   edge rate limit/cache prevents a query storm from reaching Postgres.
+
+- pahle ye karo- ek bar tum command chala ke koi data lo database se, ho sakta hai database me hi problem aa gaya ho.
