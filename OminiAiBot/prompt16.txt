@@ -1,0 +1,31 @@
+bro app open nahi ho raha hai (bahut late ho raha hai pura slow), sirf load ho raha hai sayad database par jyada load par gaya hai. aur jab user /start karta hai to user ko pura detials nahi do use sirf welcome message+image+button hi do sirf, na ki yese pura data -
+
+"📋 Your account
+
+👤 ＤＡＡＫＵ | DEVELOPER (@OWNER_DAAKU)
+🆔 ID: 7206619137 · Wallet #0
+
+🪙 Coins: 705.97 (≈ 7.0597 USDT)
+📈 Estimated profit to claim: 0.002002 USDT (0.02%/day, estimated, not guaranteed)
+💵 USDT balance: 0.5861 · Available: 0.5861
+
+⬇️ Total deposit: $2.42
+⬆️ Total withdrawal: 15.65 USDT
+👥 Friends invited: 34 · Referral coins: 340
+🎁 Gift boxes: 30
+
+🏦 Deposit (EVM – ETH/BNB): 0x61ae4A22287633551de832335ecFA86af1450E5F
+💎 Deposit (GRAM): UQCVxhjBVJQ7ufjD1lLSZW967R1DrFvFuOtVhsECnU_lqArV
+    Memo: OMA-7206619137
+
+🧾 Recent withdrawals:
+• 11 USDT GRAM — paid
+• 3.65 USDT GRAM — paid
+• 3.65 USDT GRAM — rejected
+
+Send /me anytime to see this again."
+
+mene bola withdraw request me user ka detils ho jese- total time withdraw, total withdraw, total deposit, userid, address, amount, withdraw method bas itna hi, nahi to database par bahut load parega.
+aur mini app me bhi auto paid button do jisse wahan se bhi auto pay kiya ja sake. aur ye sab banane ke bad verifykar lena taki kuch chhut na jaye.
+
+multiple ban me pahle wala account ban na ho, jab usi device se dusra account me app open kare tab new/dusra account ban ho.
