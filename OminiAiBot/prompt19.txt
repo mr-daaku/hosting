@@ -3,5 +3,7 @@ user select payment method (bnb/bsc-usdt/eth/eth-usdt me) > backend user ka wall
 aur tranjections me koi tranjections save nahi hoga, direct balance update/cut/add hoga.
 aur device_fingerprints bhi nahi hoga, multiple account ban ka system hatao aur device_fingerprints table bhi hatao.
 wallet bhi hatao quki index to users table me hoga. aur refer me sirf instant reward hoga 10 coin + 1 box, aur 5% deposit bonus hata do.
-aur admin panel me paid/reject withdraws ko admin delete kar sake (ek ek karke ya sara ek sath).
+aur admin panel me paid/reject withdraws ko admin delete kar sake (ek ek karke ya sara ek sath). 
 banne ke bad verify aur test karo
+
+note- app ka datas nahi delete karo, device_fingerprints, tranjections, wallets tables ke alawa koi dusra tables delete nahi karogea. aur sirf ye prompt19.txt dekho, pahle wala chhoro abhi.
