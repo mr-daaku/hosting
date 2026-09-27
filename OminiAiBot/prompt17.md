@@ -112,3 +112,5 @@ review buttons above).
   request.
 - Confirm the new `withdrawals (user_id, status)` index exists after migration and that the
   `getMe` withdrawal total is still numerically correct after switching to a database aggregate.
+
+and remove /me command system in app.
