@@ -4,3 +4,4 @@ aur tranjections me koi tranjections save nahi hoga, direct balance update/cut/a
 aur device_fingerprints bhi nahi hoga, multiple account ban ka system hatao aur device_fingerprints table bhi hatao.
 wallet bhi hatao quki index to users table me hoga. aur refer me sirf instant reward hoga 10 coin + 1 box, aur 5% deposit bonus hata do.
 aur admin panel me paid/reject withdraws ko admin delete kar sake.
+banne ke bad verify aur test karo
