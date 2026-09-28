@@ -2,4 +2,6 @@ mera pura data recover ho gaya hai, tum new database me le jao aur ye sara data 
 
 https://github.com/mr-daaku/hosting/tree/main/OminiAiBot/datas
 
-aur telegram ke profile icon nahi save karo, jo kam ka nahi hai wo nahi save karo.
+aur telegram ke profile icon nahi save karo, jo kam ka nahi hai wo nahi save karo, sayad tumne ye kar diya quki app me abhi 11K+ users hai.
+
+par withdraw requests me jab admin paid/auto paid button par click karta hai to "Already reviewed" aata hai fix karo please, fix karo aur test karo koi problem aaye to internet par search karo aur solution lao aur fix karo.
