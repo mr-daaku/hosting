@@ -1,0 +1,19 @@
+key;value
+cron_key;af42669c657b33644f89be66be8be66f1dfee19a0cf284c4
+withdrawals_open;off
+welcome_bonus;100
+coin_rate;100
+daily_yield_pct;0.02
+min_claim_usdt;0.01
+gift_min;1
+gift_max;10
+referral_coins;10
+min_deposit_usd;2
+min_withdrawal_usdt;0.1
+free_withdrawal_cap;0.1
+withdrawal_fee_value;10
+withdrawal_fee_type;percent
+ton_address;UQCVxhjBVJQ7ufjD1lLSZW967R1DrFvFuOtVhsECnU_lqArV
+memo_prefix;OMA-
+join_channel;	@ominiai
+join_payment_channel;	@ominiaipayout
