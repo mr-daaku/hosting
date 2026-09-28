@@ -1,1 +1,2 @@
 users table me se photo_url hata do aur app ke backend me se bhi photo_url save karne wala system bhi hata do. admin panel me withdraw me ek option add karo, GRAM -usdt withdraw open/close aur bsc-usdt open/close button, close hone par bola ye withdraw method abhi avlable nahi hai.
+aur withdraw ke liye minimum deposit amount jitna deposit hona chahiye, nahi to use free ke alawa fir se withdraw na kar paye.
