@@ -1,0 +1,7 @@
+bro users app open karta hai to user bina channels join kiye bina hi app use kar pa raha hai, quki channels join na hone par bhi app ope ho ja raha hai ye fix karo aur yese karo app open system-
+
+open app > check channels jojn > agar join > no channel join pop-up > app home page open, aur channels join na hone par > channel join pop-up > verify > verify secuss > open home page.
+
+aur jab admin kisi bep20 usdt ke mark paid button par click karta hai to bhi auto pay ho ja raha hai jabki auto pay nahi hona chahiye mark paid button par click karne par, auto pay button par click karne par hona chahiye.
+
+app pura bannne ke bad verify karo aur kuch galat/error aaye to fix karo aur help ke liye internet/search use kar sakte ho.
