@@ -1,1 +1,5 @@
-bro app ka name change karo aur AiGramMiningBot rakho, aur bot username AiGramMiningBot hai refer link me change karo. app me se BEP20 usdt aur eth usdt, eth, usdc hata do, sirf GRAM aur GRAM USDT rakho.
+bro app ka name change karo aur AiGramMiningBot rakho, aur bot username AiGramMiningBot hai refer link me change karo. app me se BEP20 usdt aur eth usdt, eth, usdc hata do, sirf GRAM aur GRAM USDT rakho, isliye 
+
+app logo ye hai- "https://github.com/mr-daaku/hosting/blob/main/AiGramMiningBot/photo_6185927747759181733_x.jpg"
+
+aur app ka design pura change karo taki kisi ko na lage ye copyrigth bot hai isliye tum pura webapp ka design change karo pura design kuch bhi nahi bachna chahiye, tum dusra premium colours use karo aur new look ka website banao.
