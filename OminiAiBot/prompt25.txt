@@ -1,0 +1,4 @@
+jab admin kisi GRAM_USDT withdraw request ko nina tx hash dale paid karta hai to "https://bscscan.com/address/0x1f20eb36a47f0db1a6356ae70ad24b8bcffd4167" aata hai, jabki ye sirf bsc usdt me aana chahiye, aur gram usdt me "https://tonscan.org/address/UQClwv5NDfVBCgKvI3ngXTFR3KDClEIMtYGfv04AM9YZhiUz#events"
+
+users table me abhi bhi env_address, tron_address, solana_address,  TON_memo, referrals_unclaimed_coin, photo_url, device_fingerprint que hai, jabki mene bola tha ye sab tables me se hatao, aur app me se bhi ye sab datas save karne ka system hatao (pura app verify karo).
+aur gram usdt me bhi auto pay ka button do aur tum ye method se banao auto pay file - "https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/ton-pay.mjs" mene TON center ka api PAY_TONCENTER_API secret me dal diya hai aur TON_WALLET_SECRET ton wallet ka 24 secret words.
