@@ -1,5 +1,6 @@
 bro mera kuch datas recover ho gaya hai tum ye files ke datas ko mere app me dalo, new database banao aur ye sab databases dalo, mujhe isme 1k user ka hi data hai.
 https://github.com/mr-daaku/hosting/tree/main/OminiAiBot/datas
+aur users table me userid, name, coins balance, total_deposit, total withdraw, usdt balance, usdt frozen, wallet index sirf yahi table me rahe aur faltu data nahi lo.
  aur system me ye sab dalo taki dobara database par load na pade, aur bananae ke bad test karo aur tum ye sab system internet par seacrch karo aur thik se lagao-
 
 # OminiAi — Scalable, Low-DB-Load System Design
