@@ -1,0 +1,5 @@
+mera pura data recover ho gaya hai, tum new database me le jao aur ye sara data dalo usme-
+
+https://github.com/mr-daaku/hosting/tree/main/OminiAiBot/datas
+
+aur telegram ke profile icon nahi save karo, jo kam ka nahi hai wo nahi save karo.
