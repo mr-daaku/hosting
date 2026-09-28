@@ -1,2 +1,133 @@
 bro mera kuch datas recover ho gaya hai tum ye files ke datas ko mere app me dalo, new database banao aur ye sab databases dalo, mujhe isme 1k user ka hi data hai.
 https://github.com/mr-daaku/hosting/tree/main/OminiAiBot/datas
+ aur system me ye sab dalo taki dobara database par load na pade, aur bananae ke bad test karo aur tum ye sab system internet par seacrch karo aur thik se lagao-
+
+# OminiAi — Scalable, Low-DB-Load System Design
+
+## Goal
+App must open instantly (under 1 second perceived), never show a blank screen, and the
+database must only handle work that truly needs it. Target: 100K+ users without redesign.
+
+## Core principle
+The database is the slowest, most expensive, most fragile part of the system.
+Every request should be answered by the cheapest layer that can answer it correctly:
+
+  Client cache -> Edge cache -> Worker memory -> KV -> Postgres (last resort)
+
+## Layer 1 — Client (Telegram Mini App)
+1. Render the UI shell instantly from static assets (CDN), before any API call finishes.
+2. Show skeleton placeholders while loading. Never render blank (no "return null").
+3. Persist last-known user data (balance, profile) in localStorage/IndexedDB and show it
+   immediately on open, then refresh in the background (stale-while-revalidate).
+4. React Query defaults: staleTime 30s, gcTime 10min, refetchOnWindowFocus false,
+   retry 2 with exponential backoff. No global 30s polling; poll only on screens that
+   need live data (e.g. deposit page while waiting for a payment).
+5. Every action button: disabled + wait cursor + spinner while in flight, scoped per item.
+6. Send an idempotency key (uuid) with every write request so retries never double-apply.
+7. Top-level error boundary + per-section error states with a Retry button.
+
+## Layer 2 — Edge (Cloudflare)
+1. Serve all static assets from the CDN with long cache headers and hashed filenames.
+2. One boot endpoint: a single call returns everything the home screen needs
+   (user, balances, settings, flags). Never two sequential round trips on app open.
+3. Cache the boot response per user in Cloudflare KV / Cache API:
+   - TTL 5-15 seconds, stale-while-revalidate 60 seconds.
+   - Serve cached instantly, refresh in the background.
+   - Invalidate the user's cache key immediately after any write that changes their data.
+4. Cache global data (app settings, prices, admin list) for 30-60 seconds, shared across
+   all users, so 10,000 opens cost 1 database read, not 10,000.
+5. Per-user rate limiting at the edge (KV or Durable Object counters):
+   - Max 1 in-flight request per user per write action.
+   - Max N requests per minute per user overall.
+   - Reject early, before the database is ever touched.
+
+## Layer 3 — Backend logic (Workers)
+1. Keep all money logic server-side in atomic database functions (RPC), one call per
+   business action. No multi-step read-modify-write from JavaScript.
+2. Every write function is idempotent: check the idempotency key first, return the
+   previous result if it was already processed.
+3. Use an atomic status transition for anything that must happen once
+   (update ... where status = 'pending' returning *), as the withdrawal review already does.
+4. Aggregate in SQL (sum, count, group by), never fetch many rows to sum in JavaScript.
+5. Never run unbounded queries. Every list query has a limit and cursor pagination
+   (where id > last_id order by id limit 50), never offset on large tables.
+6. Defer non-critical work off the request path using Cloudflare Queues:
+   - Telegram notifications, admin alerts, analytics, broadcast sending.
+   - The user request returns as soon as the core write commits.
+7. Use Cron Triggers for periodic jobs (deposit scanning, yield calculation) with
+   batched processing, not per-user work at request time.
+
+## Layer 4 — Database (Supabase / Postgres)
+1. Connect through the pooled connection string (PgBouncer, transaction mode) from Workers.
+   Never open a direct connection per request.
+2. Index every column used in a where / join / order by on a hot path. Use composite
+   indexes that match real queries, for example:
+   - withdrawals (user_id, status)
+   - withdrawals (status, created_at desc)
+   - deposits (user_id, created_at desc)
+   - referrals (referrer_id)
+3. Keep hot tables small:
+   - users holds current state only (balances, flags).
+   - Append-only history (ledger/transactions, logs) is partitioned by month or
+     archived on a schedule. Old rows move to cold storage or a separate table.
+4. Read/write separation: point heavy admin reports and analytics at a read replica so
+   they can never slow down user-facing traffic.
+5. Precompute expensive numbers (totals, leaderboards, referral counts) into summary
+   columns or materialized views, refreshed on a schedule or updated atomically on write.
+6. Set statement_timeout on the API role so one bad query cannot hold the database hostage.
+7. Row Level Security stays on; only the service role used by the server reaches the data.
+
+## Layer 5 — Write path protection (the "never overload" rules)
+1. Coalesce duplicates: identical in-flight requests from the same user share one result.
+2. Queue bursty writes (mass rewards, broadcasts, airdrops) and process them in
+   controlled batches (for example 100 rows per batch, short pause between batches).
+3. Circuit breaker: if the database error rate or latency spikes, serve cached/stale reads
+   and return a friendly "try again in a moment" for writes, instead of piling on retries.
+4. Backpressure: cap concurrent database calls per Worker instance.
+
+## Layer 6 — Observability (catch problems before users do)
+1. Log every database/RPC error with function name, user id, duration. Never swallow errors.
+2. Track and alert on: p95 latency of the boot endpoint, error rate, slow queries (over
+   200 ms), connection count, cache hit ratio, queue depth.
+3. Weekly review of the slowest queries (pg_stat_statements) and add indexes accordingly.
+4. A /health endpoint that checks Worker -> KV -> Database and reports each separately.
+
+## Layer 7 — Deployment discipline
+1. Database migration and the code that depends on it ship together as one atomic change.
+   Never reference a function, column, or table in code that the migration has not created.
+2. Every new migration is verified against the real database before the code goes live.
+3. Test on a staging project first; promote to production only after the boot flow,
+   deposit, withdrawal, and referral flows pass.
+4. Feature flags for risky changes so they can be switched off without a redeploy.
+
+## Expected request flow after this design
+App open:
+  1. CDN serves UI shell instantly (0 database calls)
+  2. UI shows cached data from last session immediately
+  3. One boot request hits the edge cache (hit ratio target above 90 percent)
+  4. On cache miss only: one pooled, indexed, aggregated query batch to Postgres
+  5. Response refreshes the UI and the cache
+
+Balance-changing action (withdraw, claim, etc.):
+  1. Button disables instantly, wait cursor shown
+  2. Edge rate limit and idempotency check reject duplicates before the database
+  3. One atomic database function does the whole change
+  4. User's cache key is invalidated, notifications go to the queue
+  5. UI updates optimistically and confirms from the response
+
+## Rollout order (highest impact first)
+Phase 1: Skeleton/error UI everywhere, single boot endpoint, React Query defaults,
+         button in-flight guards, missing indexes, SQL aggregates instead of JS sums.
+Phase 2: Edge caching of boot + settings, per-user rate limiting, idempotency keys,
+         pooled connection string, statement timeouts.
+Phase 3: Cloudflare Queues for notifications/broadcasts, cursor pagination everywhere,
+         summary columns/materialized views, archiving old history rows.
+Phase 4: Read replica for admin/reporting, monitoring dashboards and alerts,
+         staging environment and feature flags.
+
+## Verification
+- App open shows content within 1 second, on repeat opens with zero database calls.
+- Hammering one button 20 times sends exactly one write request.
+- 1,000 simulated simultaneous app opens cause under 10 database queries.
+- Killing the database connection still shows cached data plus a retry option, never blank.
+- No query on a hot path scans a whole table (check with explain analyze).
