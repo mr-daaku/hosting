@@ -1,0 +1,1 @@
+jab user deposit karta hai (bep20 usdt mene try Kiya) aur check deposit button par click karne par no new deposit batata hai jabki user ke deposit Kiya hai tum https://github.com/mr-daaku/hosting/blob/main/AiGramMiningBot/ominiaibot-main.zip ke deposit backened copy karo aur wesa hi banao, test ke liye tum terminal me run kar sakte ho aur mene index 1 me deposit Kiya tha.
