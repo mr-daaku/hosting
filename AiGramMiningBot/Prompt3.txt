@@ -1,0 +1,7 @@
+Jab user profit ko claim kare to user ko GigaPub ka ads dikhaye aur fir user ke account me creadit ho balance. GigaPub SDK "<script src="https://ad.gigapub.tech/script?id=8414"></script>" hai jo tum frentent me lagao aur tum internet par search karo kese ye lagaten hai aur test karo agar koi error aaye to fix karo.
+
+Aur pahle wala deposit + withdraw dobara add karo jese deposit me ETH, ETH USDT, ETH USDC, BNB, BNB USDT, BNB USDC aur withdraw me BNB USDT aur banane ke bad sabhi ko test karo jese pahle tha wo hi tum lao.
+
+aur jo jo isme "https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/Prompt28.txt" bol raha hai wo bhi tum add kar dena Okey.
+
+pura ek bar me banao aur banane ke bad pura verify karo.
