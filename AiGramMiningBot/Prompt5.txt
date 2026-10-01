@@ -9,3 +9,5 @@ Kya problem hai fix karo.
 0x9E704614ecC335a14FF34aba5E3c405EB452E9C1
 
 aur tum koi command chalao aur dekho kya jitna bhi secret hai wo same me koi same same hai ya alag bhi hai, quki mene kahin kahin payment wallet ka aur deposit ka ek hi de diya hai.
+
+aur kya koi koi tarika hai jisse me secret ko dekh sakun, tum command/SQL chala ke dekho kya secret hai please 😭. me kuch secret bhul/kho gya hai aur mil nahi Raha hai.
