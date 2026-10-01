@@ -1,0 +1,4 @@
+bro mujhe abhi multiple accounts ko ban karna hai aur kam data store karna hai database me taki bahut jyada datas na ho aur tum ye sab add/fix karo-
+
+I. multiple ban- tum ek new tablet banao ban ka jisme userid, device_fingerprint, ban hoga, jab koi user app open karta hai aur pahle ban me dekho agar user ka device fingerprint na ho to save kar lo aur jab dusra user same device se dusra account se app open kare to uska fingerprint lo aur match Karo agar pahle se kisi user ke account me save hoga to new user ko ban kar dega aur database me sirf id aur ban true save hoga aur koi datas nahi taki database par load na pade aur data bahut jyada na ho.
+ii. admin panel ke dashboard me today+total withdrawal bhi dikhao.
