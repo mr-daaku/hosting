@@ -1,0 +1,5 @@
+Jab user withdraw submit krta hai to admins ko bot message bhejta hai usme ek aur button add karo auto payment jispe click karne par auto payment ho jayega.
+
+Aur autopay tab add karo admin panel me jisme ye sab settings hoga- auto payment on/off, max autopay (mano agar admin ne 0.5$ laga aur user 0.5$ ke andar withdraw kare to auto payment ho jaye aur agar 0.5$ se jyada ka withdraw kare to auto payment na ho), max time withdrawal (isme agar 2 dale aur user 2/2+ bar withdraw Kiya ho auto na ho aur agar 2 se kam kiya ho to auto ho jaye), aur etc setting ho.
+
+Aur app me jo image hai wo tum telegram se lo har bar na ki database me save karna (abhi nahi ye pahle tha jo tum image save karte the database me), aur abhi yesa hota hai jab user ka name DAAKU hota hai to profit image me D hota hai ye tum telegram se lo aur database me bhi save na karo, ye app har bar le.
