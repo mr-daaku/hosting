@@ -1,0 +1,11 @@
+Bro tum mujhe payment wallet ka index 0 ka address nikal ke do aur mujhe batao wo konse secret ka hai.
+
+Aur jab autopay karta hai TON/GRAM usdt me to ye error aa raha hai - GRAM payout wallet secret does not match the expected wallet
+
+Kya problem hai fix karo.
+
+0x624800Ac18deD3e2477384EA438003e5404917C4
+
+0x9E704614ecC335a14FF34aba5E3c405EB452E9C1
+
+aur tum koi command chalao aur dekho kya jitna bhi secret hai wo same me koi same same hai ya alag bhi hai, quki mene kahin kahin payment wallet ka aur deposit ka ek hi de diya hai.
