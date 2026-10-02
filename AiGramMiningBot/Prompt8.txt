@@ -1,0 +1,2 @@
+balance me jab admin start 1 end 50 defolt dalta hai to balance check hota hai par jab admin koi aur value dalta hai jisme 200+ bhi index hota hai par usme bhi most 0+ aur min 200 hona chahiye message aata hai, fix karo.
+aur mere hisab se multiple accounts ka system hatao please ye acch nahi hai, aur table bhi hata do. aur admin panel se wo Account Review bhi hata do. banane me bad check karo aur test bhi karo.
