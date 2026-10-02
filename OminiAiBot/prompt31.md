@@ -1,4 +1,4 @@
-# OminiAi — Update Prompt 7 (Security Hardening: Fake Accounts, Bots, Script Abuse)
+# OminiAi — Update Prompt 31 (Security Hardening: Fake Accounts, Bots, Script Abuse)
 
 This is a security pass to stop fake/bot accounts and scripted exploitation, based on an actual code review of the current app (not guesses) plus researched anti-bot/anti-farm practices used by other Telegram Mini Apps in 2026. Everything here is designed to use **as little extra database storage as possible** — short-lived counters and single-row-per-entity tables, never a growing log of every request.
 
