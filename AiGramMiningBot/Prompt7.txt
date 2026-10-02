@@ -1,0 +1,3 @@
+bro admin panel ke account review me column users.device_fingerprint does not exist ye error aa raha hai.
+aur admin panel me ek balance tab do jisme admin index dale (start + end) fir jis jis index me Balance hoga sabhi ka list aayega aur ek withdraw button hoga jispe click karne par withdraw ho jayega Admin ke main address par aur fee agar na ho to index 0 se uss wallet me jaye fir withdraw ho ye banao aur verify karo aur kuch error nahi aana chahiye quki pichli bar isme kuch sahi nahi hua.
+aur kya kya mene bola tha pahle kuch demo diya tha tum wo files bhi dek lena withdraw wala jisse index se withdraw nikalten hai wo wala.
