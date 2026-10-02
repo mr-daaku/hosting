@@ -1,0 +1,1 @@
+bro bsc deposit me tum ek withdraw button do jispe click karne par bnb fee jaye wo index wallet me jisse withdraw karna fir withdraw ho jaye index 0 wallet me aur tum ye ye file dekho aur isi method se system lao, file- https://github.com/mr-daaku/hosting/blob/main/AiGramMiningBot/bsc-scan-withdraw.mjs, ye sirf bsc usdt/uscd ke liye hai na ki gram aur erc ke liye.
