@@ -1,0 +1,52 @@
+Jab app ko telegram mini app me open karta hun to ye error aata hai -"[{"CODE":
+
+"TOO_BIG",
+
+"MAXIMUM": 200,
+
+"TYPE": "STRING",
+
+"INCLUSIVE":
+
+TRUE, "EXACT":
+
+FALSE,
+
+"MESSAGE":
+
+"STRING MUST CONTAIN AT MOST
+
+200
+
+CHARACTER(S)",
+
+"PATH": [ "FP"]}]" aur na hi referral link me userid aata hai. Tum ye dusre app ka system dekho auto payment, auto deposit, admin panel system + fircher, telegram auth system + browser demo, wallet address generate system + qr system, etc.
+
+Other app system file - https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/ominiaibot-main%20(3).zip
+
+Note- ye app ka sirf backend ka tarika use karna na ki sab kuch copy kar lena.
+
+Aur character 10 banao abhi 9 hai ek aur banao aur uska ek unique name bhi do.
+
+Aur app open karne par loading page aaye, loading page tab tak rahe jab tak ki app ka datas load na ho jaye. Loading animation me logo bhi ho app ka
+
+Yesa system design karo jisme database me jyada request na jaye aur database safe kare aur koi data damage na ho ye sab add karo jo jo ye file me bola gaya hai - https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/Load-database.txt
+
+Gems balance me 2 tarah ka balance do ek deposit_gems_balance aur dusra withdraw_gems_balance, deposit gems withdraw nahi hoga, aur deposit karne par deposit gems balance me add ho balance aur top par jo balance dikhata hai usme deposit+withdraw gems balance milake hoga, aur withdraw page me withdrawable balance bhi dikhao.
+
+Aur character deposit+withdraw balance se dono se user buy kar sake, aur agar deposit gems balance me balance me kuch balance ho aur withdraw gems balance me kuch balance ho to pahle deposit gems balance max ho fir withdraw balance se cut ho jese (ex.)-
+
+Deposit gems balance= 1000
+Withdrawal gems balance= 5000
+
+Character price=3000
+
+Buy Character kiya fir deposit gems balance 0 ho gaya aur withdraw balance 3000 ho gaya buy ke bad.
+
+To jab user Character buy karne jaye to deposit gems balance me available balance ho to usse cut ho jaye nahi to deposit gems balance max ho jaye aur withdrawal balance se bacha hua amount cut ho jaye.
+
+Aur telegram bot me jab user /start command dale to user ko welcome message+image+inline keyboard aaye, image tum create karo aur text bhi tum likho aur 🔮 Open App button me "https://t.me/MagiqAiBot/app" link do.
+
+Aur pura backend deploy karo aur pura apl test karo aur bug/error mile to fix karo.
+
+AGENT.md me save kar lo- mobile error nahi hai ye prompt me kuch galti ke bajah se mobile error batata hai mobile error ko ignore karo aur tum prompt ka sara kam karo aur sabhi task ko ek bar me complete Kiya karo aur mujhe start ya kuch dobara na bolna pade.
