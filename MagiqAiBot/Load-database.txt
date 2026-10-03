@@ -1,0 +1,87 @@
+Database Load Optimization & Request Reduction
+
+Analyze the entire existing Telegram Mini App codebase and implement a production-ready database load optimization system without breaking existing functionality, financial accuracy, authentication, or security.
+
+Primary objectives
+
+1. Reduce unnecessary database requests.
+2. Reduce repeated API calls and duplicate queries.
+3. Improve response time and scalability.
+4. Minimize database CPU, connections, reads, and writes.
+5. Preserve correct balances, deposits, withdrawals, rewards, and referral records.
+6. Avoid storing redundant data.
+
+Required implementation
+
+1. Request control
+
+- Implement per-user and per-IP rate limiting where appropriate.
+- Add frontend debouncing and throttling.
+- Prevent duplicate submissions and concurrent duplicate operations.
+- Deduplicate identical in-flight read requests.
+- Set appropriate timeouts and request size limits.
+
+2. Caching
+
+- Identify frequently accessed, low-volatility data.
+- Add a cache layer using an appropriate provider supported by the current infrastructure.
+- Use configurable TTLs and explicit invalidation.
+- Implement cache stampede protection and safe fallback behavior.
+- Do not cache sensitive responses in shared caches.
+- Never rely on stale cache values to authorize or settle financial transactions.
+
+3. Database optimization
+
+- Audit every database query and identify redundant or expensive operations.
+- Add indexes based on actual query patterns.
+- Select only required columns.
+- Implement pagination for large datasets.
+- Eliminate N+1 queries.
+- Reuse database connections or use the platform's recommended pooling mechanism.
+- Batch safe bulk operations.
+- Use atomic transactions for related financial writes.
+- Avoid unnecessary polling and realtime subscriptions.
+- Use query plans and slow-query metrics to validate improvements.
+
+4. Background processing
+
+- Move non-critical heavy tasks to scheduled jobs or a queue where supported.
+- Batch analytics, notifications, and periodic calculations.
+- Add bounded retries, dead-letter handling where available, and idempotency.
+- Do not move time-critical financial authorization or ledger settlement into an unsafe asynchronous flow.
+
+5. Financial integrity
+
+- Keep the backend ledger as the source of truth.
+- Ensure all deposit, withdrawal, fee, reward, and balance operations are atomic and idempotent.
+- Prevent duplicate credits and race conditions.
+- Reconcile cached balances against authoritative records.
+- Invalidate or update relevant caches after successful writes.
+- Never accept client-provided balances as authoritative.
+
+6. Monitoring
+
+- Add structured metrics for request counts, query counts, slow queries, cache hit ratio, database errors, connection usage, and endpoint latency.
+- Avoid logging secrets, tokens, private keys, or unnecessary personal data.
+- Provide alerts for abnormal traffic, repeated failures, and database saturation.
+
+7. Security and privacy
+
+- Preserve Telegram authentication and server-side authorization.
+- Keep all privileged secrets server-side.
+- Apply least-privilege database access.
+- Store only data required for product functionality, security, and applicable legal obligations.
+- Define retention periods for logs and cached data.
+
+Implementation rules
+
+- First inspect the existing stack, schema, query patterns, and deployment constraints.
+- Do not introduce unnecessary paid services or infrastructure.
+- Prefer the simplest solution compatible with the current project.
+- Do not rewrite the entire application when targeted changes are sufficient.
+- Add migrations and tests for schema or query changes.
+- Test concurrent requests, duplicate webhooks, retries, cache failures, and database unavailability.
+- Provide a final report listing changed files, optimizations, expected impact, configuration required, and any remaining bottlenecks.
+- Do not claim performance improvements without measuring before and after.
+
+Implement changes incrementally and preserve all existing user-facing behavior.
