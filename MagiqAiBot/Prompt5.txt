@@ -1,0 +1,33 @@
+Character ko 10 se 16 karo (matlab 6 aur add karo) aur Daily income (est.) me 4x4 karo aur Daily income (est.) me character ke charo aur jyada gol nahi karo, accha nahi lagta hai.
+
+Jab user gram USDT ya gram chain me deposit karne check deposit button par click karta hai to gram network is bussy batata hai, fix karo please.
+
+Jab admin panel me auto payment enable hai aur sab kuch unlimited hai par fir bhi auto payment nahi hua que? Ye fix karo please.
+
+Setting me ek setting do open app join required ka, jisme text aur channel link dalun aur ye max 4 dal sakun. 
+
+Jab user app open kare to channels pahle check ho agar channels user join hoga to join ka pop-up nahi aayega aur agar join nahi hoga to pop-up aayega aur ek verify ka button bhi aayega, aur channels me bot ko admin dal diya rahunga.
+
+Jab admin deposit tab me jaye to deposits me konse index me user hai jisme deposit aaya hai wo bhi dikhao
+
+Database me user ka name aur Username save nahi karo isse database me jyada data ho jayega, sirf telegram I'd save karo.
+
+Jab user ko referral mile to user ko bot message kare aur name ke sath, refer tab tak count (pending) na ho jab tak ki joined user koi ek character buy na kare
+
+Admin panel ke setting me ek aur setting do free withdraw ka, free withdraw me jitna value ho utna value user bina deposit ke nikal sake nahi to user bina deposit kiye utna hi value ko withdraw kar sake aur free me withdraw ke liye 2 referral hona chahiye, kya tum ye samjhe? Agar to banao pura app.
+
+Jab user koi character buy kare to user ko ek confirm buy ka beautiful sa pop-up aaye fir buy button par click karne par buy button par waiting cursor aa jaye jab tak ki buy na ho jaye, aur app ke sabhi buttons par click ke bad success hone tak Waiting cursor ho taki user bar bar button par click na kare aur database par jyada load na pade.
+
+Mujhe lag raha hai admin panel me tumne cashing nahi lagay, jab me ek tab se dusre tab me jata hun to fir se data load hota hai aur database par load na pade. Tum yesa system design karo internet se Sikh ke jo bade bade app me use hota hai wesa system banao jisse database aur backend par load na pade aur security bhi ho.
+
+Jab gram autopay ho ya manual payment ho to comment me MagiqAi #0001 yesa do.
+
+Aur jab autopay ya manual par ho to payment secuss payment channel par post karo jisme USERID:
+Method: BSC-USDT/GRAM-USDT
+Amount:
+Time: 00:00 UTC
+Tx Hash: Open Explore (hiper link)
+
+Aur 2 inline button, ek me tx hash dusre me open app ka button hoga.
+
+Pura banane ke bad verify karo aur ek bar me ho banao, start karo direct mujhse start ya koi aur message nahi lo confirm karne ke liye, ab banao Direct.
