@@ -33,3 +33,5 @@ Aur deposit page me minimum USDT ka convert karo uss currency me jonse currency 
 Jonse withdraw method paus ho usme top left me ek tag lagao pause ka taki user ko pata chale pause hai.
 
 Isme ho sakta hai jo already ho wo me bol diya hun isliye wo tum verify karo aur na ho to add/fix karo.
+
+isme ye bhi verify karo agar koi chin ka system ho to dusre chain me na jaye aur dusra chain ka isme na aaye, sab app ka verify karo aur ek bar me banao pura aur direct banana start karo mujhse start nahi puchho.
