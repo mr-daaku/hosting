@@ -1,0 +1,31 @@
+Daily income (est.) me jo 16 corrector hai use thoda bada karo, sirf thoda lamba me niche karo sirf.
+
+Admin panel ke Setting me jo setting hai usme sara text mil ja raha hai mujhe samajhne me problem ho Rahi hai, isliye tum sabhi me alag alag box me do setting (ye sirf admin panel me karna).
+
+Aur Free withdraw limit me ek aur option do max free usdt ka defolt 0.1$ hi withdraw kar sake free me.
+
+Jab user gram USDT ya gram deposit karta hai aur check deposit button par click karta hai to deposit karne ke bad bhi no new deposit yet batata hai, fix karo aur jonse method se ye app me Gram USDT ya gram deposit system hai usi method se karo aur tum test bhi gram USDT aur gram deposit ko. Other app link - https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/ominiaibot-main%20(3).zip
+
+App me long press disable karo, jese user app ke kisi hossa par long press karta hai to user ko webapp ka url dikh jata hai kuch yesa "https://magiqaibot.lovable.app/coins/chain-ton.png" me chahta hun ki app me long press karne par ye link nahi aaye.
+
+Aur partner tab me kon kon join Kiya hai wo list do, latest 10 hi load ho.
+
+Admin panel me deposit bonus ka system lao, jese user deposit kare to user ko +10% gems free mile aur defolt 10% ho aur admin ise change kar sake.
+
+Admin panel me ek new tab add karo leader ka jisme 2 sub tab hoga ek top 15 deposit user aur dusra top 15 referral user, aur isme date filter laga sake admin, aur ek button do post in Channel ka jispe click karne par channel post ho jaye beautiful message me aur image me ek image banao jo post ke time jayega. Aur top referral wala me bhi dena.
+
+Magician aur deposit ke bich me ek task tab add karo jisme user task complete karke earn kar sakega aur reward admin set karega.
+
+User apna paid task create kar sake aur ye app me live kar sake aur wo yese ho-
+
+• Task create - task page ke top left me ek create task button do jispe click karne par "https://t.me/MagiqAdvBot" open hoga aur yahan se user task create kar sakega jese - user start bot > select task type (channel, group ya bot)> channel/bot/group link > fir admin check (bot me nahi) > fir kitna members chahiye (minimum 50)> kitna amount hua wo details aur niche me payment method (coins pahle)> fir chains (ye sirf USDT ya USDC ke liye)> fir ek check deposit button> address + memo (agar gram ho to) aur check deposit par click karne par tranjection check karega aur new same amount milne par task create ho jayega aur database me save kar lega taki dobara ek hi deposit user ke account me creadit na ho (user ko wahi index dena jo app me hoga)> task create done aur live on app.
+
+Aur per user kitna $ lagega wo Admin set kare app me.
+
+Aur @MagiqAdvBot bot ko tum hi banao yahin system me aur same database do
+
+Admin panel me ek aur tab add karo tasks ka, jisme runing paused aur done task hoga. Aur admin task ko delete aur pause kar sake.
+
+Jab user app open karta hai to channels join karne ka pop-up to aata hai par background me app dikhata hai jabki yesa nahi chahiye mujhe fix karo aur test bhi karo app ko.
+
+Jab admin gram USDT me auto payment button par click karta hai to balance low 0 USDT batata hai jabki wallet me 0.3$ USDT hai aur payment amount me 0.1$ hi hai. Tum ye app ka autopay system ko dekho aur wesa hi banao - https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/ominiaibot-main%20(3).zip
