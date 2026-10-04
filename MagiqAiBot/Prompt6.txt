@@ -29,3 +29,5 @@ Admin panel me ek aur tab add karo tasks ka, jisme runing paused aur done task h
 Jab user app open karta hai to channels join karne ka pop-up to aata hai par background me app dikhata hai jabki yesa nahi chahiye mujhe fix karo aur test bhi karo app ko.
 
 Jab admin gram USDT me auto payment button par click karta hai to balance low 0 USDT batata hai jabki wallet me 0.3$ USDT hai aur payment amount me 0.1$ hi hai. Tum ye app ka autopay system ko dekho aur wesa hi banao - https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/ominiaibot-main%20(3).zip
+
+ye pura ek bar me banao aur banane ke bad verify karo aur kuch chhut jaye to wo complete karo aur test bhi karo.
