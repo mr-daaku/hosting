@@ -1,0 +1,35 @@
+Daily income (est.) me 9 ho character do ek hide kar do, quki wo niche aa ja raha hai aur app ka design kharab kar raha hai.
+
+Deposit address (gram me memo me bhi) me ek copy button do taki user confused nahi address copy karne me
+
+Withdraw me konsa withdraw method selected hai wo highlight karo taki user ko pata chale.
+
+Aur multiple accounts ko completely hatao koi tables ya backend na ho.
+
+Admin panel - users tab me jab tak admin kisi user ko search na kare to koi user ka profile nahi dikhao, quki isse database par load pad sakta hai. Aur user ko search karne par user ka account nahi aata hai aur jise search kare sirf wahi aaye.
+
+Aur check deposit me sirf tx hash dale aur backend Blockchain se confirm karega, agar blackchain me hoga to display me amount, userid, time, coin+chain aur creadit hua ya nahi wo dikhao aur creadit na hone par wahin se creadit kar de aur deposit me save ho jaye.
+
+Broadcast me image url (optinal), text box (most text aur html optinal), inline keyboard (optinal ho).
+
+Aur admin se security tab hatao aur uske andar Wale sara system hatao.
+
+Aur logs ka system hatao aur database me se bhi hata do aur wo system bhi hatao backend se.
+
+Deposit page me min deposit dikhao aur withdraw page me min withdraw dikhao.
+
+Multiple languages support add karo abhi sirf english hi hai.
+
+Jahan ho sake wahan cashing lagao aur sabhi me soch samajhkar crashing lagao jahan posible ho aur ye sab internet par search karo kese karna hai aur kya problem aa sakta hai sab samajh kar banao aur yesa all ka backend Design karo jisse database par load na pade aur backend smoothly chale.
+
+Jab user withdraw karta hai to user ko "ACCOUNT TOO
+
+new TO WITHDRAW" aa raha hai que fix karo, jabki user ke withdraw balance me amount avilable hai.
+
+Aur user Gram (TON) chain par usdt deposit karta hai aur check deposit button par click karta hai to scan bsc chain hota hai jabki TON chain scan hona chahiye aur new deposit milne par user ke account me add karna chahiye. Fix karo ye.
+
+Aur deposit page me minimum USDT ka convert karo uss currency me jonse currency me user deposit karega aur use bolo minimum kitna hoga. Aur note bhi do- agar galat address ya minimum deposit amount (ton me memo bhi) se kam bhi kiye to deposit nahi milega aur permanently aapka loss ho jayega.
+
+Jonse withdraw method paus ho usme top left me ek tag lagao pause ka taki user ko pata chale pause hai.
+
+Isme ho sakta hai jo already ho wo me bol diya hun isliye wo tum verify karo aur na ho to add/fix karo.
