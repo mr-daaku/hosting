@@ -1,0 +1,15 @@
+Jab admin panel me gram USDT withdraw method close hai to app me wo open que dikha raha hai aur ho bhi raha hai.
+
+Aur jab user koi deposit method me jata hai to deposit page me kuch load nahi hota hai sirf ye error aata hai "SOMETHING WENT WRONG, TRY AGAIN"
+
+Aur admin panel ke autopay tab me jata hai admin to bhi ye error aata hai "CLASS EXTENDS VALUE [OBJест MODULE] IS NOT A CONSTRUCTOR OR NULL"
+
+MagiqAdv bot me kuch bhi kam nahi kar raha hai sab fix karo please 😭.
+
+Aur jab connect bot button par click karta hai to error aata hai error me "CLASS EXTENDS VALUE [OBJест MODULE] IS NOT A CONSTRUCTOR OR NULL" ye error aata hai.
+
+Aur app me se faltu chijen hata do jese - open app join required message (ye fix message tum do), promo banner text, memo prefix (fix MAG- hoga aur app khud {userid} add karega), deposit open (deposit kamesa open rahega isliye ye hatao), auto deposit check (ye bhi hatao quki direct check hoga auto na ki manual), characters aur magic pack (ye fix hoga aur agar add/remove karna hoga to me SQL se karunga), aur TonApi ka kya kam hai? Mene to dono me TonCenter ka api dala hai auto pay ke liye par dusra wala ka kya kam hai, sayad uska kam nahi hai isliye hata do, aur agar jarurat hai to TonCenter ka api ye hai - "2d24f9d38dbe881c952e32f56268227f1cfe59e1e44dbbe514c43605a13cdb99" aur TonApi ye hai "AHRB7OOQAC3LEAAAAAAAC7IJFQ7HVWOIIVTA3BXH33AJ25DWVGLS57TFBJEPBXRODHBKVMY" jo mene https://tonconsole.com/tonapi/api-keys se liya hai.
+
+Tum AGENT.md me ye save karo lo- jitna me bolun usi file aur system me change Kiya karo na ki kisi aur system ko chera karo, jab jaruri pade tab hi change karo, aur har bar app me update karne ke bad pura app ko test karoge pura app test (kuch nahi chhutna chahiye), aur kitna me bolunga sab ko internet pe search karo aur pura research karneke bad ek accha sa system ready karo fif banao.
+
+Jitna bhi mene task diya hai sab ko ek bar me complete karo aur help internet se lo aur kuch chhutna nhi chahiye.
