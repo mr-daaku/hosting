@@ -1,0 +1,7 @@
+MagiqAdv bot me problem hai jab user new promotion button par click karta hai to use "📢 MagiqAi Ads
+━━━━━━━━━━━━
+What would you like to do?" Message matlab fir se home par chala jata hai jabki task type select karne ka option aana chahiye. Fix karo aur sirf MagiqAdv ke file ko edit karna uske alawa koi dusra file ko edit nahi karna okay.
+
+Jab koi user app me withdraw kare to wo user fir se 3 ghante bad hi fir se withdraw kar sake, tum user table me ek last_withdraw banao jisme last withdraw time hoga aur dobara withdraw karne par edit ho jayega.
+
+Aur abhi withdraw, deposit, autopay etc sab kam kar raha hai isliye mene jisme bola tum usi me change karna, dusra file me thoda bhi nahi edit karna.
