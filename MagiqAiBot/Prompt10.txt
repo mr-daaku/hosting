@@ -1,0 +1,19 @@
+Withdraw button par click karne par processing que nahi aaa raha hai aur wating cursor me que nahi ja raha hai, usse user bar bar withdraw button par click kar sakta hai aur backend ko bussy kar sakta hai isliye wating cursor lagao.
+
+Note- jahan jahan button hai sabhi gajah par waiting/processing cursor do taki user bar bar click na kar sake.
+
+Jab user withdraw karne jata hai aur BEP20-USDT select karta hai to withdraw to ho jata hai par jab auto hota hai usme auto pay nahi jata hai, wo submit ho jata hai.
+
+Aur jab user GRAM - USDT select karta hai withdrawal method me to koi response nahi aata hai fix karo.
+
+Admin panel jab admin kisi user ko auto pay karta hai to pay to ho jata hai par kuch wo request wahan se nahi hatta hai, aur na hi payment channel par payment secuss ka message post hota hai (kabhi kabhi) ye fix karo.
+
+Aur jab user MagiqAdv bot me kisi button par click karta hai to kuch yesa message aata hai "⏳ Loading task…" jisse smooth to dikhta hai par main message aane ke bad yesa message "⏳ Loading task…" delete nahi hota hai, jisse accha nahi lagta hai. Isliye yesa karo jab man message aa jaye to processing message (yesa -"⏳ Loading task…") hat jaye.
+
+Aur jab user MagiqAdv Bot me koi task create karne jaye aur adhura chhor de to wo datas database me save na ho, wo tab tak database me save na ho jab tak ki pura payment hoke verify na ho jaye tab tak.
+
+BSC USDT me fake coin detected karne par user ko message nahi do aur database me bhi save nahi karo.
+
+Bro tum ye dusra app dekho "https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/ominiaibot-main%20(3).zip", isme que itna task hota hai payment aur channel post aur backend me konsa method use ho raha hai, tum bhi usi method se kam karo aur dusra koi file nahi change karna. Jonse method se TON payment lagata hai auto aur manual wahi method dalo apne app me.
+
+Note (AGENT.md me save kar lo)- koi bhi problem aaye to tum ye app ka backend dekh lo jonse system me problem ho wo system ke bare me tum https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/ominiaibot-main%20(3).zip se lo aur jonse method aur jese kiya hai wese karo aur banane ke bad har bar verify Kara karo, aur tum ek docs folder banao jisme prd, trd etc hoga taki tum har bar samajh sako.
