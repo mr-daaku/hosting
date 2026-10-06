@@ -1,0 +1,2 @@
+Jab user deposit karne jata hai aur BSC USDT select karta hai to user ko error me "GRAM network is bussy please try again later" bata raha hai jabki user bsc chain ke usdt currency me hai, jabki gram USDT bilkul kam kar raha hai. Gram chain accha se chal raha hai par ERC20 aur BEP20 chain thik nahi hai deposit me, fix karo aur help tum https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/ominiaibot-main%20(3).zip se lo aur deposit system me GRAM USDT aur GRAM ko change nahi karna okey.
+dusra koi system edit nahi karna okey.
