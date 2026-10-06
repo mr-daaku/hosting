@@ -1,0 +1,1 @@
+sorry yaar bhai mene dekha nahi nodereal ka creadit khatam ho gaya tha isliye env chain scan nahi ho raha tha, mene new key bana liya hai aur NODEREAL_API se replace bhi kar diya hai, tum pura app deploy karo please, abhi tumne kuch change to nahi kiya na 🙂 pura deploy karo fir test kar dena please.
