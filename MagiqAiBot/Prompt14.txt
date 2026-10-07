@@ -1,0 +1,4 @@
+jab admin ne 0.1 set kiya hai free withdraw me to user ko "FREE WITHDRAWAL
+
+LIMIT REACHED" ye que aa raha hai jabki user first time 0.1$ yani 1000 gems withdraw kar raha hai to ye aa raha hai, tum fix karo aur dusre file me kuch change nahi karna.
+banane ke bad verify karo aur test bhi karo
