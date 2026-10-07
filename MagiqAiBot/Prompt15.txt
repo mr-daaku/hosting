@@ -1,2 +1,4 @@
 bro withdraw me real minimum amount nahi dikha raha hai sirf loading dikha raha hai, sayad database pe load aa gaya hai, yesa system banao jisse database par load na pade aur tum ye problem fix karo-
 problem ka screenshot - https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/Screenshot_2026-10-07-12-15-09-01_74594bd74a0419242537a8d02ba17993.jpg
+
+yese mera pura app crash ho jayega, fir se system design karo please aur internet par search karo taki multiple user ek sath use kar sake app ko aur backend sab ko handle kar le.
