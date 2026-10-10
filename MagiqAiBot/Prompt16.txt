@@ -1,0 +1,3 @@
+jab user deposit karne ke liye deposit method select karta hai to user ko sirf loading address dikha raha hai que, aur admin ko admin panel nahi dikhta hai jyada tar, kabhi kabhi admin panel dikhta hai que fix karo, aur admin panel ke jitna kuch hai wo bhi load nahi ho raha hai, kya database par load pad gaya hai? agar han to best system lagao aur fix karo, aur faltu datas ko delete kar do.
+aur banane ke bad verify karo aur test bhi karo.
+aur kya tum apna ai model bata sakte ho aur swich kar sakte ho dusre model par (opus 5/4.8 any anthropic latest model)
