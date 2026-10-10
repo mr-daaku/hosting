@@ -1,3 +1,6 @@
 Gram ya gram USDT deposit memo me MAG-{userid} ke gajah ORB-{userid} karo.
 create task button par click karne par @MagiqAdvBot Open hota hai, ise hatao aur new @OrbitlesAdsBot lagao, quki wo old app ka tha.
 jab user koi character buy button par click karta hai aur buy karta hai to buy nahi hota error me unknown character bata raha hai que? fix karo aur test karo.
+admin panel ke deposit page me jitna bhi deposits hoga (gram aur gram USDT ko chhor ke) usme ek withdraw ka button hoga jispe click karne par index 0 se uss index me 0.000005 BNB/eth jayega jisse balance withdrawal karna hai (matlab fee jayega) aur USDT ya USDC max hoke index 0 ke address par chala jaye aur ye sirf USDT USDC (bsc aur eth chain me) me hoga, native coin jese eth aur bnb me fee ki jarurat nahi direct withdraw ho jayega, aur jisme 0.005$ se jyada hoga usi me se withdraw hoga.
+
+pura app banao aur verify karo aur test bhi karo, jisme add/edit karna hai usi me karo dusre file ko kuch nahi karo. aur abhi sab kuch kam kar tah hai pahle wala.
