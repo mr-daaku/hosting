@@ -1,0 +1,3 @@
+"Something went wrong" aa raha hai, quki telegram bot token se auth hota hai, aur backend to deploy hua hi nahi hai jisse open ho aur app logo aur background image ko genrate karo dusra quki ye old app ka logo aur background hai.
+
+Bachha hua sabhi banao aur deploy karo. Aur kuch error aaye to use fix karo aur fir se verify karo.
