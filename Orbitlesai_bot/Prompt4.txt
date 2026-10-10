@@ -1,0 +1,3 @@
+Gram ya gram USDT deposit memo me MAG-{userid} ke gajah ORB-{userid} karo.
+create task button par click karne par @MagiqAdvBot Open hota hai, ise hatao aur new @OrbitlesAdsBot lagao, quki wo old app ka tha.
+jab user koi character buy button par click karta hai aur buy karta hai to buy nahi hota error me unknown character bata raha hai que? fix karo aur test karo.
