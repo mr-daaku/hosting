@@ -1,0 +1,2 @@
+bro app ka sabhi backend aur edge sab ko deploy karo taki app fir se fresh restart ho.
+app name change karo aur new name OrbitlesAi rakho aur Username @Orbitlesai_bot hai, aur app logos aur sabhi characters ka images bhi fir se banao. aur app colour etc sab kuch fir se design karo taki same copy na lage.
