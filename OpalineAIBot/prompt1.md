@@ -303,3 +303,5 @@ Go through this list item by item. Test it, fix what fails, and **add anything t
 - [ ] No "missing key" or env error is ever visible to users.
 - [ ] All images are generated and loaded (13 crystal tiers, shard, backgrounds, token and network icons); performance is smooth on a mid-range phone.
 - [ ] Common_System rules were applied; anything not covered there is listed in your report.
+
+Note- jab me link diya tum direct cloud enable karo aur pura app banana suru karo, mujhse start han etc kuch na pucho quki mera han hai, koi problem aaye to internet se search karo aur solution lao.
