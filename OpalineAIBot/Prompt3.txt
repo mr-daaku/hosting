@@ -1,0 +1,35 @@
+Jab app open hota hai to loading page me app ka logo aana chahiye aur fast load hona chahiye, isliye isme indexing, cashing, load testing karo etc karo jisse bar bar database pe load na pade aur system crash na ho. App logo tum banao.
+
+Top par jo OpalineAI likha hai aur uske left me jo Username me abcd alphabet likha hai uske gajah profit pic hoga jo telegram se lega aur database me save nahi karega.
+
+Perks me sirf crystal hi nahi USDT bhi do aur chances hata do kitna % hai chance, aur usdt ka chance 0.01-0.001% rakho na ke barabar. Aur jab user jab perks run kare to animation aaye jese casino me hota hai fir koi random reward mil jaye user ko (<<< yese ghume)
+
+Aur buy crystal page me accha page nahi hai, jese wo demo screenshot me tha wesa karo (https://github.com/mr-daaku/hosting/blob/main/OpalineAIBot/Screenshot/Screenshot_2026-10-09-07-34-03-13_74594bd74a0419242537a8d02ba17993.jpg), matlab 1x.. ho.
+
+Referral link me https://t.me/OpalineAIBot?start=ref_{random} ke gajah https://t.me/OpalineAIBot?start={Userid} hoga aur ye system genrate karega, ye database me save nahi hoga.
+
+Kahin bhi 💎 👥  etc yese emoji use nahi karo, sabhi gajah image use karo jo tum genrate karoge.
+
+Deposit aur withdraw me yesa hoga taki app beautiful aur accha lagae screenshot ye folder me hai - https://github.com/mr-daaku/hosting/tree/main/OpalineAIBot/Screenshot2
+
+App ko full screen karo, request dalo telegram pe full screen karne ka, aur tum ye internet se search karke karo kese hota hai.
+
+Admin ko admin panel browser me access nahi kiya jayega, wo direct telegram ke Andar mini app me hoga. Browser me se hatao aur admin id aur password dono ko hatao aur secret me se jo hex/hesh hai wo hatao aur base32 sayad tha wo bhi hatao.
+
+Background me image dalo accha sa jo beautiful lage aur premium app lage, isliye tum genrate karo aur accha sa app design karo.
+
+Cristal image jitna bhi hai sab me se background remove karo, yese accha nahi lag raha hai. Matlab sirf crystal ho na ki background me koi aur colour ya kuch.
+
+Aur Performance hatao puri tarah se.
+
+Jab koi new user app Open karega to user ko free me 100 crystal milega, aur user ko daily rewards 0.02% milega aur 0.02% USDT hoga, aur minimum Claim 0.001 USDT hoga.
+
+Jab user deposit karega to user ko deposit me crystal deposit hoga aur defolt 1$ = 100 crystal hoga, aur ye value admin change kar sakega.
+
+App language me 6+ language hoga, aur change language button par click karne par screen par beautiful sa pop-up aaye jisme language select karne ka option ho.
+
+Telegram bot /start Command ka reply nahi de raha hai webhook lagao aur deploy karo.
+
+Tum yesa system banao jisse database par load na pade aur ek sath 10k user ko sambhal le aur app me UI UX speed chale aur tum internet par search karo kya kya add karna chahiye jisse app speed feel aur speed work kare wesa banao. Aur fake request dalke app ka system test karo.
+
+Jab user app open kare to user ko channels join ka pop-up aaye, aur ye pop-up tabhi aaye jab user channels join na ho tabhi, aur ye channel link admin save karega admin panel me aur aur admin bhi dal dega channel me bot ko.
