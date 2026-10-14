@@ -1,0 +1,51 @@
+My space me balance card jo hai use aur beautiful banao, aur bada bada text ko hatao aur Avilable balance me total balance hoga (deposit_balance + withdrawal_balance) aur Balance ke right side me ek ? Button hoga jispe click karne par ek beautiful sa pop-up aaye jisme withdraw balance kitna hai aur deposit balance kitna hai wo dikhayega aur total balance top par hoga.
+
+Jitna bhi message aata hai app se wo uper par (twister) aata hai, use pop-up me karo aur beautiful hoga aur ek close button bhi sab me hoga.
+
+Aur user bina deposit ke withdraw nahi kar paye aur bina deposit ke withdraw karne ke liye ye chahiye hoga-
+
+
+🔵 5 Friends   ➡️  Unlock $0.10 Free Withdraw
+🔵 10 Friends  ➡️  Unlock $0.15 Free Withdraw
+🔵 20 Friends  ➡️  Unlock $0.35 Free Withdraw
+🔵 35 Friends  ➡️  Unlock $0.60 Free Withdraw
+🔵 50 Friends  ➡️  Unlock $1.00 Free Withdraw
+🔵 75 Friends  ➡️  Unlock $1.50 Free Withdraw
+🔵 100 Friends ➡️  Unlock $2.50 Free Withdraw
+
+👑 VIP PERK:
+Deposit $3.00+ anytime to instantly unlock UNLIMITED daily withdrawals forever!
+
+Hone page - crystal ke niche me live mining usdt dikhao aur itna bada amount bhi dikhao > 0.0000001 USDT taki mining slow hone par bhi user ko dikhe mining ho raha hai. Aur abhi jo mining card me live mining dikha raha hai wahan se hatao aur uske gajah 2 left right button do, ek claim aur dusra Upgrade. Claim karne par claim ho jayega aur Upgrade button par click karne par Buy crystal page par chala jayega.
+
+Latest settlement me chat dikhao kahan profit hua kahan loss hua wo sab Chhota sa me (jitna me abhi hai), aur admin panel me admin ye set kar sake aur json code dalke bhi hi Latest settlement ko banaya ja sake. Aur json me start date, end date, kitne time me kitna profit, kitna time me kitna loss etc hoga (sattle me). Ye me khud se bana lunga isliye tum mujhe ek example json do.
+
+Admin panel me Confirmations, GRAM shared address, Withdraw fee etc me jo json type ({} yesa ke andar) jo hai use hatao, direct dalna ho na ki {} ke andar aur jahan multiple button ka jarurat ho wahan lagao. Aur Confirmations fix rahne do {"BSC":15,"ETH":12,"GRAM":1} aur ye Confirmations option hatao.
+
+Broadcast me single user aur all user ka option do, aur message me html text allowed aur ek image optional ho aur inline keyboard add kar sake admin multiple. Aur yesa system banao jisse sabhi user ko message jaye aur kitna user ko message secusfully gaya aur kitna ko fail hua hai wo bhi result do.
+
+Admin panel me ek crystal tab add karo jisme sabhi crystal ka price change kar sake admin.
+
+kisi bhi chain ka USDT aur USDC ke liye price fitch nahi karo, quki wo khud stable coin hai.
+
+Admin panel me ek users tab add karo jisme ek search bar hoga jisme userid dalke search kare to user ka pura details aa jaye (jo jo details ye dusre app me hai wo sab dalo - https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/ominiaibot-main%20(3).zip).
+
+Aur deposit tab bhi add karo (admin panel me) aur jo jo details hai isme https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/ominiaibot-main%20(3).zip wo sab add karo.
+
+Aur dashboard me Deposit + withdraw aur Today dep + wd hatao.
+
+Aur auto pay tab add karo aur auto payment system bhi add karo aur jese https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/ominiaibot-main%20(3).zip ye other app me auto payment ka system aur settings hai wo sab add karo okay.
+
+Aur Team's page ke share invitation button par click karne par bot ke help se ek inline message jaye jese ye image me hai - https://github.com/mr-daaku/hosting/blob/main/OpalineAIBot/Screenshot_2026-10-14-19-35-57-21_74594bd74a0419242537a8d02ba17993.jpg isme jo jaruri ho wo tum banao aur internet pe search karke method aur system jano.
+
+Home page me jo Spark crystal ke left side me ek aur coin hai use hata do, aur uska kya kam hai, agar koi kam nahi hai to use hata do app me se aur database me se bhi image ye hai - https://github.com/mr-daaku/hosting/blob/main/OpalineAIBot/Screenshot_2026-10-14-19-29-31-51_74594bd74a0419242537a8d02ba17993.jpg
+
+Perks page me jo random reward aata hai wo centre me nahi hota hai wo thoda left side chala jata hai thik karo taki wo centre me aaye, problem image ye hai - https://github.com/mr-daaku/hosting/blob/main/OpalineAIBot/Screenshot_2026-10-14-19-09-30-48_74594bd74a0419242537a8d02ba17993.jpg
+
+Jab me pura Codebase ko GitHub par dalke claudflare par deploy karne ka koshish Kiya to ye error aaya - https://github.com/mr-daaku/hosting/blob/main/OpalineAIBot/Claudflare_build_error1.txt
+
+Aur website me
+
+App jab open ho to security ke liye isme Claudflare Widget lagao aur ye invisible Widget select mene Kiya tha. Ye hai Site key "0x4AAAAAAFWriB9cxdQdQK6D" aur secret key "0x4AAAAAAFWriONpVs7eo8YQeTxiujvPXyg".
+
+App fast nahi chal raha hai isliye tum internet par search karo aur sab kuch fast karne aur load na padne ka system design karo jese database par load na pade, fask load ho datas, fake mock data na ho etc.
