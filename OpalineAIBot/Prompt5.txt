@@ -1,0 +1,4 @@
+claudflare par deploy fail ho gaya ye hai error logs - https://github.com/mr-daaku/hosting/blob/main/OpalineAIBot/Claudflare_fail2.txt fix karo please l.
+
+note - jo bhe me api ya secret dun tum Bina koi bakbas me code me use kiya karo me bad me edit kar dunga isliye tumhe mujhe bolne ki jarurat nahi hai.
+note 2 - jab me koi prompt dun to tum pura kam ek bar me Kiya karo na ki part by part, sabhi ek bar me Kiya karo (quki mere pass bahut credit hai), pura banane ke bad fir se prompt ko dekho fir verify karo agar kuch chhuta hoga to fir se banao aur fir verify karo aur banne ke bad test jaro. aur ye tum AGENT.mr me save kar lo ye rule.
