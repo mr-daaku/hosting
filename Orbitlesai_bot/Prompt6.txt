@@ -1,0 +1,48 @@
+Navigation menu me background transparent nahi do, accha nahi lag raha hai quki background pag ka text dikhai deta hai, isliye thoda jyada blur karo navigation ke back me.
+
+Jab new user signup kare to user ko 100S park crystal mile, aur ye coin ka name change karke Spark Crystal karo. Aur 100 Spark crystal hone par user ko daily 0.02% USDT mile matlab free me 0.02$ per day, aur live mining dikha home page me. Aur Spark crystal sirf Perks se aur welcome bonus me hi milega.
+
+Jab user koi paid crystal buy karne jaye to buy deposit_balance balance se ho, aur ye deposit_balance deposit karne par mile.
+
+Jab user app open karta hai to app me loading page to aata hai, par app open hone ke bad bhi page ke andar wala contant bad me load hota hai jabki wo loading page ke background me yahi load hona chahiye.
+
+Loading page ke background me jo image hai wo pura page me nahi hai, wo niche me kuch cut ho gaya hai, isliye background image ko hata do loading page me.
+
+Aur Perks me left right scrool karne par nahi hota hai hai que, Yesa karo wo pura ghum jaye jese crystal 1 se start ho to wo pura last tak scrool ho.
+
+Navigation me se text hata do sirf image hoga.
+
+Admin panel- dashboard me total users, today users, total deposit+withdrawal, today deposit+withdraw etc hoga.
+
+Withdraw tab me 3 tab hoga, pending, paid aur reject. Pending me pending withdraw requests hoga, paid me paid withdraw hoga aur reject me reject withdraw requests hoga.
+
+Aur sabhi request me ye sab button hoga- auto pay, mark paid, reject (no refund), reject (refund), aur ye sab details hoga- Username (aur nahi hone par not set), userid, total withdrawal, total time withdraw, total deposit, amount, method hoga.
+
+Aur deposit method me GRAM USDT aur GRAM bhi lao, aur gram USDT aur gram me address + memo hoga (quki ye share address hoga, aur dusre method me memo nahi hoga). (GRAM address save karega admin setting me).
+
+Admin panel me button, text, tabs etc sab ko thik karo, kuch bhi thik nahi hai, sab kuch thik karo aur verify karo aur test bhi karo.
+
+Aur style.css me ye code add kro-
+
+#lovable-badge { display: none !important; }
+.safe-bottom {
+  padding-bottom: calc(max(env(safe-area-inset-bottom, 0px), var(--tg-safe-area-inset-bottom, 0px)) + 0.75rem);
+}
+
+App me yesa system design karo jisme fast load, database par load na pade, fast read aur write,
+
+Check deposit me ye method aur nodereal.io ka use karo aur mene  NODEREAL_API me api dal diya hai.
+
+BSC method= https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/bsc-scan.js
+
+ETH method = https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/eth-scan.js
+
+GRAM chain method = https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/ton-scan.js
+
+Note- Gram chain me sayad scan ke liye api nahi lagta hai, tum test karo aur search bhi karo, sayad v2 public api me api nahi lagta hai.
+
+Aur user ke deposit_balance me USDT me save hoga data isliye agar koi user native coin deposit kare to live rate fich kro aur jitna USDT ka coin ho utna user ke deposit_balance me add kar do aur live rate fich ye https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/price-ficher.js method se karo.
+
+Aur accha sa ek app logo banao please.
+
+Aur jonse method se ye https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/ominiaibot-main%20(3).zip other app me deposit scan hota hai usi method se tum apna app me lagao.
