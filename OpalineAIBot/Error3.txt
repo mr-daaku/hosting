@@ -1,0 +1,203 @@
+2026-10-14T15:22:40.046Z	Initializing build environment...
+2026-10-14T15:23:26.317Z	Success: Finished initializing build environment
+2026-10-14T15:23:29.404Z	Cloning repository...
+2026-10-14T15:23:38.422Z	Restoring from dependencies cache
+2026-10-14T15:23:38.425Z	Restoring from build output cache
+2026-10-14T15:23:38.433Z	Detected the following tools from environment: bun@1.2.15, nodejs@24.18.0
+2026-10-14T15:23:38.633Z	Installing project dependencies: bun install --frozen-lockfile
+2026-10-14T15:23:39.680Z	[0.46ms] ".env"
+2026-10-14T15:23:39.684Z	bun install v1.2.15 (df017990)
+2026-10-14T15:23:45.037Z	
+2026-10-14T15:23:45.037Z	+ @eslint/js@9.39.5
+2026-10-14T15:23:45.038Z	+ @lovable.dev/vite-tanstack-config@2.25.3
+2026-10-14T15:23:45.038Z	+ @testing-library/jest-dom@6.10.0
+2026-10-14T15:23:45.038Z	+ @testing-library/react@16.3.3
+2026-10-14T15:23:45.038Z	+ @types/node@22.20.1
+2026-10-14T15:23:45.038Z	+ @types/react@19.2.17
+2026-10-14T15:23:45.038Z	+ @types/react-dom@19.2.3
+2026-10-14T15:23:45.039Z	+ @vitejs/plugin-react@5.2.0
+2026-10-14T15:23:45.039Z	+ drizzle-kit@0.31.11
+2026-10-14T15:23:45.039Z	+ drizzle-orm@0.45.4
+2026-10-14T15:23:45.039Z	+ eslint@9.39.5
+2026-10-14T15:23:45.039Z	+ eslint-config-prettier@10.1.8
+2026-10-14T15:23:45.039Z	+ eslint-plugin-prettier@5.5.6
+2026-10-14T15:23:45.039Z	+ eslint-plugin-react-hooks@5.2.0
+2026-10-14T15:23:45.039Z	+ eslint-plugin-react-refresh@0.4.26
+2026-10-14T15:23:45.039Z	+ globals@15.15.0
+2026-10-14T15:23:45.040Z	+ jsdom@20.0.3
+2026-10-14T15:23:45.040Z	+ nitro@3.0.260603-beta
+2026-10-14T15:23:45.040Z	+ postgres@3.4.9
+2026-10-14T15:23:45.040Z	+ prettier@3.9.6
+2026-10-14T15:23:45.040Z	+ typescript@5.9.3
+2026-10-14T15:23:45.040Z	+ typescript-eslint@8.65.0
+2026-10-14T15:23:45.040Z	+ vite@8.1.5
+2026-10-14T15:23:45.040Z	+ vitest@4.1.11
+2026-10-14T15:23:45.041Z	+ @hookform/resolvers@5.5.7
+2026-10-14T15:23:45.041Z	+ @noble/hashes@2.4.0
+2026-10-14T15:23:45.041Z	+ @radix-ui/react-accordion@1.2.20
+2026-10-14T15:23:45.041Z	+ @radix-ui/react-alert-dialog@1.1.23
+2026-10-14T15:23:45.041Z	+ @radix-ui/react-aspect-ratio@1.1.15
+2026-10-14T15:23:45.041Z	+ @radix-ui/react-avatar@1.2.6
+2026-10-14T15:23:45.041Z	+ @radix-ui/react-checkbox@1.3.11
+2026-10-14T15:23:45.042Z	+ @radix-ui/react-collapsible@1.1.20
+2026-10-14T15:23:45.042Z	+ @radix-ui/react-context-menu@2.3.7
+2026-10-14T15:23:45.042Z	+ @radix-ui/react-dialog@1.1.23
+2026-10-14T15:23:45.042Z	+ @radix-ui/react-dropdown-menu@2.1.24
+2026-10-14T15:23:45.042Z	+ @radix-ui/react-hover-card@1.1.23
+2026-10-14T15:23:45.042Z	+ @radix-ui/react-label@2.1.15
+2026-10-14T15:23:45.044Z	+ @radix-ui/react-menubar@1.1.24
+2026-10-14T15:23:45.044Z	+ @radix-ui/react-navigation-menu@1.2.22
+2026-10-14T15:23:45.044Z	+ @radix-ui/react-popover@1.1.23
+2026-10-14T15:23:45.044Z	+ @radix-ui/react-progress@1.1.16
+2026-10-14T15:23:45.050Z	+ @radix-ui/react-radio-group@1.4.7
+2026-10-14T15:23:45.054Z	+ @radix-ui/react-scroll-area@1.2.18
+2026-10-14T15:23:45.054Z	+ @radix-ui/react-select@2.3.7
+2026-10-14T15:23:45.054Z	+ @radix-ui/react-separator@1.1.15
+2026-10-14T15:23:45.054Z	+ @radix-ui/react-slider@1.4.7
+2026-10-14T15:23:45.054Z	+ @radix-ui/react-slot@1.3.3
+2026-10-14T15:23:45.054Z	+ @radix-ui/react-switch@1.3.7
+2026-10-14T15:23:45.055Z	+ @radix-ui/react-tabs@1.1.21
+2026-10-14T15:23:45.055Z	+ @radix-ui/react-toggle@1.1.18
+2026-10-14T15:23:45.055Z	+ @radix-ui/react-toggle-group@1.1.19
+2026-10-14T15:23:45.055Z	+ @radix-ui/react-tooltip@1.2.16
+2026-10-14T15:23:45.055Z	+ @scure/bip32@2.4.0
+2026-10-14T15:23:45.055Z	+ @scure/bip39@2.4.0
+2026-10-14T15:23:45.055Z	+ @supabase/supabase-js@2.117.3
+2026-10-14T15:23:45.055Z	+ @tailwindcss/vite@4.3.3
+2026-10-14T15:23:45.055Z	+ @tanstack/react-query@5.101.4
+2026-10-14T15:23:45.055Z	+ @tanstack/react-router@1.170.41
+2026-10-14T15:23:45.055Z	+ @tanstack/react-start@1.168.60
+2026-10-14T15:23:45.055Z	+ @tanstack/router-plugin@1.168.42
+2026-10-14T15:23:45.055Z	+ class-variance-authority@0.7.1
+2026-10-14T15:23:45.055Z	+ clsx@2.1.1
+2026-10-14T15:23:45.055Z	+ cmdk@1.1.1
+2026-10-14T15:23:45.056Z	+ date-fns@4.4.0
+2026-10-14T15:23:45.056Z	+ embla-carousel-react@8.6.0
+2026-10-14T15:23:45.056Z	+ ethers@6.17.0
+2026-10-14T15:23:45.056Z	+ input-otp@1.4.2
+2026-10-14T15:23:45.056Z	+ lucide-react@0.575.0
+2026-10-14T15:23:45.056Z	+ qrcode.react@4.2.0
+2026-10-14T15:23:45.056Z	+ react@19.2.8
+2026-10-14T15:23:45.056Z	+ react-day-picker@9.14.0
+2026-10-14T15:23:45.056Z	+ react-dom@19.2.8
+2026-10-14T15:23:45.056Z	+ react-hook-form@7.83.0
+2026-10-14T15:23:45.057Z	+ react-resizable-panels@4.12.2
+2026-10-14T15:23:45.057Z	+ recharts@2.15.4
+2026-10-14T15:23:45.057Z	+ sonner@2.0.7
+2026-10-14T15:23:45.057Z	+ tailwind-merge@3.6.0
+2026-10-14T15:23:45.057Z	+ tailwindcss@4.3.3
+2026-10-14T15:23:45.057Z	+ tw-animate-css@1.4.0
+2026-10-14T15:23:45.057Z	+ vaul@1.1.2
+2026-10-14T15:23:45.057Z	+ vite-tsconfig-paths@6.1.1
+2026-10-14T15:23:45.057Z	+ zod@3.25.76
+2026-10-14T15:23:45.057Z	
+2026-10-14T15:23:45.057Z	560 packages installed [5.46s]
+2026-10-14T15:23:45.204Z	Executing user build command: bun run build:cf
+2026-10-14T15:23:45.317Z	$ vite build && node scripts/cf-normalize.mjs
+2026-10-14T15:23:47.905Z	The plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the resolve.tsconfigPaths option. You can remove the plugin and set resolve.tsconfigPaths: true in your Vite config instead.
+2026-10-14T15:23:48.308Z	vite v8.1.5 building client environment for production...
+2026-10-14T15:23:50.408Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:17:22 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.418Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:44:26 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.418Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:90:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.419Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:113:27 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.419Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:122:27 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.419Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:146:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.419Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:156:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.419Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:167:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.419Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:177:25 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.422Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:197:25 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.422Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:213:28 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.422Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:221:21 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.422Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:242:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.422Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:256:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.423Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:271:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.423Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:283:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.423Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:300:24 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.423Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/api.functions.ts:327:29 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.556Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:22:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.557Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:54:35 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.558Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:66:33 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.558Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:82:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.559Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:105:27 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.559Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:114:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.559Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:123:32 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.560Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:148:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.561Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:177:26 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.561Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:202:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.561Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:213:27 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.567Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:221:34 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.568Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:233:35 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.568Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:243:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:50.568Z	[plugin tanstack-start-core::server-fn:client] /opt/buildhome/repo/src/lib/admin.functions.ts:254:25 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:51.803Z	
+transforming...✓ 2087 modules transformed.
+2026-10-14T15:23:52.015Z	rendering chunks...
+2026-10-14T15:23:52.225Z	computing gzip size...
+2026-10-14T15:23:52.236Z	.output/public/assets/usdc-C2eT3Zr4.webp            4.33 kB
+2026-10-14T15:23:52.237Z	.output/public/assets/wallet-BFMopiai.webp          5.04 kB
+2026-10-14T15:23:52.237Z	.output/public/assets/team-DnapNIff.webp            5.14 kB
+2026-10-14T15:23:52.237Z	.output/public/assets/home-Z73h7bY4.webp            5.51 kB
+2026-10-14T15:23:52.237Z	.output/public/assets/gift-CeJqszKx.webp            5.96 kB
+2026-10-14T15:23:52.237Z	.output/public/assets/space-BhU5oU-y.webp           7.89 kB
+2026-10-14T15:23:52.237Z	.output/public/assets/globe-Bael0uqr.webp           8.07 kB
+2026-10-14T15:23:52.237Z	.output/public/assets/app-bg-FrBbK5R8.webp         11.86 kB
+2026-10-14T15:23:52.238Z	.output/public/assets/usdt-prize-CuntbgFK.webp     11.98 kB
+2026-10-14T15:23:52.238Z	.output/public/assets/t1-DDPI-9uC.webp             14.15 kB
+2026-10-14T15:23:52.238Z	.output/public/assets/shard-BjUg_peX.webp          14.95 kB
+2026-10-14T15:23:52.239Z	.output/public/assets/t6-DMgQw-bN.webp             17.31 kB
+2026-10-14T15:23:52.239Z	.output/public/assets/logo-DpAzxcrh.webp           30.16 kB
+2026-10-14T15:23:52.239Z	.output/public/assets/t5-aOr931QH.webp             35.23 kB
+2026-10-14T15:23:52.239Z	.output/public/assets/t2-cyhqrAUk.webp             39.43 kB
+2026-10-14T15:23:52.240Z	.output/public/assets/t8-BjC9S9-q.webp             44.46 kB
+2026-10-14T15:23:52.240Z	.output/public/assets/t11-DCj4TSit.webp            45.78 kB
+2026-10-14T15:23:52.240Z	.output/public/assets/t7-CA5Tx3a4.webp             46.14 kB
+2026-10-14T15:23:52.240Z	.output/public/assets/t9-DVNOfIwD.webp             46.53 kB
+2026-10-14T15:23:52.241Z	.output/public/assets/t4-BoAIqN7e.webp             48.76 kB
+2026-10-14T15:23:52.241Z	.output/public/assets/t3-B9k1yJI4.webp             50.66 kB
+2026-10-14T15:23:52.241Z	.output/public/assets/t13-CGKe5CpR.webp            57.92 kB
+2026-10-14T15:23:52.241Z	.output/public/assets/t12-CGotPyXC.webp            69.39 kB
+2026-10-14T15:23:52.242Z	.output/public/assets/t10-VwcT-6xP.webp            77.27 kB
+2026-10-14T15:23:52.242Z	.output/public/assets/styles-BZusZAzR.css          86.47 kB │ gzip:  14.59 kB
+2026-10-14T15:23:52.242Z	.output/public/assets/chevron-right-DubQYPDD.js     0.12 kB │ gzip:   0.13 kB
+2026-10-14T15:23:52.242Z	.output/public/assets/useNavigate-DRjVorEC.js       0.22 kB │ gzip:   0.18 kB
+2026-10-14T15:23:52.242Z	.output/public/assets/copy-zdEZ1g38.js              0.22 kB │ gzip:   0.19 kB
+2026-10-14T15:23:52.243Z	.output/public/assets/crystal-images-YM3Fo3j9.js    0.43 kB │ gzip:   0.24 kB
+2026-10-14T15:23:52.243Z	.output/public/assets/useMatch-j_Q3DkTL.js          0.54 kB │ gzip:   0.35 kB
+2026-10-14T15:23:52.243Z	.output/public/assets/records-CF5Cb0WA.js           0.99 kB │ gzip:   0.53 kB
+2026-10-14T15:23:52.243Z	.output/public/assets/orders-CXVIkUv4.js            1.06 kB │ gzip:   0.59 kB
+2026-10-14T15:23:52.243Z	.output/public/assets/dialog-B7ynFLfk.js            1.87 kB │ gzip:   0.77 kB
+2026-10-14T15:23:52.243Z	.output/public/assets/crystals-D9juZZAq.js          2.88 kB │ gzip:   1.25 kB
+2026-10-14T15:23:52.243Z	.output/public/assets/react-dom-C-f6iZY2.js         3.54 kB │ gzip:   1.34 kB
+2026-10-14T15:23:52.243Z	.output/public/assets/team-7iS2oScX.js              4.04 kB │ gzip:   1.55 kB
+2026-10-14T15:23:52.243Z	.output/public/assets/perks-DmyAzyMh.js             5.11 kB │ gzip:   2.08 kB
+2026-10-14T15:23:52.243Z	.output/public/assets/withdraw-B8aMaVfm.js          5.30 kB │ gzip:   2.10 kB
+2026-10-14T15:23:52.244Z	.output/public/assets/shop-C61DrxMq.js              6.08 kB │ gzip:   2.31 kB
+2026-10-14T15:23:52.244Z	.output/public/assets/RiskModal-1lyvKTaj.js         6.23 kB │ gzip:   2.74 kB
+2026-10-14T15:23:52.244Z	.output/public/assets/space-D604TKJQ.js             6.41 kB │ gzip:   2.00 kB
+2026-10-14T15:23:52.244Z	.output/public/assets/dist-D72vz4dL.js              7.29 kB │ gzip:   2.64 kB
+2026-10-14T15:23:52.244Z	.output/public/assets/routes-ClfR8bbO.js            8.52 kB │ gzip:   2.97 kB
+2026-10-14T15:23:52.244Z	.output/public/assets/guide-D4S76GdI.js            10.49 kB │ gzip:   4.06 kB
+2026-10-14T15:23:52.244Z	.output/public/assets/dist-DUKQ_vmP.js             10.83 kB │ gzip:   3.98 kB
+2026-10-14T15:23:52.244Z	.output/public/assets/link-BBsXjAKZ.js             11.30 kB │ gzip:   4.99 kB
+2026-10-14T15:23:52.244Z	.output/public/assets/networks-C0ah-vqn.js         21.42 kB │ gzip:  14.70 kB
+2026-10-14T15:23:52.245Z	.output/public/assets/deposit-LawM8QQa.js          22.37 kB │ gzip:   8.33 kB
+2026-10-14T15:23:52.245Z	.output/public/assets/dist-B2JaGr69.js             27.37 kB │ gzip:   9.38 kB
+2026-10-14T15:23:52.245Z	.output/public/assets/admin-CgrnlG-M.js            37.65 kB │ gzip:  11.48 kB
+2026-10-14T15:23:52.245Z	.output/public/assets/ui-kit-B9lU7llk.js          119.26 kB │ gzip:  40.79 kB
+2026-10-14T15:23:52.245Z	.output/public/assets/index-uqVn_7ea.js           536.05 kB │ gzip: 159.31 kB
+2026-10-14T15:23:52.245Z	
+2026-10-14T15:23:52.246Z	✓ built in 3.93s
+2026-10-14T15:23:52.246Z	vite v8.1.5 building ssr environment for production...
+2026-10-14T15:23:52.246Z	[plugin builtin:vite-reporter] 
+2026-10-14T15:23:52.246Z	(!) Some chunks are larger than 500 kB after minification. Consider:
+2026-10-14T15:23:52.246Z	- Using dynamic import() to code-split the application
+2026-10-14T15:23:52.246Z	- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+2026-10-14T15:23:52.246Z	- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+2026-10-14T15:23:52.417Z	[plugin tanstack-start-core::server-fn:ssr] /opt/buildhome/repo/src/lib/api.functions.ts?tss-serverfn-split:17:22 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:52.421Z	[plugin tanstack-start-core::server-fn:ssr] /opt/buildhome/repo/src/lib/api.functions.ts?tss-serverfn-split:44:26 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:52.425Z	[plugin tanstack-start-core::server-fn:ssr] /opt/buildhome/repo/src/lib/api.functions.ts?tss-serverfn-split:90:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:52.426Z	[plugin tanstack-start-core::server-fn:ssr] /opt/buildhome/repo/src/lib/api.functions.ts?tss-serverfn-split:113:27 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:52.426Z	[plugin tanstack-start-core::server-fn:ssr] /opt/buildhome/repo/src/lib/api.functions.ts?tss-serverfn-split:122:27 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:52.427Z	[plugin tanstack-start-core::server-fn:ssr] /opt/buildhome/repo/src/lib/api.functions.ts?tss-serverfn-split:146:30 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:52.427Z	[plugin tanstack-start-core::server-fn:ssr] /opt/buildhome/repo/src/lib/api.functions.ts?tss-serverfn-split:156:31 createServerFn().inputValidator() is deprecated. Use createServerFn().validator() instead.
+2026-10-14T15:23:52.428Z	[plugin tanstack-start-core::server-fn:ssr] /opt/buildhome/repo/src/lib/api.functions.
