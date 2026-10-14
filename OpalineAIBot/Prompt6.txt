@@ -1,0 +1,25 @@
+fir se deploy fail ho gaya https://github.com/mr-daaku/hosting/blob/main/OpalineAIBot/Error3.txt aur mene sahi commands dala hai ye dekho https://github.com/mr-daaku/hosting/blob/main/OpalineAIBot/Screenshot_2026-10-14-20-54-44-65_40deb401b9ffe8e1df2f1cc5ba480b12.jpg
+
+internet par search karo aur aur solution lao aur test tum hi karo please, aur mene dusre ai ko bola ye que aa raha hai to ye solution bataya-
+
+"My Cloudflare deployment of this TanStack Start project fails. The client build succeeds, but the deploy fails after the SSR build step. Please fix the project so it deploys cleanly on Cloudflare:
+
+1. Check vite.config.ts / nitro config and make sure the Nitro preset is set correctly for Cloudflare (cloudflare-pages for Cloudflare Pages, or cloudflare_module for Workers). Output dir must match what Cloudflare expects (.output/public for static assets, .output/server for the worker).
+
+2. Add/fix wrangler.toml (or wrangler.jsonc) with:
+   - correct name
+   - compatibility_date = a recent date
+   - compatibility_flags = ["nodejs_compat"]
+   - main / pages_build_output_dir matching the Nitro output
+
+3. Make sure no Node-only APIs are used in server functions without nodejs_compat (ethers, postgres, @noble/hashes, @scure/bip32, @scure/bip39 must work in the Workers runtime). Replace or polyfill anything that breaks.
+
+4. All secrets (Supabase keys, bot token, mnemonic/master keys) must be read from the Cloudflare env bindings (process.env via nodejs_compat or the env object), never hardcoded and never prefixed VITE_ if they are server-only.
+
+5. Make sure the build command is `bun run build` and that it exits with code 0. Run it locally and fix every error, not only warnings. Also remove the duplicate vite-tsconfig-paths plugin by using resolve.tsconfigPaths: true if supported.
+
+6. Reduce the 536 kB main chunk with dynamic import() for admin and deposit routes (optional, lower priority).
+
+After fixing, tell me exactly which setting I need to put in the Cloudflare dashboard: build command, output directory, deploy command, and environment variables."
+
+tum banao aur fix karo.
