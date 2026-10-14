@@ -1,0 +1,37 @@
+Jab user profit claim karta hai to user ke withdrawal_balane me add nahi hota hai fix karo. Wo Reward USDT me add hota hai, reward usdt hatao aur uske gajah withdrawal_balane do.
+
+Jab message ka pop-up aaya hai wo screen ke right side me aata hai jo bilkul nahi dikhta hai kesa message hai problem image https://github.com/mr-daaku/hosting/blob/main/OpalineAIBot/Screenshot_2026-10-14-21-44-59-27_74594bd74a0419242537a8d02ba17993.jpg fix karo
+
+Buy crystal page me jitna bhi crystal hai sab me ye sirf do - name, price, daily profit kitna milega (usdt me) bas.
+
+Jab admin kisi user ko search karta hai to User ke account ko pura manage kar sake jese - ban/unban, add/remove balance, add crystal (sabhi crystal ka list dena aur kitna dena hai wo amount).
+
+Admin panel ke settle me se settlement ko hatao sirf Settlements from JSON rakho. Aur sabhi crystal me settlement save nahi karo, wo sirf Latest settlement me dikhayega, aur Latest settlement me USDT profit nahi dikha raha hai sirf +0.0 USDT bata raha hai, json me ye add nahi hai kya kitna USDT profit hoga. Agar nahi to add karo aur example json code me do aur full chat me market dikhayega left se right tak, jo abhi sirf right me hi 4-5 dikha raha hai sirf.
+
+Aur Audit me jo logs dikha raha hai wo hatao aur database me bhi save nahi karo aur table bhi hata do.
+
+Deposit me stable coin (USDT aur USDC koi bhi chain ka) me Live conversion nahi hona chahiye, hatao wo direct hoga 1$=1USDT=1USDC okay.
+
+Aur Transactions me latest 10 hi dikhao, aur jahan jahan jyada data hai wahan wahan latest 10 hi dikhao.
+
+Aur admin panel me bhi sab kuch latest 10 dikhao aur ek load more button do jispe click karne par fir 10 load hoga, aur ye load more sirf admin panel me hoga.
+
+App me jahan jahan userid hai (admin panel me bhi), userid par click karne par copy ho jaye, aur yese hi memo (copy button show karo), address (copy button show karo) etc sab me copy button do jisme hona chahiye.
+
+Admin panel me Jahan jahan radio button hai on of me sabhi gajah ek accha sa button do click karne par red ho jaye taki pata chale off hai aur on par green.
+
+Admin panel ke reward tab ke Perks draw table me sabhi reward json me nahi hona chahiye uske gajah alag alag box do.
+
+Jab user withdraw karne jaye to withdraw button par long press kare (3-5 second) tak tab ek pop-up aaye captcha ka, captcha karne ke bad hi user ka withdraw request jaye. Captcha me image hoga aur jisme ek gajah par cut hoga aur user ko cut ke gajah full karna hai bacha tukra se, aur image tum banao (OpalineAI related) aur yesa batao taki bot account withdraw na kar sake.
+
+Aur address verify karo frentent se hi jese BSC USDT me most 0x se start ho aur gram USDT me UQ/EQ se most start ho. Aur user bar bar withdraw button hit na kare isliye withdraw ke bad secuss request submit ya autopay jab tak na ho tab tak waiting cursor rahe withdraw button par. Ye wating cursor sabhi buttons par do (app me bhi Admin Panel me bhi) taki ek hi request bar bar na bheje user.
+
+Jab koi activity ho to bot user ko message bheje jese invited user, deposit confirmed, withdraw reward submit, withdraw paid (auto payment me bhi), commission received etc.
+
+Reward 2% daily fix ho aur paid crystal buy karne par ye hoga- 
+
+Jese koi user first crystal buy kiya aur first crystal ka price 2$ USDT hai to user ko daily 0.04$ USDT mile. Aur Spark crystal ka price 100 = 1$ USDT hoga aur jis user ko 100 spark crystal hoga uss user ko daily 0.02$ USDT milega.
+
+Isliye admin panel me Jahan spark crystal ka price option hai use hata do aur database me se bhi wo option hata do qiki fix 100 spark crystal = 1 USDT hoga.
+
+Aur buy crystal me jo Spark crystal hai jiska price abhi mene 5 USDT save Kiya hai uska name Mist Crystal karo, quki welcome reward me jo crystal milta hai uska name Spark crystal hai, isliye paid crystal me jo Spark crystal hai uska name change karo.
