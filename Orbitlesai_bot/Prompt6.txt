@@ -46,3 +46,5 @@ Aur user ke deposit_balance me USDT me save hoga data isliye agar koi user nativ
 Aur accha sa ek app logo banao please.
 
 Aur jonse method se ye https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/ominiaibot-main%20(3).zip other app me deposit scan hota hai usi method se tum apna app me lagao.
+
+jab user /start command dalta hai to welcome text me sath button bhi aata hai, isme image bhi add karo, aur buttons me open app, updates (https://t.me/OpalineAI), payout (https://t.me/OpalinePayOut) aur support (http://t.me/OpalineAISupportBot) ye button bhi aaye.
