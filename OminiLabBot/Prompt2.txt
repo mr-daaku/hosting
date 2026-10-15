@@ -1,0 +1,57 @@
+App me top left me jo 3 line button hai use hatao aur jo top right me hai orders use bhi hatao. Aur thoda uper karo.
+
+Admin panel - product create me multiple images Allow ho, Editions hatao, Delivery details bhi hatao. Aur Buyer inputs me add a box ka button ho aur usme sirf input box aur type aur optional/most option ho. Type me txt, number, url, email, username (with @ ya without @), date, image (upload image), file (max 25 MB), Long text, secret bas.
+
+Categories create karne me image ke gajah svg dalne ka option do.
+
+Home page me jo Promo banners hai wo ek ke bad ek aate jaye aur accha animation se aaye. Aur yese hi loop chalta rahe.
+
+Jab user ek navigation se dusre navigation me jaye to animate hoke jaye left ya right.
+
+App ka logo https://i.postimg.cc/PJ1X4JMD/file-000000006ec082118e4d20e56337206d.png hai (instant karo lo aur codebase me use kiya karo). Loading page me ye svg animation ho - https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/Logo.svg
+
+Style.css me ye code add karo-
+
+
+#lovable-badge { display: none !important; }
+.safe-bottom {
+  padding-bottom: calc(max(env(safe-area-inset-bottom, 0px), var(--tg-safe-area-inset-bottom, 0px)) + 0.75rem);
+}
+
+Orders page me top par 2 tab do, ek order aur dusra deleverd. Order me jo abhi delever nahi hua ho wo orders hoga, aur deleverd me jo delever ho gaya ho.
+
+Admin panel - jab admin ko koi order aaye aaye to admin processing status me dal de, isse user ko pata chalega app ban Raha hai, aur kitna % bana hai wo bhi Admin set kar sake. Jab admin kisi order ko delever karne jaye to admin se ye sab mange-
+
+md/html code (text box me), zip download button bas.
+
+Order placed hone par direct frentent bana (52% quki already banaya hua app buy kar raha hai user) status ke sath place ho, aur jab user koi order cancel kare to user ko jitna % bana hai utna % cut hoke uske ko balance me add ho.
+
+Ek balance hoga jisse user ko cancel karne par USDT balance me add hoga. Aur withdraw ke liye support kare.
+
+Admin panel ke Orders me request aur ongoing aur done tab hoga, request me wo hoga jisko admin kuch nahi kiya hoga, ongoing me jisme kam chal raha ho (delevery ka bhi option ho) aur done me wesa jo delivery ho chuka ho.
+
+Admin panel ke Payments tab me Receive addresses me sirf GRAM usdt ka address hoga, quki sabhi user ko ek unique addresses banega HD wallet ke index se (jo exchange use karta hai), aur mene bola tha users table me wallet index save karne ke liye. Jab user payment method selected kare to HD wallet + index se address bane aur payment page me show ho. Address database me save nahi karo taki database full nahi ho.
+
+Aur admin panel ke Payments me se Rules ko completely hatao.
+
+App ke Profile page me profile card accha se karo jese example image -https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/file_000000008fd48206a35e69b4d73de3ab.png
+
+Aur Profile card ke niche ye sab add karo-
+
+USDT balance, notification (open page button)referral page (open button), legal pages (open button), support (admin set username), download mobile app (link admin set), delete account (request page).
+
+Product details page me ek share button hoga jispe click karne par product link copy ho jayega jese - https://t.me/OminiLabBot/shop?startapp=p_{product I'd}
+
+Jab user ek page se dusre page me jata hai to user ko error page type ka aata hai ye https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/Screenshot_2026-10-15-16-21-23-31_74594bd74a0419242537a8d02ba17993.jpg dekho aur fix karo please.
+
+Admin panel me dashboard do jisme total users, total profit, total sell etc
+
+Jab product ke buy ke time 2 option add karo ek apply USDT balance (jitna user ke account me balance ho aur max product ke price ya user ke balance ke barabar ho), aur dusra apply promo code (jo sirf admin create karege admin panel se).
+
+Jab admin users tab me jake kisi user ko search kare to user ke account me sab kuch dekh sake aur usdt balance edit kar sake.
+
+Admin panel me Products tab ke andar 2 tab do ek create aur dusra created. Create me create karne ka option aur created tab me already created product hoga aur aur uspe click karne par putra details aa jaye aur niche ek edit button ho jispe click karne par use edit kar sake.
+
+Aur ek aur option add karo % off ka, jo amount admin dale utne me se % off cut hoke dikhaye app ke andar product me. Aur kitna % off hai wo bhi dikhao product ke top left me.
+
+Aur /start Command dalne par welcome message jab aata hai to usme image bhi add karo jo tum banao. Aur open OminiLab button text ke gajah "🛍️Shop Now" do aur uske andar link https://t.me/OminiLabBot/shop ho.
