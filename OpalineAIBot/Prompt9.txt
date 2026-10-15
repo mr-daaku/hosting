@@ -1,0 +1,23 @@
+Cloudflare Workers deploy fail ho raha hai is error se:
+
+Invalid _redirects configuration:
+Line 1: Infinite loop detected in this rule. This would cause a redirect to strip `.html` or `/index` and end up triggering this rule again. [code: 100324]
+
+Currently `_redirects` file mein yeh likha hai:
+/* /index.html 200
+
+Is infinite loop error ko fix karo.
+
+Preferred solutions (priority order):
+
+1. Best solution: `_redirects` file hata do aur Cloudflare Workers ke native SPA support ka use karo. `wrangler.toml` ya `wrangler.jsonc` mein assets configuration mein `not_found_handling = "single-page-application"` set karo (agar project structure allow kare).
+
+2. Agar upar wala possible nahi hai, toh `_redirects` file ko aise update karo jo Cloudflare ke infinite loop detection se bach jaye. Example of safer rules:
+   - /*    /index.html   200
+   - Ya proper exclusions ke saath
+
+3. Ensure ke build output (especially `scripts/cf-normalize.mjs` ya jo bhi Cloudflare ke liye normalize karta hai) sahi `_redirects` generate kare ya usko skip kare.
+
+Project TanStack Start + Vite use kar raha hai aur Cloudflare Workers pe deploy ho raha hai (`bun run build:cf`).
+
+Please fix it properly so that SPA routing kaam kare aur Cloudflare deploy successfully ho jaye.
