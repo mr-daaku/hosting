@@ -1,0 +1,6 @@
+Jab app me https://repo-rhymes.mr-daaku-gd.workers.dev url lagata hun to app open hi nahi hota hai ye error aata hai - "Can't connect right now
+Please open OpalineAI from the Telegram bot @OpalineAIBot, or try again.
+
+Retry" sayad bot token etc secret add na hone ke bajah se ho raha hai.
+
+Tum ek API name ka folder/file banao jisme yesa system hoga jitna bhi secret hoga sara secret lovable ke cloud se aayega aur database bhi lovable ke cloud se hi connect hoga aur jo bhi missing hone ka chance ho wo sab lovable ke cloud se hi aaye. App me ye add karo aur verify aur test karo.
