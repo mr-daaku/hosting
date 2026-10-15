@@ -177,3 +177,5 @@ Start by reading the 4 reference files and the UI image, then confirm the plan i
 
 admin id - 7206619137
 And any other API, the admin will set everything in the admin panel, and add a /start command reply system to the bot. Also, check from initdata whether it's in the Telegram bot mini app or not, and for that, a BOT_TOKEN is needed, so I have saved the bot token in secret as BOT_TOKEN.
+
+note- And maybe the error in the prompt - mobile yesa some message goes away, you ignore this error (this rule and the rule to reduce the whole thing in one go and the rule to see the prompt from the link and if you want to get help about adding/removing something or doing something, then take it from the internet and save all these rules in the AGENT.md so that I do not have to be reminded again and again).
