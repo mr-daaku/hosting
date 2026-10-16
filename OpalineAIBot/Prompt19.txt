@@ -1,0 +1,4 @@
+bro withdraw auto paid ya paid ya queue ke auto pay channel par post nahi ho raha hai fix karo please.
+aur payment channel https://t.me/OpalineAIPayOut hai aur mene admin dal diya hai bot ko channel me.
+
+aur nodereal api par jyada request kese ja raha hai? kya webhook laga hai isliye? yesa karo jab user check deposit kare tab hi deposit check ho wo bhi sirf usi user ka aur yesa system banao taki mera nodereal api ka limit hit na ho aur kam bhi ho jaye. matlab faltu ka request nahi bhejo jitna kam hai utna me hi ho.
