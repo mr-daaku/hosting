@@ -1,0 +1,27 @@
+Jab user withdraw karne jata hai to user ko ye https://github.com/mr-daaku/hosting/blob/main/OpalineAIBot/IMG_20261016_143140_415.jpg aata hai, jabki 0.1$ withdraw ke liye mene sirf 1 referral lagaya hai, par fir bhi 5 referral ke liye bol raha hai. Fix karo backend me ye -
+
+0.05 - free
+1 friends
+$0.1
+5 friends
+$0.2
+10 friends
+$0.35
+25 friends
+$0.6
+50 friends
+$1
+75 friends
+$1.5
+100 friends
+$2.5
+
+Aur database se hata do ye aur table bhi.
+
+Aur pop-up message me kuch dikhai nahi deta hai, quki black me nahi dikhta hai, tum green type ka karo (app me jo sabse jyada color use ho raha hai wesa) taki user ko clearly texts dikhe. Aur ye message twestes (message type jo top pe hota hai) lag raha hai, ye beautiful pop-up jesa nahi hai bilkul bhi. Fix karo please.
+
+Aur gram aur gram USDT deposit me memo me OPAI-{telegram id} yesa memo karo. Aur dusre system ko kuch nahi karna.
+
+Aur support bot bhi banao jisme user message karega aur admin ko received hoga, aur message me ek reply button hoga jispe Click karne par reply mode on ho jayega aur reply kar sakega aur reply ke bad jis message ka reply Diya hai wo message delete ho jayega. Support bot ka bot token SUPPORT_BOT_TOKEN me save kar diya hai secret me.
+
+Aur jahan jahan message received hota hai sabhi gajah me ✅🌺🎉💲💷💵💶🤖🎊💝 yese emoji ka use karo taki message accha lage. Jese withdraw submit, withdraw paid, deposit Received, referral received, payment post etc me.
