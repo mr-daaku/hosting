@@ -1,0 +1,1 @@
+Jab user app open karta hai to claudflare wedge verification secuss hota hai, fir back ho jata hai aur fir se security verification hone lagta hai. Problem image - https://github.com/mr-daaku/hosting/blob/main/OpalineAIBot/Screenshot_2026-10-16-11-14-54-49_74594bd74a0419242537a8d02ba17993.jpg. Fix karo please aur test bhi karo.
