@@ -1,0 +1,23 @@
+Latest settlement me sirf % profit dikha raha hai, isme USDT profit bhi dikhao, json me yesa system add karo. Problem image - https://github.com/mr-daaku/hosting/blob/main/OpalineAIBot/Screenshot_2026-10-16-09-59-42-75_74594bd74a0419242537a8d02ba17993.jpg
+
+Yesa hai kya? Agar nahi to yesa hi banao - jab user koi paid crystal buy kare to user ko usi date se reward milna start ho jaye aur pahle wala ka bhi milta rahe jese -> user buy kiya ek paid crystal > paid crystal reward milega + free wala (Spark crystal) ka bhi milega + aur multiple crystal buy kar sake. Kya tum ye samjhe? Agar han to yesa hi banao agar nahi hai to aur mujhe batao kese kam karega taki me confirm ho jaun.
+
+BSC USDT Payout ke liye index wallet (HD wallet jisse index/address user ko milta hai) ka user karo, index 0 se payment hoga. Aur pay method ke liye file dekho - 
+ https://github.com/mr-daaku/hosting/blob/main/MagiqAiBot/ominiaibot-main%20(3).zip 
+ke andar Jake BSC USDT ka payment system dekho aur same wese hi banao.
+
+Aur gram USDT ke liye -
+https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/ton-pay.mjs
+
+Gram USDT payment ke liye admin save kare 24/12 word admin panel me.
+
+Jab user withdraw kare to database me save ho jaye aur auto pay ho ek ek karke isliye Withdrawals ko queue me ek-ek karke process karo.
+
+Admin panel ke Settle me jo sabhi crystal me 2026-10-15
+9% · 0.0000 USDT yesa kuch save nahi karo, wo sirf app me home page me Latest settlement me dikhane ke liye hoga bas.
+
+Admin panel ke Withdraw me ek aur tab add karo queue jisme queue payment hoga jo payment hone wala hai.
+
+App me security ke liye claudflare widgets lagao please, mene Site key CLAUDFLARE_SITE_KEY me save kar diya hai, aur CLAUDFLARE_SITE_SECRET me Secret key dal diya hai.
+
+Aur mera worker page me https://coscomai.xyz/ ye url set kiya hai taki widget lag jaye. Tum ye url ko bhi database read/write allowed karo.
