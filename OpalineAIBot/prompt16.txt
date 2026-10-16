@@ -1,0 +1,3 @@
+GRAM thik hai par GRAM USDT deposit nahi ho raha hai, jabki user ne deposit Kiya hai, aur memo bhi sahi dala hai.
+
+aur tum ek webhook banao jisse queue me fase withdraw ko auto pay kiya ja sake, aur queue me yesa ho ek payment ho fir aur ho to aur ke payment kare aur nahi to stop ho jaye, aur jab cron job https://repo-rhymes.lovable.app/api/queue par request bheje to queue me sabhi withdraw paid hone lage, aur agar queue chal raha ho aur cronjob se request aa jaye to ignore kiar de.
