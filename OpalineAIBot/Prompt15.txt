@@ -1,0 +1,5 @@
+Claudflare kV namespace OpalineAI hai aur id 374117222d2940c0979cf5da9b190fcd.
+
+Jab app ko open karta hun to claudflare verification hota hai par uske bad app loading me hi rah jata hai, fix karo. Sayad ye claudflare kV set nahi hai isliye ho raha hoga.
+
+Ye banao aur test karo app ko aur kuch galat Lage to fix karo.
