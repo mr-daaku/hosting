@@ -1,0 +1,33 @@
+Admin panel ke withdraw tab me paid aur reject tab ko hata do.
+
+Jab user withdraw karne jaye to captcha ko hata ke uske gajah claudflare wedge lagao. Aur withdraw instant submit ho jaye aur background me auto enable hone par background me payment hoga. Aur agar koi with process me ho to bhad me aane wala withdraw wo queue me chala jaye aur pahle wala withdraw paid hone ke bad uske bad wala withdraw ko paid kare.
+
+Jab koi kam me time Lage to wo instant dikhao user ko aur wo kam ko background me chalne do.
+
+Home page me Daily reward · 5%/day ke bagal me daily USDT me bhi dikhao 
+
+Ex- Daily 5% • 0.05$
+
+Cashing claudflare ke kv aur local me bhi save karo. Aur jo bar bar ek hi data read ho wo claudflare ke kv me save ho aur wo 5-10 minutes me database se le, jese admin panel me total user, total withdrawal, total deposit etc.
+
+Tum command ya kuch chalao aur pura faq etc sab kuch post kar do chanel par https://t.me/OpalineAI, bot ke help se. Aur bold, italic code quote use karo taki accha lage message. Payout message channel par accha sa message ke sath post karne ka system do.
+
+Admin panel me Settle me Saved settlements — shown on the home page only. Nahi dikhao. Aur latest 30 day ka hi datas save hoga, agle din jab admin json dale to latest 30 day ka hi data dale admin. Aur latest wala save ho jayega aur pahle wala data delete ho jayega.
+
+Jab user app open karta hai to open hone ke bad channel join ka pop-up aata hai, jabki yesa karo jab tak channel join na kare (agar join na ho to) tab tak app ke home page par nahi jaye aur refer count na ho.
+
+Aur pop-up message accha nahi hai use beautiful banao jese Balance details ka pop-up hai profile page me
+
+Jab user withdraw kare to wo fir se withdraw 30 minutes bad hi withdraw kar sake, aur already pending withdraw hone par bhi withdraw na kar sake.
+
+Perks me Reward history nahi dikhao aur database me save bhi nahi karo Reward history. Aur Reward history abhi ke gajah details ho kese kam karta hai bas.
+
+Home page me se Daily meditation hata do, aur agar database me save karte ho to save nahi karo.
+
+Referral bonus % fix 5 rakho aur database me save nahi karo. Aur Min hold days fix 7 day hoga aur database me se delete kar do ye database aur table. Redeem fee % 15% fix hoga aur delete kar do database se aur database se load nahi karo ye sab.
+
+Deposits me latest 10 hi load kare database se.
+
+Admin panel se Crystals bhi hata do aur fix crystal ka price hoga. Price ise me lo - https://github.com/mr-daaku/hosting/blob/main/OpalineAIBot/Screenshot_2026-10-16-13-23-19-27_74594bd74a0419242537a8d02ba17993.jpg aur https://github.com/mr-daaku/hosting/blob/main/OpalineAIBot/Screenshot_2026-10-16-13-23-22-59_74594bd74a0419242537a8d02ba17993.jpg abhi jitna database me hai. Ise yesa karo taki ye datas database se load na ho aur database par load na pade.
+
+Jisme mene bola hai change karne wahi file me change karna, dure file change nahi karna jese auto pay system, withdraw system, deposit system etc.
