@@ -1,0 +1,7 @@
+jab user ek page se dusre page me jata hai to pura screen par loading page que aa jata hai, jabki page instant aana chahiye aur datas load me contant load dikha jisse user bor na ho. home page me product 1x10 dikhao aur jab user niche 8 par jaye to fir aur 10 product load ho fir yese hi 2 bachne par load ho.
+
+yesa sysytem banao jisse database par load na pade aur bar bar request na aaye, cashing lagao, jo sab user ke liye same hoga use backend me hi dal do, sabhi api admin set kar admin panel se etc lagao jisse app hack na ho aur bot account ya fake account ko andar aane nahi do.
+
+app page ko thoda uper karo, matlab abhi agar OminiLab text 100% par hai to use uper karo 60%. product details page me buy now ke button webapp ke niche fix kare, chahe page uper ho ya niche buy now button botoom me fix rahe. aur product photo cut ho jata hai (matlab uper aur niche ka nahi dikhta hai) yesa banao jisse jitna bada bhi image ho beautifull tarah se fit ho jaye aur image par click karne par bhi image full dikhai de.
+
+payment checkout me payment real ho aur coun aur chain ka logo bhi dikhao. aur sara controll admin ke pass ho. app ko fast+secure banao taki hack na ho. aur yesa system banao jisse 10K user ka request ek minute me ghel le, aur per refer 0.015$ USDT milega jise user ithdraw nahi kar sakega, sirf shop kar sakega, aur jab admin koi product create kare to amount 0 dalne par wo product free ho jaye. jisme problem ho tum sara help internet se lo.
