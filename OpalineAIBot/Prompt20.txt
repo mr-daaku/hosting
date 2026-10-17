@@ -1,0 +1,10 @@
+Bro isme multiple accounts ko andar nahi Jane do, ek devices name ka table banao jisme jisme userid aur device fingerprint hoga, jo pahle account login kare uska account login ho jayega aur device fingerprint save ho jayega. Aur jo user ke device fingerprint save nahi hua hoga uska bhi ho jayega, quki abhi 10k+ user hai aur wo multiple accounts use kar rahen hai. Aur jo same device se dusre account se aaye to duare accha ko ban karo do jo pahle se ho ya database me save na ho. Jo new account ban ho wo users table me save nahi ho wo baned table me save ho.
+device fingerprint yesa lo jisse dusre phone se match na ho aur na ho same model se, ye system tum internet se sikho aur banao.
+Aur free withdraw me ye rule lao aur pahle wala hata do-
+
+🔵 5 Friends   ➡️  Unlock $0.10 Free Withdraw
+🔵 10 Friends  ➡️  Unlock $0.15 Free Withdraw
+🔵 20 Friends  ➡️  Unlock $0.3 Free Withdraw
+
+
+Fir 3$ deposit ke bad withdraw.
