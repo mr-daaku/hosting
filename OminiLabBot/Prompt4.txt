@@ -1,0 +1,46 @@
+Bot /start Command ka fast reply nahi de raha hai fix karo, par app speed hi hai 😊 aur solution internet se lo.
+
+Sabhi user ko index + HD wallet se address generate hoga, par admin panel me xpub key dalne ko bol raha hai, xpub ko hata do aur uske gajah sheed phrase dalne ka option do aur sheed phrase + index se address generate karo. Aur payment milne par product me process ho jaye aur payment ka tx hash save kar lo taki same deposit dobara user use na kar paye.
+
+Banners me background me fix lime green hai, me chahta hun ki admin khud apna image add kar sake, aur jo Banners ya koi product delete kar de wo database se bhi delete ho jaye aur image bhi delete ho jaye. Aur sirf image hi dal sake aur jab user image par click kare to product ya link par bhej de user ko.
+
+Home page me jo OminiLab heading hai use aur uper karo aur logo + OminiLab fix rahe top par.
+
+New Arrival, Favourites aur Browse me product ek left aur right hota hai (2x 5) me chata hun ki wo single ek hi rahe aur uske niche dusre product rahe (1x10), kya tum samjhe? Agar han to banao pura. Aur home page par hi 3 image dikhaye jese-
+
+-----------------
+|.       |.      |.      |
+|.       |.      |.      |
+|.       |.      |.      |
+| ---------------|
+|Short details|
+ ----------------
+
+Aur Product details page me DEMO, Post aur share ka button do. Demo admin link set kare (optional) aur post me channel post Open ho jo product create ke time post hua tha channel me (new add karo, jab admin koi product create kare to sara images aur description aur view button ke sath channel par post ho jayega aur post channel admin set karega.) aur share me user apne friend ko product bhej sakega aur usme product first image, details aur buy now ka button hoga aur wo yesa hoga - https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/Screenshot_2026-10-17-20-13-52-92_74594bd74a0419242537a8d02ba17993.jpg (ye mene dure webapp ka example image diya hai), tum ye system internet se sikho aur isme bot token ka use hota hai yesa via @OmimiLabBot jese message banane ke liye.
+
+Jab user payment method page par jaye to user ko 3 option aaye ek CRYPTO (aur CRYPTO ke aage Keeper, OKX aur Trust wallet etc ka logo se dena taki accha lage) aur dusra UPI (isme yesa apps logo dena - https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/upi-logos.png aur yese hi crypto me bhi dena) (UPI method soon kar do) aur CARD (isme bhi logos dal do visa, master etc ka) (card option bhi soon kar do).
+
+Profile card me admin aur premium yesa sab tag hata do.
+
+Delete account request me resign ka options do aur others bhi do aur Delete tab add karo admin panel me Delete tab (deshbord me se hata do delete account request) aur usme delete account ka requests hoga. Aur jis user ka account delete ho jaye uss wo user ka pura profile datas delete ho jaye aur product rahe bas. Delete account request confirm bhi de aur note bhi do.
+
+Jab user koi product ka payment kare to abhi order placed na ho, jab user requirement submit kare tab order placed ho aur agar user pay karke app close kar de to process wahin se suru ho taki user ko loss na lage. Ek product product buy karne par dobara usi product ko buy kar sake par ek bar me 1 hi.
+
+Cancel order button par click karne par ek sad image aaye pop-up me aur confirm button aur note message aaye user ko pop-up me.
+
+Jab user search button par click kare to browse page me chala jaye aur browse page me bhi products dikhe.
+
+Product Search me user product I'd bhi search kar sake, aur milta julta name bhi dikhe.
+
+Jab user left side slide kare to left Wale menu/Navigation ke page me chala jaye aur jab right kare to right side Wale menu/navigation ke page me chala jaye.
+
+Admin panel me broadcast tab add karo jisme single user aur all user me broadcast karne ka option ho, aur yesa system banana jisse sabhi user ko message jaye, kuch der me off ya backend pura bussy na ho jaye aur bar bar database ko call na kare.
+
+
+App me kahin adjust karo taki user ko saf saf dikhe aur user uspe click kare, ek custom app ka option do jispe click karne par t.me/OWNER_DAAKU open ho.
+
+Note- rule 1 > Jab Bhi me hii bhejun to tum prompt{last number}.txt dekhoge aur agle hii message par +1 ka prompt dekhoge https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/ folder me. Ex- agar last prompt5.txt ho aur fir me hii bhejun to tum https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/prompt5.txt dekho.
+
+Rules 2 > jo bhi me new add karne bolun, tum internet par search karke best tarika dhundo aur banao aur test karo banane ke bad.
+
+Rule 3 > prompt me jitna bhi bola jaye tum ek bar me banao aur pura banne ke bad fir se prompt dekho aur verify karo, agar kuch chhuta hoga to banao aur banane ke bad test karo.
