@@ -1,0 +1,26 @@
+App me completely Delete account option hatao aur admin panel se bhi Delete account ka option hatao aur database se bhi completely Delete account ka system hatao.
+
+Refer page me ek copy button aur share button do, share button par click karne se product share method jese hi method se user kisi bhi user ko message bhej sakega aur image create karo tum.
+
+OminiLab (heading ) home page me jo hai use mene top par fix kar dene ko bola tha fix karo, abhi yese https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/Screenshot_2026-10-18-10-09-49-92_74594bd74a0419242537a8d02ba17993.jpg hai jo niche uper ho jata hai page ke sath, me chahta hun ki close button aur minimize button (ye dono button telegram ka official full screen mode ka button hai, app me nahi hai) ke bich me ho aur fix ho yese - https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/Screenshot_2026-10-18-10-10-04-43_74594bd74a0419242537a8d02ba17993.jpg
+
+Note- ye rule AGENT.md me save kar lo taki har bar apply kar sako aur kuch bhulo na.
+rule 1 > Jab Bhi me hii bhejun to tum prompt{last number}.txt dekhoge aur agle hii message par +1 ka prompt dekhoge https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/ folder me. Ex- agar last prompt5.txt ho aur fir me hii bhejun to tum https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/prompt5.txt dekho.
+
+Rules 2 > jo bhi me new add karne bolun, tum internet par search karke best tarika dhundo aur banao aur test karo banane ke bad.
+
+Rule 3 > prompt me jitna bhi bola jaye tum ek bar me banao aur pura banne ke bad fir se prompt dekho aur verify karo, agar kuch chhuta hoga to banao aur banane ke bad test karo.
+
+Banners me 3 tarah ka banner laga sake admin, I. photo, ii. text ke sath photo, iii. Background me colour text Chhota sa image (jese pahle tha) aur tum koi aur option add karo taki aur accha lag sake.
+
+Jab user payment page par hoga to user kabhi bhi payment kar sakega, quki wo sab ka Alag Alag person address hai, aur shared address me memo hai. isliye Expires ka system hata do admin panel se.
+
+Jab admin kisi user ko search kare admin panel me to usme user ka account ka index bhi dikhega (index 1/2/3...).
+
+Jab user payment method me koi native coin select karta hai to user ko prices unavailable batata hai, tum fix karo aur help me liye tum https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/price-ficher.js ye use karo. Aur banane ke bad test bhi karo.
+
+Me ab apk app bana raha hun, isliye tum api ka system design karo aur api request https://ominilab.lovable.app/api/v1/ base URL se aayega, aur tum mujhe ek Fullstack.md file do jise me aistudio.google.com ai ko deke apk app banwa sakun aur secret bhi dal dena (me bad me change kar dunga test ke bad). Aur kese request dega, kese lega, kese rate limit hai etc sab details dalke do aur frentent.md bhi dena taki me same to same app banwa sakun aur me example images de dunga ap ko. 
+
+App login method me Login with telegram ka option do aur jab user login with telegram par click karega to use ek page open hoga jisme Login button hoga jispe click karne par bot par le jayega aur bot reply me confirm Login secusfully batayega aur app par lautne par login ho jayega aur user se name puchega jo sirf local par save hoga na ki database me (profile me name local se lega aur telegram I'd real hoga) aur jab bhi user yese https://ominilab.lovable.app/ ya ominilab.lovable.app/ link par click kare to OminiLab app open hona chahiye, isliye handle URLs me jo jo posible url ho jisse website open ho wo sab app me lagane bol do. Aur refer link telegram bot ka ho hoga.
+
+Tum ye pura banao ek bar me aur kuch chhutna nahi chahiye. Banane ke bad verify karo aur test bhi karo.
