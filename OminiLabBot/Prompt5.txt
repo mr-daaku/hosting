@@ -23,4 +23,6 @@ Me ab apk app bana raha hun, isliye tum api ka system design karo aur api reques
 
 App login method me Login with telegram ka option do aur jab user login with telegram par click karega to use ek page open hoga jisme Login button hoga jispe click karne par bot par le jayega aur bot reply me confirm Login secusfully batayega aur app par lautne par login ho jayega aur user se name puchega jo sirf local par save hoga na ki database me (profile me name local se lega aur telegram I'd real hoga) aur jab bhi user yese https://ominilab.lovable.app/ ya ominilab.lovable.app/ link par click kare to OminiLab app open hona chahiye, isliye handle URLs me jo jo posible url ho jisse website open ho wo sab app me lagane bol do. Aur refer link telegram bot ka ho hoga.
 
+aur jab user Websites ko browser me open karega to user ko webapp ke bare me batayega aur 3 option hoga, ek jo telegram bot use kare user, aur download app aur ek browser me hi (browser me soon), aur admin panel me app download link to admin save kar dega, aur ek aur option add karo download apk link aur usme admin direct download apk link dalega.
+
 Tum ye pura banao ek bar me aur kuch chhutna nahi chahiye. Banane ke bad verify karo aur test bhi karo.
