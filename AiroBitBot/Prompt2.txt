@@ -1,0 +1,41 @@
+Src\style.css me ye code add karo-
+
+
+#lovable-badge { display: none !important; }
+.safe-bottom {
+  padding-bottom: calc(max(env(safe-area-inset-bottom, 0px), var(--tg-safe-area-inset-bottom, 0px)) + 0.75rem);
+}
+
+/start Command dalne par fix ye text hi aaye, database se nahi le nahi to database par load padega "🚀 Welcome to AiroBit! Complete tasks, watch ads and earn USDT.
+
+💎 Tap the button below to open AiroBit." Aur ek welcome image add karo jo tum create karo. Aur Updates link me https://t.me/AeroBitNews fix ho aur database se nahi lo. Aur mini app URL https://airobit.lovable.app hoga.
+
+Gram USDT Auto pay me W5 address ka use karo.
+
+Jab user Withdraw requests submit kare (ya auto), withdraw paid, refer received, active refer received etc message bot ke help se aaye.
+
+Broadcast me single user ka bhi option do aur admin ek image dal sake aur multiple inline keyboard dal sake. Broadcast yesa design karo jisse sabhi user ko message jaye aur database se bar bar users ka I'd na lo, nahi to database bussy ho jayega aur app crash ho jayega. Isliye tum koi yesa method se sabhi user ko message karo jisme database ka koi jarurat (bahut jyada kosis karo yahi system me hone ki nahi to database me problem aa sakta hai, agar posible ho to) nahi ho ya ahar ho bhi to yesa system ho jisse database se bahut data na le.
+
+App ko telegram se full screen request karo aur app ko thoda niche karo taki fit ho telegram full screen me.
+
+Aur Gram ka price live fich karo ye method se - https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/price-ficher.js
+
+App ka backend yesa design karo jisse database par load na pade, app speed fill ho, bot account ko entry nahi mile, aur bahut sara security do taki app hack na ho aur script se balance add na kar sake, unlimited withdraw na kar sake, fake referral na kar sake, fake account se task complete na kar sake, system me unlimited request na dale etc security hona chahiye jisse app me koi problem nahi aaye.
+
+Promotion Task ke niche ek Partner task do jisme partner task hoga aur partner task sirf admin create kar sakega, aur partner task api based hoga, jisme real complete par hi reward milega. Yesa system banao jisme sabhi tarah ka ho jisse me custom tarah ka api call ko kam kar de. Aur tum isme code input ka option dena taki me custom task backend add kar sakun, aur wo yese kam karega -
+
+First create task for frentent (react code me example code de dena)> fir select konse partner task ka backend banana hai > fir create backend ts code me (example de Dena) > test > done. Aur yesa system dena jisse frentent fask load ho jaye aur database par load bhi na aaye, aur backend me bhi yesa hi system dena taki wo database se na le. Kya yesa tum backend bana sakte ho jisme me admin panel se hi backend code dal sakun (partner task ka) taki mujhe app ka system charna nahi pade? Agar han to banao yese hi aur verify bhi karo aur test bhi karo.
+
+Admin panel me ek aur option do Api ka, jisme api create kar sakun aur uss api se partner app request bhej sake aur reply me total task complete, total task create, total withdrawal jaye. Aur api me ye url open dena taki sirf wahi url se request backend accept kare. Aur yesa system banao jisse bar bar api request aane par bhi database par load na pade aur bar bar database se data na le.
+
+Promotion Task ke right side me create button do jispe click karne par https://t.me/owner_daaku?text={partner task message} jayega.
+
+App me bina kam ka data store nahi karo jese, profile image etc jo kam ka nahi ho.
+
+App me jo bar bar data read ho usme cashing lagao taki bar bar database se load na ho aur database par load na pade. Aur jo jo laga hona chahiye sabhi karo aur sab kuch internet se search karke lo aur jo jo karana ho sakta hai hack, database load etc ka solution deep me search karke lo.
+
+My task me delete ka bhi option do jisme delete karne par database se hi task delete ho jaye, Aur jis task me reminding hoga complition wo task ko delete karne par jitna % bacha hai utna reward user ko mil jaye aur admin panel me bhi  complete/runing/pause task ko admin delete kar sake aur resion bhi dal sake. Aur tasks me kisne create Kiya hai task uska userid bhi hoga.
+
+App me long press disable karo aur pc me right click bhi disable karo. Aur jahan jahan userid ya kuch important text hoga wahan wahan copy button (⧉) ho taki users ya admin copy kar sake.
+
+App fast banao isliye liye tum ye padho aur system design karo - https://github.com/mr-daaku/hosting/blob/main/AiroBitBot/improve.md
