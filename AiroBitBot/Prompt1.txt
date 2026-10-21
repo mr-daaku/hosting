@@ -1,0 +1,42 @@
+Bro ek telegram bot banao jiska name AiroBit hai aur Username AiroBitBot
+
+Isme 5 menu hoga- CREATE, Refer, HOME, ads wallet.
+
+App ke top senter me total user hoga aur uske niche top left me AiroBit likha hoga aur top right me USDT balance hoga (USDT coin ka logo hoga aur usdt balance $ me hoga jese - {icon} 1000$). Ye sabhi page me hoga.
+
+Home page - top par Daily task heading hoga jisme daily task hoga (daily check in, check updates (link set admin), watch 15 ads. Uske niche Promotion task hoga aur Promotion task heading ke right side me ek create task button hoga jispe click karne par create page Open hoga.
+
+Create page me user apna task create kar sakega aur 2 tabs hoga. Ek create task ka aur dusra MY TASK ka.
+
+Create task me user apna task create kar sakega aur usme Link dalna hoga aur system auto detect karega kya hai (bot hai ya channel hai ya group hai ya other), aur agar channel ya group hoga to ek extra option aayega check subscription ka, aur jab user check subscription ko on krega to create button ke gajah check admin aayega aur bot admin hone par task create kar sakega, aur Max complition ka input box hoga (link ke niche) jisme user kitna user lena hai wo dalega aur niche me create button me admin ke bad (sirf group ya channel me) pay {amount} & create ka button aayega aur payment karega aur task create ho jayega. Tast ka name telegram ke system se lega aur task me dalega.
+
+Refer page me referral link, total earn, referral list (latest 10 aur more). Aur refer reward me 10% task complete par referrer user ko milega aur per active user 0.015$ USDT milega. Active user tabhi hoga jab user 10+ task karega.
+
+Ads- isme user ads dekhke earn kar sake aur user ko ads dekhne ke bad 2 minutes ka wait karna pade. Aur ads me adsgram ka ads hoga. Aur daily ads limit 10 ho (defolt admin change kar sake).
+
+Wallet - isme balance card hoga usme Total USDT balance dikhayega, aur balance 2 tarah ka hoga ek deposit_usdt balance deposit karne se milega, aur ek withdrawal_usdt balance jo task karne se milega aur wo withdraw kar sakega user.
+
+Balance card ke niche 2 button hoga ek deposit ka dusra withdraw ka. Deposit me deposit method select karna pade (USDT, USDC aur GRAM, aur chain me BEP20 USDT aur USDC aur GRAM USDT).
+
+Withdraw me sirf USDT ( GRAM/TON chain)
+
+Admin panel me jo jo hona chahiye sab add karo. Aur sabhi ka cartogry by cartogry tabs banao aur usme bhi sub tabs hi taki aasani ho admin ko.
+
+Sara APIs admin panel me save kare jese nodereal api, TonCenter api etc. aur bot token BOT_TOKEN secret me add kar diya hun me. App ko yesa fask banao taki user ko accha experience ho aur wo use kare. Sara solutions internet se lo aur withdraw auto on aur off karne ka option ho aur max auto pay setting etc settings ho taki admin customize kr sake.
+
+Sabhi user ko ek HD wallet ka index milega taki sab ko ek unique addresses mile (jese exchange use karta hai), aur deposit page me check deposit button ho jispe click karne par tranjection check ho aur new deposit milne par user ke deposit_usdt balance me add kr dega aur Transection hash save kar lega taki ek hi deposit dobara na ho.
+
+HD WALLET 12 word admin panel me set karega admin.
+
+Gram aur gram USDT deposit check me ye method se scan hoga- https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/ton-scan.js
+
+BSC USDT aur BSC USDC tranjection check ke liye node real ka api use hoga aur ye method se hoga - https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/bsc-scan.js
+
+App me kahin bhi simple emoji use nahi hoga sabhi gajah svg use hoga. Aur navigation bottom me yese hoga -
+
+https://i.postimg.cc/6TxsC0LN/Screenshot-2026-10-21-11-29-08-80-74594bd74a0419242537a8d02ba17993.jpg
+ https://i.postimg.cc/QVZLcbgv/Screenshot-2026-10-21-11-29-26-80-74594bd74a0419242537a8d02ba17993.jpg
+
+Isme ek top-up aur withdraw aur navigation menu ka hai.
+
+admin IDs - 7932425811 aur 7206619137. aur payment paid channel add karega jispe paid karne par channel par post hoga, name, userid, amount, method, tx hash, bot username. payment post par emojis use karo text me.
