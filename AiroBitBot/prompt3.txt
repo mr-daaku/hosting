@@ -1,0 +1,7 @@
+Start Command dalne par ek welcome image add karo (text + image+ keyboard aayega) jo tum create karo. Aur Updates link me https://t.me/AeroBitNews fix ho aur database se nahi lo. Aur mini app URL https://airobit.lovable.app hoga.
+
+App thoda uper karo, quki wo bahut jyada niche aa gaya hai problem image - https://i.postimg.cc/jqf9p9zS/Screenshot-2026-10-22-16-00-03-91-74594bd74a0419242537a8d02ba17993.jpg
+
+Partner task ke backend me pahle admin json add karo, aur test me I'd fix 7206619137 ho, aur test karne par niche json reply aaye, aur admin ek json add kare jo ye diside kare konse value kitna hona chahiye, jisse reward confirm hoga. Aur tum banao aur ek test karo (yahi app me) aur pass hona chahiye. Aur frentent me jab image url dalta hai to home page me fit image nahi aata hai, yesa karo jitna bhi bada ho wo gole ke andar fit aana chahiye. sur banao aur mujhe ek partnet-task.md do jo me dusre app me bhi use kar sakun.
+
+Aur app me ADSGRAM_SECRET me kya dalun? Kya isme zone id dalun? Agar han to me dal diya hun. 
