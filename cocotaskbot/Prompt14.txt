@@ -1,0 +1,20 @@
+Mere client ne ye sab add karne ko bola hai aur image bhi diya hai isliye tum image dekho aur prompt me kya bol raha hai sab add karo-
+
+I. I can't see any details about who added these tasks, which is causing me a lot of confusion.
+Let me see that person's username or Telegram name or Telegram ID here.
+I. Problem Image - https://i.postimg.cc/T1dXcJ5w/IMG-20261025-010255-528.jpg
+
+Ii. Brother, show the TGID of the work who created here.
+
+Ii. Problem Image - https://i.postimg.cc/y8S2cbpj/IMG-20261025-010303-683.jpg
+
+Iii. Many users have joined here but why is it showing only 500?
+
+Iii. Problem image - https://i.postimg.cc/R0BpfVHS/IMG-20261025-010313-469.jpg
+
+Iv. There is an option to add coins. Give the option to subtract points.
+
+Iv. Problem image - https://i.postimg.cc/bNSmB2xH/IMG-20261025-010656-853.jpg
+
+aur app ka frentent change karo ye design bilkul accha nahi hai, ye image https://i.postimg.cc/bN62k6D4/Screenshot-2026-10-25-01-11-35-42-74594bd74a0419242537a8d02ba17993.jpg dekho aur yese hi best design ka app design karo, aur jahan jahan app full name 
+(MyTelegramTaskBot) name hai sabhi ko chhota karo taki screen me fit aa jaye, aur app ka font ek unique rakho jisse phone ke font jesa na ho jaye. aur app ka navigation https://i.postimg.cc/VN4ykbH2/Screenshot-2026-10-25-01-17-54-55-74594bd74a0419242537a8d02ba17993.jpg yesa karo design (colour apne app ka hoga)
