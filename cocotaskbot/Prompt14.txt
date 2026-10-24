@@ -18,3 +18,7 @@ Iv. Problem image - https://i.postimg.cc/bNSmB2xH/IMG-20261025-010656-853.jpg
 
 aur app ka frentent change karo ye design bilkul accha nahi hai, ye image https://i.postimg.cc/bN62k6D4/Screenshot-2026-10-25-01-11-35-42-74594bd74a0419242537a8d02ba17993.jpg dekho aur yese hi best design ka app design karo, aur jahan jahan app full name 
 (MyTelegramTaskBot) name hai sabhi ko chhota karo taki screen me fit aa jaye, aur app ka font ek unique rakho jisse phone ke font jesa na ho jaye. aur app ka navigation https://i.postimg.cc/VN4ykbH2/Screenshot-2026-10-25-01-17-54-55-74594bd74a0419242537a8d02ba17993.jpg yesa karo design (colour apne app ka hoga)
+
+app ko Full screen karo, telegram se full Scree ka request karo aur app ko full screen me shipt kro. agar app full screen me hoga to top par jo balance, title, cut button etc wo uper ho jayega isliye jitna bhi button hai sab ko thoda niche karo taki user ko problem na ho back karne me. aur tum sara solutions internet par search kar ke lo aur mujhe accha sa app do.
+
+design jese- https://i.postimg.cc/9FtHnStk/Screenshot-2026-10-25-01-23-41-60-74594bd74a0419242537a8d02ba17993.jpg (ye mene sirf demo diya hai tum apne hisab se design banao, aur app cross button aur minimize button aur 3 dot button telegram ke official buttons hai jo full screen me aata hai, isliye tum buttons ko thoda niche karo taki sabhi buttons click karne me aasani ho.
