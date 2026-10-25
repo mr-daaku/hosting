@@ -1,0 +1,13 @@
+App me app ka backend ka system pura hatao, me app ka idia cancel kar diya.
+
+Webapp me top par jab network issue hoga to batayega (green aur red me animation ke sath, ye tabhi aayega jab kuch jyada network issue hoga to)
+
+Jab user first time website open kare to local me 404, network problem yese kuch message screen save ho jayega (ho sake to image bhi banake dalo please) aur jab dobara Open karega to ye problem aane par screen dikhega. Aur location par frentent save ho jaye, jab user dobara website me aaye to fast load ho screens. Aur mujhe ek prompt dena jo me app builder ai se banwaga jisme direct mera website url hoga aur wo app website ka pura frentent save kar lega aur jab dobara aayega to fast load ho wahan bhi (jese amazon ke app me hota hai) aur urls support karo, login urls telegram me open ho aur sirf official url catch kare, dusra urls browser me open ho. App me kya kya system hona chahiye jisse app aur browser me connection bana rahe aur jese app hota hai wesa fast load etc sab kuch hona chahiye. Sara system internet pe search karke samjho aur Best method sabhi me lagao. Login page tabhi aaye jab website app me ya browser me open ho to, jab user telegram bot mini app me open kare to login ka page nahi aaye, direct login ho jaye. App aur browser me login page me accha sa login page banao aur jahan image lage wahan image lagao. Aur legal pages bhi do (jo bina login ke dikhe /legal/faq etc, aur app me se legal page jata do, aur ek button do ligel page jispe click karne par {url}/legal yese page open ho browser me.
+
+Website me browser me bhi open hone ka system lao aur usme login method telegram method ho, google aur GitHub method soon. Aur phone, desktop aur tabs ke liye sab ke liye banana, aur tum sabhi view me dekho aur verify karo kesa hoga. Tum desktop aur tabs ke liye accha sa design karo (phone view jesa best) aur faltu kuch nahi add karna aur sabhi page me smooth lage, page pahle Open ho jaye agar database se data load me jyada time Lage to.
+
+Security bahut lagao, aur admin panel initData se verify karo, aur jo jo hona chahiye jisse user fake payment ya script ya hack, atteck etc hone ka chance badhaye wo fix karo aur secure method se banao pura app.
+
+Aur payment method me QR yese - github.com/mr-daaku/hosting/blob/main/OminiLabBot/Screenshot%202026-10-25%20102050.png do, aur bich me app ka logo hona chahiye. QR thik work kar raha hai ya nahi sab kuch verify karo.
+
+Aur app me jahan design chahiye hoga wahan image do (beautiful sa).
