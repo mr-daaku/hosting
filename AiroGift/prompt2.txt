@@ -1,0 +1,11 @@
+Jab app open karta hun telegram bot ke mini app me to "This page didn't load
+Something went wrong on our end. You can try refreshing or head back home.
+
+Try again
+Go home" error aata hai, kya tum initData aur bot token se verify nahi karte ho? Agar nahi to please lagao.
+
+Jab bot me /start Command dalun to bot welcome message de aur welcome message + image + open app ( https://t.me/AiroGiftBot/Gift).
+
+Aur app logo ke background me balck colour hatao.
+
+Aur NFT page me admin nft add karega, na ki already hoga. Aur admin panel me NFT add karne ke liye contact address dalega aur list kar dega. User bhi apna NFTs sell kar sake. Jese - user sell > app system address received > verify> user creadit balance (GRAM) > done.
