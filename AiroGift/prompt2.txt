@@ -9,3 +9,5 @@ Jab bot me /start Command dalun to bot welcome message de aur welcome message + 
 Aur app logo ke background me balck colour hatao.
 
 Aur NFT page me admin nft add karega, na ki already hoga. Aur admin panel me NFT add karne ke liye contact address dalega aur list kar dega. User bhi apna NFTs sell kar sake. Jese - user sell > app system address received > verify> user creadit balance (GRAM) > done.
+
+deposit memo me AiroGift-{userid} ho. aur tumne jo 2 number me bola hai wo tum hi banao please, aur jese ho sake wese banao (kya tum id aur hash use karoge, agar han to please banao kese bhi karke)
