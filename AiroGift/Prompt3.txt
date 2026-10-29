@@ -3,3 +3,5 @@ App jab open karta hun to invalid session batata hai - https://i.postimg.cc/Nfdw
 Aur app ko full screen karo, telegram se request Full screen karo aur app ko full screen me customize karo.
 
 Aur gift verify ke liye koi aur tarika jisse ho jaye free me (no subscription, kya ye telegram login se nahi ho sakta - login backend me ho aur kam ho jaye. Koi tarika nikalo)
+
+aur /start Command me image nahi aa raha.
