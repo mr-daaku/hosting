@@ -49,4 +49,6 @@ App ke src\style.css me ye code add karo-
 
 app ko pura premium app banao jisse user attract ho.
 
+ha thik hai, me sara secrets add kar diya hai, ab tum prompt1.txt padho aur pura app banao ek bar me quki mere pass bahut credit hai (ye rule save kar lo ek bar me hi banane ka).
+
 note- database par jyada load nahi padna chahiye isliye tum yesa system design karo jisse jyada request database par nahi jaye aur kya tum cashing laga sakte ho? agar han to please yesa cashing lagao jisse database par load nahi pade ye mera sabse jyada problem hai.
