@@ -1,0 +1,39 @@
+Me ek telegram bot bana raha hun jisme gift, stars aur nft (ton chain) me trade hoga. App name AiroGift hai.
+
+App jese ye hoga - https://github.com/mr-daaku/hosting/tree/main/AiroGift/Example-screenshots
+
+Aur app/icon logo https://github.com/mr-daaku/hosting/blob/main/AiroGift/AiroGifticon.png
+
+App me friend, NFT, gifts, collection aur history navigation hoga. App app me kahin bhi emoji nahi hoga, sabhi gajah svg aur images use hoga.
+
+Friend me refer link referral list (top 10 hi dikhayega, aur load more me fir 10 aayega), total refer, active friend hoga.
+
+NFT me sabhi tarah ke nfts hoga aur sara catagory, range, coin etc hoga aur filters bhi hoga.
+
+Gift me giveaway hoga jisme reward me GRAM, USDT, STAR aur NFT hoga. Aur ek create button bhi hoga jisme user apna giveaway create kar sakega aur reward me GRAM, USDT, STAR aur NFT hoga, Aur ye sab reward deposit hona chahiye (matlab ye user ke account me hona chahiye). Aur reward me kitna user ko milega wo bhi hoga jese 1 winner, multiple users. Aur agar multiple users hoga to multiple amount/gifts/nft hona chahiye, jese kitna winner user (2-20), aur kisko kitna amount/gift/nft hoga, aur Rank-wise aur equal reward hoga (jisme konsa condition hona chahiye wesa ho, aur ye tum deep think karke banao).
+
+Giveaway me task me telegram channel/group/bot/other add kar sake multiple (max 4) aur channel/group me user ko admin dene bole aur check admin ka bhi button do jisse verification hoga admin diya hai ya nahi, aur check admin bot/other me nahi hoga, aur ek sabhi ke Giveaway me fix channel task @AiroGift channel hoga (official). Aur giveaway join karne ke liye ye task kare aur apna rank increase karne ke liye refer karna pade aur refer link https://t.me/AiroGiftBot/Gift?start=gvway_{giveaway_id} jese hoga, aur isme sabhi user join kar sake (agar bina referral link ke join kare to kisi ko refer nahi mile) aur niche me current kon list me hai wo bhi dikhao. Aur agar 2/2+ user ka same referral ho to usme se pahle wala koi top me aaye (ek se uper).
+
+Giveaway me icon/logo/gif NFT ka hoga.
+
+History me received, withdraw, deposit, win etc ka history hoga aur latest 10 hi load hoga (aur more button par click karne par aur 10 load hoga aur fir more).
+
+Collection me sara balance, nfts, gifts aur stars hoga. Aur withdraw ka bhi option hoga aur minimum withdrawal admin set karega (sabhi me). Aur ek connect GRAM wallet hoga jo wallet se connect hoga. Deposit button ho jisme GRAM, GIFT, NFTs ho. Aur chain se deposit karne ke liye https://github.com/mr-daaku/hosting/blob/main/AiroGift/nft-auto-verify.mjs ye method ka use karo aur isme sara value lo aur collection index ko chhor do.
+
+NFT jo chain se deposit karega:- wallet contact > wallet added > wallet address me jitna NFT hai sara load deposit page me > koi ek NFT select > real hai ya nahi > agar han to wallet open > deposit address + memo > deposit confirm on Blockchain > done.
+
+Aur jo nft telegram se deposit ho wo yese ho- telegram account login ( agar yesa ho sake to nahi to koi aur tarika. /admin login > number > secuss reply > otp > secuss reply> 2fa > secuss reply > done) > webhook call (/check-deposit/telegram -nft-gifts) > backend run > check deposits > agar new gift/NFT Mila > deposit confirm > verify > save tx hash (telegram gift me kuch alag ho sakta hai) > deposit done. Aur ek deposit dobara nahi deposit hona chahiye.
+
+Aur ye bhi dekh Lena ek bar - https://github.com/mr-daaku/hosting/blob/main/AiroGift/Gift%20%26%20NFT%20Deposit%20System%20-%20Build%20Spec%20for%20Lovable.md
+
+App me hard security lagao, ek deposit bar bar nahi creadit ho, multiple accounts referral no count etc security lagao jo hona chahiye aur tum ye sab kuch internet se search karke loge. Aur jitna kam karoge sab kuch ko internet par search karke banao. Aur admin panel sirf admin ko dikhe admin button, aur admin panel me sab kuch ho jisse admin control kar sake, aur tabs aur sub-tabs category by category do. Banane ke bad verify karo aur kuch chhuta ho to banao aur banane ke bad verify karo aur app me sabhi gajah image/gif use karo jisse app premium lagega. Ye kam 30 minutes ke andar nahi hona chahiye, me itna time tumhe isliye de raha hun jisse tumhe jyada time mile aur tum pura app bana sako, pura test kar sako, pura verify kar sako, kya kya hack hone ka sambhavna hai wo add kar sako, hack/script kam na kare, atteck sambhal le, app fast load ho, app/admin setting cash me ho taki instant load ho jaye, database se fast load ho (indexing) etc jo bade app me hote hai wo sab lagao aur pura verify karo. Aur admin id - 7206619137
+
+
+Admin panel me auto payment ka bhi system ho, aur star/NFT/gift auto pay system bhi ho
+
+App ke src\style.css me ye code add karo-
+
+#lovable-badge { display: none !important; }
+.safe-bottom {
+  padding-bottom: calc(max(env(safe-area-inset-bottom, 0px), var(--tg-safe-area-inset-bottom, 0px)) + 0.75rem);
+  }
