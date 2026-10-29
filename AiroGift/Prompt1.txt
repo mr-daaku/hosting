@@ -53,7 +53,7 @@ ha thik hai, me sara secrets add kar diya hai, ab tum prompt1.txt padho aur pura
 
 bro ye mobile error ko ignore Kiya karo, ye mera prompt me galati sechala jata hai.
 
-mere sara intjam kar liya hai jese BOT_TOKEN, TON_API, ACCOUNT_API_ID, ACCOUNT_HASH, TON_HOT_WALLET ye sab me save karo diya hun aur GRAM koi token nahi ye native coin ka ton chain ka aur jahan jahan jonse coin/token use hoga wahan wahan icon diya karo.
+mere sara intjam kar liya hai jese BOT_TOKEN, TON_API, ACCOUNT_API_ID, ACCOUNT_HASH, TON_HOT_WALLET, main admin id ADMIN_ID aur ADMIN_ID_2 me, ye sab me save karo diya hun aur GRAM koi token nahi ye native coin ka ton chain ka aur jahan jahan jonse coin/token use hoga wahan wahan icon diya karo.
 
 note - jab me prompt link dun tab tum instant kam start Kiya diya karo, mujhse start/suru jese sawal nahi puchna, quki me already accepted kar liya hun jab mene prompt diya to ye rule AGENT.md me save kar lo. aur jab me prompt2.txt yese single text bhejun to tum https://github.com/mr-daaku/hosting/blob/main/AiroGift/{text} samajhna.
 
