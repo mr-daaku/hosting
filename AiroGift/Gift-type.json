@@ -1,0 +1,348 @@
+{
+  "ok": true,
+  "result": {
+    "gifts": [
+      {
+        "id": "5170145012310081615",
+        "sticker": {
+          "width": 512,
+          "height": 512,
+          "emoji": "💝",
+          "set_name": "RestrictedEmoji",
+          "is_animated": true,
+          "is_video": false,
+          "type": "custom_emoji",
+          "custom_emoji_id": "5465263910414195580",
+          "thumbnail": {
+            "file_id": "AAMCAgADFQABauM5oz47QatGj1XbQcavA-b0PKwAAnwbAAKShNhL-K3EXM8imbUBAAdtAAM9BA",
+            "file_unique_id": "AQADfBsAApKE2Ety",
+            "file_size": 6244,
+            "width": 128,
+            "height": 128
+          },
+          "thumb": {
+            "file_id": "AAMCAgADFQABauM5oz47QatGj1XbQcavA-b0PKwAAnwbAAKShNhL-K3EXM8imbUBAAdtAAM9BA",
+            "file_unique_id": "AQADfBsAApKE2Ety",
+            "file_size": 6244,
+            "width": 128,
+            "height": 128
+          },
+          "file_id": "CAACAgIAAxUAAWrjOaM-O0GrRo9V20HGrwPm9DysAAJ8GwACkoTYS_itxFzPIpm1PQQ",
+          "file_unique_id": "AgADfBsAApKE2Es",
+          "file_size": 25528
+        },
+        "star_count": 15
+      },
+      {
+        "id": "5170233102089322756",
+        "sticker": {
+          "width": 512,
+          "height": 512,
+          "emoji": "🧸",
+          "set_name": "RestrictedEmoji",
+          "is_animated": true,
+          "is_video": false,
+          "type": "custom_emoji",
+          "custom_emoji_id": "5397915559037785261",
+          "thumbnail": {
+            "file_id": "AAMCAgADFQABauM5o80tr8tzb9vSk9Zbo9DUNHoAAq1UAAKaP-lKe8-QNC_-yK8BAAdtAAM9BA",
+            "file_unique_id": "AQADrVQAApo_6Upy",
+            "file_size": 5282,
+            "width": 128,
+            "height": 128
+          },
+          "thumb": {
+            "file_id": "AAMCAgADFQABauM5o80tr8tzb9vSk9Zbo9DUNHoAAq1UAAKaP-lKe8-QNC_-yK8BAAdtAAM9BA",
+            "file_unique_id": "AQADrVQAApo_6Upy",
+            "file_size": 5282,
+            "width": 128,
+            "height": 128
+          },
+          "file_id": "CAACAgIAAxUAAWrjOaPNLa_Lc2_b0pPWW6PQ1DR6AAKtVAACmj_pSnvPkDQv_sivPQQ",
+          "file_unique_id": "AgADrVQAApo_6Uo",
+          "file_size": 51240
+        },
+        "star_count": 15
+      },
+      {
+        "id": "5170250947678437525",
+        "sticker": {
+          "width": 512,
+          "height": 512,
+          "emoji": "🎁",
+          "set_name": "AnimatedAsianEmoji",
+          "is_animated": true,
+          "is_video": false,
+          "type": "custom_emoji",
+          "custom_emoji_id": "5203996991054432397",
+          "thumbnail": {
+            "file_id": "AAMCAgADFQABauM5o-aCGoCjh4-SUlnKPSUg5vsAAo1IAAKxTzhIy4HiB7tX_AYBAAdtAAM9BA",
+            "file_unique_id": "AQADjUgAArFPOEhy",
+            "file_size": 5010,
+            "width": 128,
+            "height": 128
+          },
+          "thumb": {
+            "file_id": "AAMCAgADFQABauM5o-aCGoCjh4-SUlnKPSUg5vsAAo1IAAKxTzhIy4HiB7tX_AYBAAdtAAM9BA",
+            "file_unique_id": "AQADjUgAArFPOEhy",
+            "file_size": 5010,
+            "width": 128,
+            "height": 128
+          },
+          "file_id": "CAACAgIAAxUAAWrjOaPmghqAo4ePklJZyj0lIOb7AAKNSAACsU84SMuB4ge7V_wGPQQ",
+          "file_unique_id": "AgADjUgAArFPOEg",
+          "file_size": 10199
+        },
+        "star_count": 25
+      },
+      {
+        "id": "5168103777563050263",
+        "sticker": {
+          "width": 512,
+          "height": 512,
+          "emoji": "🌹",
+          "set_name": "RestrictedEmoji",
+          "is_animated": true,
+          "is_video": false,
+          "type": "custom_emoji",
+          "custom_emoji_id": "5440911110838425969",
+          "thumbnail": {
+            "file_id": "AAMCAgADFQABauM5o3ASKi7xFJNOjkKZH4Ok_nIAAnEZAALU_4FL0JiZoC_vgoQBAAdtAAM9BA",
+            "file_unique_id": "AQADcRkAAtT_gUty",
+            "file_size": 4052,
+            "width": 128,
+            "height": 128
+          },
+          "thumb": {
+            "file_id": "AAMCAgADFQABauM5o3ASKi7xFJNOjkKZH4Ok_nIAAnEZAALU_4FL0JiZoC_vgoQBAAdtAAM9BA",
+            "file_unique_id": "AQADcRkAAtT_gUty",
+            "file_size": 4052,
+            "width": 128,
+            "height": 128
+          },
+          "file_id": "CAACAgIAAxUAAWrjOaNwEiou8RSTTo5CmR-DpP5yAAJxGQAC1P-BS9CYmaAv74KEPQQ",
+          "file_unique_id": "AgADcRkAAtT_gUs",
+          "file_size": 48324
+        },
+        "star_count": 25
+      },
+      {
+        "id": "5170144170496491616",
+        "sticker": {
+          "width": 512,
+          "height": 512,
+          "emoji": "🎂",
+          "set_name": "RestrictedEmoji",
+          "is_animated": true,
+          "is_video": false,
+          "type": "custom_emoji",
+          "custom_emoji_id": "5370999492914976897",
+          "thumbnail": {
+            "file_id": "AAMCAgADFQABauM5o4RH8hxq8U7ovjT2Fg85M7oAAoEYAAKVn4lKasZPmQFkUMYBAAdtAAM9BA",
+            "file_unique_id": "AQADgRgAApWfiUpy",
+            "file_size": 5168,
+            "width": 128,
+            "height": 128
+          },
+          "thumb": {
+            "file_id": "AAMCAgADFQABauM5o4RH8hxq8U7ovjT2Fg85M7oAAoEYAAKVn4lKasZPmQFkUMYBAAdtAAM9BA",
+            "file_unique_id": "AQADgRgAApWfiUpy",
+            "file_size": 5168,
+            "width": 128,
+            "height": 128
+          },
+          "file_id": "CAACAgIAAxUAAWrjOaOER_IcavFO6L409hYPOTO6AAKBGAAClZ-JSmrGT5kBZFDGPQQ",
+          "file_unique_id": "AgADgRgAApWfiUo",
+          "file_size": 19679
+        },
+        "star_count": 50
+      },
+      {
+        "id": "5170314324215857265",
+        "sticker": {
+          "width": 512,
+          "height": 512,
+          "emoji": "💐",
+          "set_name": "RestrictedEmoji",
+          "is_animated": true,
+          "is_video": false,
+          "type": "custom_emoji",
+          "custom_emoji_id": "5395347834314696158",
+          "thumbnail": {
+            "file_id": "AAMCAgADFQABauM5oykPbs4zH0UFXu96USMWsGMAAt4lAAJFIOBKyOYToBTPQ14BAAdtAAM9BA",
+            "file_unique_id": "AQAD3iUAAkUg4Epy",
+            "file_size": 6932,
+            "width": 128,
+            "height": 128
+          },
+          "thumb": {
+            "file_id": "AAMCAgADFQABauM5oykPbs4zH0UFXu96USMWsGMAAt4lAAJFIOBKyOYToBTPQ14BAAdtAAM9BA",
+            "file_unique_id": "AQAD3iUAAkUg4Epy",
+            "file_size": 6932,
+            "width": 128,
+            "height": 128
+          },
+          "file_id": "CAACAgIAAxUAAWrjOaMpD27OMx9FBV7velEjFrBjAALeJQACRSDgSsjmE6AUz0NePQQ",
+          "file_unique_id": "AgAD3iUAAkUg4Eo",
+          "file_size": 48433
+        },
+        "star_count": 50
+      },
+      {
+        "id": "5170564780938756245",
+        "sticker": {
+          "width": 512,
+          "height": 512,
+          "emoji": "🚀",
+          "set_name": "RestrictedEmoji",
+          "is_animated": true,
+          "is_video": false,
+          "type": "custom_emoji",
+          "custom_emoji_id": "5445284980978621387",
+          "thumbnail": {
+            "file_id": "AAMCAgADFQABauM5o6xKHuZM-qy7ub8m8ixrSN8AAssbAALXiZFLO-sw18X3QM8BAAdtAAM9BA",
+            "file_unique_id": "AQADyxsAAteJkUty",
+            "file_size": 5538,
+            "width": 128,
+            "height": 128
+          },
+          "thumb": {
+            "file_id": "AAMCAgADFQABauM5o6xKHuZM-qy7ub8m8ixrSN8AAssbAALXiZFLO-sw18X3QM8BAAdtAAM9BA",
+            "file_unique_id": "AQADyxsAAteJkUty",
+            "file_size": 5538,
+            "width": 128,
+            "height": 128
+          },
+          "file_id": "CAACAgIAAxUAAWrjOaOsSh7mTPqsu7m_JvIsa0jfAALLGwAC14mRSzvrMNfF90DPPQQ",
+          "file_unique_id": "AgADyxsAAteJkUs",
+          "file_size": 55268
+        },
+        "star_count": 50
+      },
+      {
+        "id": "5168043875654172773",
+        "sticker": {
+          "width": 512,
+          "height": 512,
+          "emoji": "🏆",
+          "set_name": "RestrictedEmoji",
+          "is_animated": true,
+          "is_video": false,
+          "type": "custom_emoji",
+          "custom_emoji_id": "5409008750893734809",
+          "thumbnail": {
+            "file_id": "AAMCAgADFQABauM5oxpz83vP5axEC1j27xSllLAAApkbAALNqBBLfxHqLOQXz30BAAdtAAM9BA",
+            "file_unique_id": "AQADmRsAAs2oEEty",
+            "file_size": 4546,
+            "width": 128,
+            "height": 128
+          },
+          "thumb": {
+            "file_id": "AAMCAgADFQABauM5oxpz83vP5axEC1j27xSllLAAApkbAALNqBBLfxHqLOQXz30BAAdtAAM9BA",
+            "file_unique_id": "AQADmRsAAs2oEEty",
+            "file_size": 4546,
+            "width": 128,
+            "height": 128
+          },
+          "file_id": "CAACAgIAAxUAAWrjOaMac_N7z-WsRAtY9u8UpZSwAAKZGwACzagQS38R6izkF899PQQ",
+          "file_unique_id": "AgADmRsAAs2oEEs",
+          "file_size": 60319
+        },
+        "star_count": 100
+      },
+      {
+        "id": "5170690322832818290",
+        "sticker": {
+          "width": 512,
+          "height": 512,
+          "emoji": "💍",
+          "set_name": "RestrictedEmoji",
+          "is_animated": true,
+          "is_video": false,
+          "type": "custom_emoji",
+          "custom_emoji_id": "5402100905883488232",
+          "thumbnail": {
+            "file_id": "AAMCAgADFQABauM5o98WPs2tUDW2YM7gbk2bJQkAAuhPAAInHvhKzU02fui-aJ4BAAdtAAM9BA",
+            "file_unique_id": "AQAD6E8AAice-Epy",
+            "file_size": 4672,
+            "width": 128,
+            "height": 128
+          },
+          "thumb": {
+            "file_id": "AAMCAgADFQABauM5o98WPs2tUDW2YM7gbk2bJQkAAuhPAAInHvhKzU02fui-aJ4BAAdtAAM9BA",
+            "file_unique_id": "AQAD6E8AAice-Epy",
+            "file_size": 4672,
+            "width": 128,
+            "height": 128
+          },
+          "file_id": "CAACAgIAAxUAAWrjOaPfFj7NrVA1tmDO4G5NmyUJAALoTwACJx74Ss1NNn7ovmiePQQ",
+          "file_unique_id": "AgAD6E8AAice-Eo",
+          "file_size": 61230
+        },
+        "star_count": 100
+      },
+      {
+        "id": "5170521118301225164",
+        "sticker": {
+          "width": 512,
+          "height": 512,
+          "emoji": "💎",
+          "set_name": "RestrictedEmoji",
+          "is_animated": true,
+          "is_video": false,
+          "type": "custom_emoji",
+          "custom_emoji_id": "5471952986970267163",
+          "thumbnail": {
+            "file_id": "AAMCAgADFQABauM5ozXaluApntnqRhNeyXnk_XMAAhseAAJASPBLpcpf44raTUwBAAdtAAM9BA",
+            "file_unique_id": "AQADGx4AAkBI8Ety",
+            "file_size": 3784,
+            "width": 128,
+            "height": 128
+          },
+          "thumb": {
+            "file_id": "AAMCAgADFQABauM5ozXaluApntnqRhNeyXnk_XMAAhseAAJASPBLpcpf44raTUwBAAdtAAM9BA",
+            "file_unique_id": "AQADGx4AAkBI8Ety",
+            "file_size": 3784,
+            "width": 128,
+            "height": 128
+          },
+          "file_id": "CAACAgIAAxUAAWrjOaM12pbgKZ7Z6kYTXsl55P1zAAIbHgACQEjwS6XKX-OK2k1MPQQ",
+          "file_unique_id": "AgADGx4AAkBI8Es",
+          "file_size": 47932
+        },
+        "star_count": 100
+      },
+      {
+        "id": "6028601630662853006",
+        "sticker": {
+          "width": 512,
+          "height": 512,
+          "emoji": "🍾",
+          "set_name": "RestrictedEmoji",
+          "is_animated": true,
+          "is_video": false,
+          "type": "custom_emoji",
+          "custom_emoji_id": "5370900768796711127",
+          "thumbnail": {
+            "file_id": "AAMCAgADFQABauM5oy7oE_frmgvWN3cyvPP1fQ4AAtcYAALLRYlKophDty4jBokBAAdtAAM9BA",
+            "file_unique_id": "AQAD1xgAAstFiUpy",
+            "file_size": 3542,
+            "width": 128,
+            "height": 128
+          },
+          "thumb": {
+            "file_id": "AAMCAgADFQABauM5oy7oE_frmgvWN3cyvPP1fQ4AAtcYAALLRYlKophDty4jBokBAAdtAAM9BA",
+            "file_unique_id": "AQAD1xgAAstFiUpy",
+            "file_size": 3542,
+            "width": 128,
+            "height": 128
+          },
+          "file_id": "CAACAgIAAxUAAWrjOaMu6BP365oL1jd3Mrzz9X0OAALXGAACy0WJSqKYQ7cuIwaJPQQ",
+          "file_unique_id": "AgAD1xgAAstFiUo",
+          "file_size": 42245
+        },
+        "star_count": 50
+      }
+    ]
+  }
+}
