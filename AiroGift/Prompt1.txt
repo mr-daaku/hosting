@@ -8,6 +8,15 @@ App me friend, NFT, gifts, collection aur history navigation hoga. App app me ka
 
 Friend me refer link referral list (top 10 hi dikhayega, aur load more me fir 10 aayega), total refer, active friend hoga.
 
+refer reward me ye reward karo jo user ko milega aur admin change bhi kar sakega aur add bhi kar sakega.
+
+10 invite 15 star gift (gift icon dena)
+20 invite 25 star gift
+35 invite 25+15 star
+50 invite 50 star gift
+100 invite 100 star gift
+more admin add karega, auto pay me sara system dena taki admin control kar sake jese- max auto pay, max auto pay per user, max amount/gift auto pay per user etc system hoga.
+
 NFT me sabhi tarah ke nfts hoga aur sara catagory, range, coin etc hoga aur filters bhi hoga.
 
 Gift me giveaway hoga jisme reward me GRAM, USDT, STAR aur NFT hoga. Aur ek create button bhi hoga jisme user apna giveaway create kar sakega aur reward me GRAM, USDT, STAR aur NFT hoga, Aur ye sab reward deposit hona chahiye (matlab ye user ke account me hona chahiye). Aur reward me kitna user ko milega wo bhi hoga jese 1 winner, multiple users. Aur agar multiple users hoga to multiple amount/gifts/nft hona chahiye, jese kitna winner user (2-20), aur kisko kitna amount/gift/nft hoga, aur Rank-wise aur equal reward hoga (jisme konsa condition hona chahiye wesa ho, aur ye tum deep think karke banao).
@@ -37,3 +46,7 @@ App ke src\style.css me ye code add karo-
 .safe-bottom {
   padding-bottom: calc(max(env(safe-area-inset-bottom, 0px), var(--tg-safe-area-inset-bottom, 0px)) + 0.75rem);
   }
+
+app ko pura premium app banao jisse user attract ho.
+
+note- database par jyada load nahi padna chahiye isliye tum yesa system design karo jisse jyada request database par nahi jaye aur kya tum cashing laga sakte ho? agar han to please yesa cashing lagao jisse database par load nahi pade ye mera sabse jyada problem hai.
