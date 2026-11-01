@@ -1,0 +1,7 @@
+Payment post channel ka fircher add karo jisme admin payment post channel ka username set karega aur usme payment hone par post ho jayega aur usme name, I'd, amount, withdraw method, tx hash link ka button aur bot open ka button.
+
+Aur bot me bhi payment ka notification me tx hash link bhi do. Aur Gram ka price live convert karo aur uske liye ye method use karo - https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/price-ficher.js aur ye data database me save nahi hoga.
+
+Aur coin ka icon USDT ka icon nahi hai, uske liye tum ek new icon genrate karo.
+
+Aur daily task me check payment ka bhi task do jisme payment channel open hoga. (Agar set hoga to).
