@@ -1,0 +1,11 @@
+Check in, Withdraw kare to ads dikhe adsgram ka. Daily task me se watch 10 ads ka daily task hata do aur database ke table bhi hata do.
+
+W5 address nahi mil raha hai tum test karo aur ye same address milna chahiye UQDpYlrz47eMpyI3106kawUGBm0DGj0hgDPew2tJncJ25c24 aur wahi id lagao, wallet I'd sayad 0x73696e74 ho sakta hai, aur wallet index 0 use karo sayad ho jayega.
+
+Ads navigation ka hatao aur uske gajah mining do jisme Star karne par ads run hoga (adsgram) aur mining 4 ghante tak chalega aur defolt 4 ghante me 200 coin milega jo convert hoga USDT me. Aur rate admin set karega aur 4 ghante me Milne wala reward bhi admin set kare.
+
+Partner task create ke liye app me hi system do jisme ek page aaye aur message bot ke help se admin ko jaye aur admin reply kar sake alag alag user ko, aur bot ke help se message jaye database me data save na ho.
+
+Jab withdraw karne jata hai to "❌ Auto payout failed
+c7cf3b1c-b85b-4a63-9d11-48a86e533058
+Request failed with status code 500" error aata hai aur admin panel me bhi auto pay button par click karne par yahi error aata hai. Fix karo aur test karo taki me auto payment ho sake. Sayad ye Balance na hone ke bajah se ho raha hai, tum index 0 use karo aur balance bhi dikhao admin panel me aur /helth command add karo jisse heltha pata chal sake.
