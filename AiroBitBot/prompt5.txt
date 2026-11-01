@@ -1,0 +1,15 @@
+admin panel ke ads me ads netword setting do jise modetab only, adsgram only aur both hoga.
+
+sdk- <script src='//libtl.com/sdk.js' data-zone='12165176' data-sdk='show_12165176'></script>
+
+aur ads show demo.
+
+// Rewarded interstitial
+
+show_12165176().then(() => {
+    // You need to add your user reward function here, which will be executed after the user watches the ad.
+    // For more details, please refer to the detailed instructions.
+    alert('You have seen an ad!');
+})
+
+        
