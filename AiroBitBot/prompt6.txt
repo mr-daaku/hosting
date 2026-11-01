@@ -1,0 +1,1 @@
+app ka sara settings cashe me rakho taki bar bar database se nahi le aur jo bar bar load ho aur wo command data ho wo database se nahi wo cashe se aaye taki database se load na ho aur database crash na ho. app me yesa system banao jisme database se jyada load na ho (jo hona chahiye wo ho).
