@@ -3,3 +3,4 @@ bro ye new bot hai aur isme pura change hoga aur kahin bhi pichle bot ka data na
 sara defolt settings set karo database me, aur app name AiroBit se CheapBit karo aur username CheapBit_Bot karo. deposit me sirf gram aur gram usdt hoga, other deposit method hata do. aur NODEREAL_API_KEY aur HD_MNEMONIC ko hata do secret se, quki iska kam nahi hai. aur app ka logo, coin ka logo, app file me sab kuch, app ka pura design change karo jisse copy bot nahi lage aur jo jo change hona chahiye sab kuch change karo aur change ke bad verify karo aur text bhi karo sab kuch. aur admin ids me 6611892933 aur 7206619137 rakho.
 
 aur ab https://github.com/mr-daaku/hosting/edit/main/CheapBitBot/{promptfile} yese prompt jayega.
+bot aur app sab kuch chalna chahiye.
