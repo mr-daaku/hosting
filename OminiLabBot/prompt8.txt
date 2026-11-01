@@ -1,0 +1,1 @@
+app ka database se replay nahi aa raha hai, app me yesa kya hai jisse database ka creadit jaldi khatab ho jata hai? browser login me login ke niche check login ka button do taki bar bar database par call nahi kare, aur expire sesion delete kar de system. aur faltu datas delet kar de system.
