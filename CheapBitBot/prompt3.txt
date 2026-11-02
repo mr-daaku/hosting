@@ -1,0 +1,5 @@
+Create aur refer navigation me bich me Reward navigation add karo jisme ads task hoga (jese home me hai), aur ek watch button hoga jispe click karne par ads run hoga aur ads ka reward milega. Task jesa hoga par ye sirf ads task hoga aur 30 second ke bad hi dusra ads dekh sake. Kya tum samjhe? Agar han to pura banao. Aur ads zone me -
+
+<script src='//libtl.com/sdk.js' data-zone='12175214' data-sdk='show_12175214'></script>
+
+Use karo aur ye save database me nahi karo, ye backend/frentent me hi laga do jisse database ko jarurat nahi padega.
