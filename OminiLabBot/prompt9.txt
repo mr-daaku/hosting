@@ -1,0 +1,1 @@
+login method me Github bhi add karo aur GitHub ke official app key liya hun aur GITHUB_CLIENT_SECRET me clint secret aur id GITHUB_CLIENT_ID me rakha hun, isliye tum GitHub method lao aur id (telegram id) me email dena aur name official se lo (github se). aur me urls me https://ominilab.lovable.app/ aur https://ominilab.lovable.app/auth/github/callback add kar diya hai.
