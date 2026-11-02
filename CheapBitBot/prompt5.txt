@@ -1,0 +1,1 @@
+mene bot token change kiya aur secret me save kar diya, ab tum app ko deploy karo taki new bot token connect ho jaye.
