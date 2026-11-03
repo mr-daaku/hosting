@@ -1,1 +1,35 @@
-xStris - 
+xStris - Me ek telegram wallet bot bana raha hun jiska name xStris hai aur username xStrisBot hai, aur official channel Username xStris fix hai.
+
+Supported chains - BSC, ETH, TRON, SOL, TON (native coin name GRAM) aur BTC hoga.
+
+App me ek main HD_INDEX_WALLET hoga jisme se sabhi user ko ek ek index milega jisse ek unique addres banega (sabhi chain ke liye). Jese exchange me unique address deta hai wese hi xStris wallet me hoga.
+
+Ye telegram bot aur mini app me bhi kam karega, isliye bot aur mini app dono banega.
+
+Deposit scan free aur paid api se hoga jese-
+
+bsc, eth, sol, TRX, BTC jese chain ke liye ALCHEMY_API_KEY API ka use hoga aur TON chain ke liye free v2/v3 public api use hoga.
+
+ALCHEMY_API_KEY aur TONCENTER_API_KEY secret me save hoga.
+
+TONCENTER API ka use TON chain ke coins aur JETTON (TOKENS) withdraw me liye hoga.
+
+App me bot account no entry, script user ban etc jisse app me attack ya scam ho sakta hai wo sab ka dhiyan rakho aur sabhi solution internet se lo aur mene kuch solution ye file me dala hai tum ye read kar lo aur sabhi security lagao. Security prompt link - https://github.com/mr-daaku/hosting/blob/main/xStris/telegram_wallet_security_performance_spec.md
+
+Note- tum bhi socho aur kya kya problem ho sakta hai wo sab ka list banao aur sab ko ek ek karke protect karo.
+
+App ka navigation - https://i.postimg.cc/QVZLcbgv/Screenshot-2026-10-21-11-29-26-80-74594bd74a0419242537a8d02ba17993.jpg yesa hoga.
+
+Withdraw ek main address se hoga jo xStris ka official wallet se jayega (same to same exchange jesa banana hai). Aur trade me yesa system do jisme user koi coin ko buy kare to official wallet me buy ho aur trade karke profit le to profit bhi official wallet me ho, aur jab withdraw kare to withdraw wallet se aaye.
+
+Me app me crypto bot ka copy karna chahta hun design isliye tum ye folder dekho aur wesa hi banao- https://github.com/mr-daaku/hosting/tree/main/xStris/CryptoBotDesign
+
+Bot token listing ka system do, aur listen fix (codebase me) USDT AUR USDC (BSC, ETH, GRAM {TON}, TRON, SOL, opBNB chain me), native coin BNB, opBNB, ETH, TRX, BTC, GRAM ho. Deposit verify contact address se karo taki user fake token deposit nahi kare. aur TON chain ka bhi token listed ho jese DOG, NOT etc jo popluar ho.
+
+Kya tum backend me GOLANG (GO) use kar sakte ho? Agar han to please backed me GOLANG use karo. Aur yesa system design karo jisse jyada load na pade database par, fask load, fast api response, fast price convert, fast withdraw, fask deposit etc sab kuch fast ho.
+
+BOT aur app me check create, invoice create, deposit, withdraw, swap, giveaway ho.
+
+Jahan design karna ho waha image create karke set kar dena, aur wo related ho jese swap, withdraw, deposit, invoice, giveaway etc. app pura UTC time par kam karega.
+
+withdraw ke liye WITHDRAW_WALLET ke secret word use karoge. BOT_TOKEN me bot token hai jisse initData se verify karoge aur bot me wallet doge (jese cryptobot hai wesa, same to same banao). wallet hack nahi hona chahiye aur koi api leak nahi hona chahiye. pura hard code karo aur tum khud app par atteck karo karo taki problem mile aur tum use fix kar sako. tum pura internet par search karo aur pura system par atteck karo aur kamjori ko fill karo. tum ye 1 Ghante tak alag alag resarch karo aur pata karo aur ek system banao accha sa. tumhe me 2 ghante deta hun, tum ek ghante tak pahle research karo fir tum 30 minute banao aur fir 30 minute atteck karo aur bug ya kamjori milne par fir secure karo.
