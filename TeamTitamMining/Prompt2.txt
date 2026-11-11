@@ -1,0 +1,32 @@
+App ka background pura black karo aur linke line jo hai wo hatao mining page se.
+
+Jab app open hota hai to loading animation me sirf logo aur uske charo aur ek animation ghumega, na ki blink blink hoga background me, perfect gole me hoga logo.
+
+Buy page me real price convert karke do aur usme dikhao kitna GRAM swap karne se kitna TITM milega. Aur minimum 0.1 GRAM swap ho.
+
+Language change button home page ke lv button ke left side me do. Aur telegram mini app ka back button app me kam nahi kar raha hai, fix karo.
+
+Jab new user app open kare to user ko hint do taki wo wallet connect kare aur mining start ho.
+
+Sabhi images me coin/token logo alag hai, tum real logo ka use karo - https://team-titam.pages.dev/logo.png
+
+Jese /start command ke image me, channel posts me. Channel me accha sa photo banao aur fir se post karo. Aur post/reply me bold, quote, spoiler etc use karo jisse app accha lage.
+
+Jab user refer page me refer link Share button par click karke share karega to wo telegram bot token ke help se ye wala message send hoga, image + text + button ke sath- https://i.postimg.cc/cLY61M3G/Screenshot-20261111-152149.jpg
+
+App ka navigation - https://i.postimg.cc/QVZLcbgv/Screenshot-2026-10-21-11-29-26-80-74594bd74a0419242537a8d02ba17993.jpg yesa hoga Curb type ka, par colour yesa hi hoga jese abhi hai.
+
+scr\style.css me ye code add karo -
+
+#lovable-badge { display: none !important; }
+.safe-bottom {
+  padding-bottom: calc(max(env(safe-area-inset-bottom, 0px), var(--tg-safe-area-inset-bottom, 0px)) + 0.75rem);
+}
+
+App ke top center par jo TeamTitam likha hai white aur blue me, use red aur blue karo. Aur home page me jo mining coin logo jo uper niche move kar raha hai use fix rakho.
+
+App ka minin Speed 25% kam karo sabhi me.
+
+Withdrawal locked me jo task complete nahi hua hoga uske aage ek complete button hoga jisse direct open hoga.
+
+Withdraw request send, withdrawal paid, refer received etc jese activity hone par bot ke help se user ko message jaye. Aur app me sabhi fail/success ka message pop-up me do aur beautiful message me do taki user attracted ho.
