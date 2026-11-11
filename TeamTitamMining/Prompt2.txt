@@ -30,3 +30,5 @@ App ka minin Speed 25% kam karo sabhi me.
 Withdrawal locked me jo task complete nahi hua hoga uske aage ek complete button hoga jisse direct open hoga.
 
 Withdraw request send, withdrawal paid, refer received etc jese activity hone par bot ke help se user ko message jaye. Aur app me sabhi fail/success ka message pop-up me do aur beautiful message me do taki user attracted ho.
+
+aur jab me claudflare pages par host kiya to page me kuch nahi aa raha hai, https://teamtitam.pages.dev/ domin hai.
