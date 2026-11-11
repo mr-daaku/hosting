@@ -74,3 +74,7 @@ Channel check ho join hai ya nahi aur bot ko admin de diya hai channel me
 Aur database me ye save nahi karna, aur ye daily task me fix hoga, aur daily check in 100 TITM, 150, 200, 300, 400, 500, 700 ho.
 
 App me multiple languages do, aur konse language ka telegram account hoga usi language ka app defolt open ho.
+
+app banane ke bad tum channel par post karo kese buy karega aur jo jaruri ho wo, aur tum channel par post image aur emojis ke sath karo taki accha lage.
+
+aur me code ko GitHub par push karke Claudflare pages par deploy karunga isliye tum uska requirement sab dekh lena aur wesa banana okey.
