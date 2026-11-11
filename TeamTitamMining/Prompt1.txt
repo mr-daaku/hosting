@@ -1,1 +1,76 @@
+Note- promot me mobile error type ka kuch jayega, isliye tum mobile error ko ignore karoge. Aur pura app ek bar me banao quki mere pass bahut sara creadit hai, na mujhse confirm karo, quki me pahle hi confirm hun isliye tum direct banana start diya karo jab me prompt ka link dun to.
 
+TeamTitam App- Ek app banao jisme mining(home), buy, task, refer aur wallet navigation bar hoga, app name TeamTitam hoga aur token name TITM hai.
+
+App ko full screen request karo telegram se aur full screen me app rakho.
+
+App design black, white, blue aur red hoga.
+
+Coin metadata -
+
+CA- EQAapiyJbDXAN4wwUemSXY-5rp4N8mTFMRHGNzgeSDhhj2xj
+
+{
+  "address": "0:1aa62c896c35c0378c3051e9925d8fb9ae9e0df264c53111c637381e4838618f",
+  "name": "Team Titam",
+  "symbol": "TITM",
+  "decimals": "9",
+  "image": "https://team-titam.pages.dev/logo.png",
+  "description": "Team Titam official token on TON."
+}
+
+Home page me mining ho raha hoga, aur upgrade ka button hoga jispe click karne par buy page par le jayega aur defolt amount 1 GRAM ka hoga aur swap hoga jo STON.fi par bhej dega.
+
+Home page jese - https://github.com/mr-daaku/hosting/blob/main/TeamTitamMining/Screenshota/Screenshot_20261111_063136.jpg
+
+
+Aur uske bhi niche ek "My Level" button ho, jispe click karne par new page open ho aur usme level dikhe, jese new user aapne par daily 1000 mile (lv 1), lv 2. 1250, lv 3. 1500 etc hoga. Aur Vertical Level Map aaye beautiful sa.
+
+Jab new user aayega to use user ko ton wallet connect kare fir mining start ho, aur verify karne par referrer user ko 750 TITM mile.
+
+App me kahin bhi simple emoji use klnahi karo, sabhi gajah svgs use karo aur navigation me text nahi dena.
+
+Buy page me amount dale (GRAM me) aur pool ke liye STON.fi par bhej de. Defolt 5 GRAM select ho.
+
+Jese isme amount 0.08 GRAM hai- https://app.ston.fi/swap?chartVisible=false&ft=GRAM&tt=EQAapiyJbDXAN4wwUemSXY-5rp4N8mTFMRHGNzgeSDhhj2xj&fa=%220.08%22
+
+Task page me tasks hoga, jese daily, one time etc types. Aur task admin create kar sake aur delete aur pause bhi ho.
+
+Refer me total refer, total refer earn, unclaimed ho. Aur refer link t.me/TeamTitamMiningBot?start=r_{userid} ho.
+
+Per refer 750 TITM mile aur 10% claim bonus. 750 TITM tabhi referrer user ko mile jab joined user wallet ko verify karega tab.
+
+Wallet me on chain balance, app balance aur Total balance (app + on Chain balance), withdrawal ke liye withdrawal unlock karna pade aur withdrawal unlock karne ke liye 3+ task, 1+ refer, 300+ TITM on chain ho (ye sab defolt ho, admin change kar sake. Aur hata bhi sake koi bhi ya sab), minimum withdrawal 10K
+
+App ke top - center me TeamTitam likha ho.
+
+Admin panel me sab kuch ho jisse admin app ko pura control kar sake jese - dashboard, users (isme user ka I'd/username dalke uske account me kuch bhi kar sakta hai jese ban/unban, add/remove app balance, all details etc ho), tasks (isme 2 subtab ho, ek create, dusra created, create me create kar sake, aur created me edit, pause aur delete), withdrawal (isme 2 tab ho, ek pending aur dusra done. Pending me sabhi pending withdrawals hoga aur usme auto pay, mark paid, reject, reject + refund ho. Done me paid/reject withdrawal requests hoga + tx hash link.) etc system hoga, tab ke andar subtab hoga jisme category se dekhoge. Aur pura system scan karo aur sabhi ka control admin panel me do sub tab bhi use karo.
+
+App security - app me script user ban, verify initData, atteck sambhale, hack na ho, fake account not allowed etc ho jo jo se app me problem aa sakta hai wo sab internet par search Karo aur problem na ho fix kar dena.
+
+App fast ho, database fast load ho, /start command fast reply de, frontend local me save ho jaye taki dobara load karne par fast load ho, multiple withdrawal na ho, multiple deposit na ho, har ek action button par success hone tak loading button ho taki bar bar click na kare user, fake request not allowed etc system lagao taki hack ha koi aur problem nanho.
+
+Deposit scan https://github.com/mr-daaku/hosting/blob/main/OminiAiBot/ton-scan.js ye method se karoge (isme api nahi lagta, tum apne terminal par test kar lena fir lagana app me, aur lagane ke bad bhi test karna app me), admin panel security, multiple admin setup (1 owner) etc check Karo internet par aur sab kuch fix karo
+
+
+Withdraw me auto ho ya manual sab channel par post hoga. Aur har bar channel username database se nahi lo, wo cash se lo taki database par load na pade. Payment Channel par image + details + tx hash link button + open app link button hoga. Details me Name, user ID, amount etc.
+
+Note- app ka settings sab kuch cashing se lo aur yesa system banao jisme database par load na pade.
+
+Mene owner I'd ADMIN_ID me save kar diya hai, TON_CENTER_API ka api bhi save Kiya hai auto pay ke liye, BOT_TOKEN bhi add Kiya hai refer system aur /start command ke liye.
+
+Mini app link http://t.me/TeamTitamMiningBot/Titam hai.
+
+MNEMONIC_PHRASE me wallet ka secret hoga, aur v4r2 use hoga. Address same  isse milna chahiye.
+
+Bot me /start command dalne par welcome message + welcome image + open app button + check update + payment Channel button aayega aur ye sab code me fix dena, na ki database me save karna-
+
+Update - https://t.me/TeamTitamNews
+Payment - https://t.me/TeamTitamPay
+
+Channel check ho join hai ya nahi aur bot ko admin de diya hai channel me
+
+
+Aur database me ye save nahi karna, aur ye daily task me fix hoga, aur daily check in 100 TITM, 150, 200, 300, 400, 500, 700 ho.
+
+App me multiple languages do, aur konse language ka telegram account hoga usi language ka app defolt open ho.
