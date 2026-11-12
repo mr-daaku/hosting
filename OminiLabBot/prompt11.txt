@@ -1,0 +1,4 @@
+1. Jab me apk app me google ya GitHub select karta hun to ye error aata hai"Finish login in the browser, then come back here (or tap Check login)." Que? Fix karo, kya ye app ki galti hai ya browser website ka. Aur ye hona chahiye Jab login jo auto browser open ho aur login ke bad auto app me back ho jaye. Check login bhi wahi kam kare.
+2. jab webapp ko app me use karun to webapp thoda niche ho, quki app me thoda screen uper chala jata hai, isliye thoda niche ho.
+3. jab already frentent save ho local par to fir se load ho jaye new wala jab user app use kar raha ho tab, taki new updates aane par agle bar se aa jaye.
+4. jab ek page se dusre page me jata hai to bich me 404 error ka page dikhta hai 0.5-1 secound, ise fix karo.
