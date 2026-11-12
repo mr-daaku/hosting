@@ -9,4 +9,7 @@
 9. desktop mode me navigation ke righ side aur pc/laptop ke right side se left side me bahut jyada gap hai isliye uss gape ko sirf 50px rakho aur bache me products rakho (home aur explore me sirf), sayad abhi 3 hote hai isliye 5 rakho (size itna hi rakho jitna abhi hai).
 10. desktop mode me home page me jo Banners hai use chhota karo aur avlable na hone par frentent system ka banners dikhe jese - discover, free product (filter applay ho ke discover page open ho) 3-4 etc ho.
 11. jab koi products create hota hai to wo products images aur details wo aur open view product ka inline button wo sab ek sath hi aaye jabki abhi 2 alag alag me aata hai.
-12. 
+12. app me se legal page hatao aur sirf legal page in browser rakho sirf.
+13. product ke descaption me markdown aur html dono allow ho.
+14. jab login karne ke liye github method se login karta hai aur browser open hota hai aur login ke bad browser me hi login ho jata hai, app me aata hi nahi hai login, fix karo aur kuch change karna hai to mujhe ek prompt do jise me ai ko deke apk app me change/add kar dunga, aur jab browser me website open ho aur browser mobile me ho to frentent ka script run ho aur app install hone par browser app ko request kar do aur app me open ho jaye.
+15. login method me google method bhi add karo aur secrets GOODLE_WEB_CLIENT_ID aur GOODLE_WEB_CLIENT_SECRET me hai.
