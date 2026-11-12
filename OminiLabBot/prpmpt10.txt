@@ -1,0 +1,12 @@
+1. jab ek page/navigation se dusre page me jaye to page me animation na ho walki navigation me animation wo.
+2. jab zip download button par click kare to new url open na ho, walki direct download ho jaye app se hi aur kitna % download hua wo bhi dikhayega (agar ho sake to).
+3. jab user logout karta hai aur dusre account se signin karne ke liye fir se signin button par click karta hai to fir se old account login ho jata hai, fix karo aur session local par nahi rakho.
+4. jab user buy ke liye user jaye aur unpaid chhor de to wo database me save na ho.
+5. admin panel ke users me defolt koi user load na ho jab tak ki admin kisi user ko search na kare.
+6. jab browser me user share button par click kare to share on social media button hoga (x, whatsapp, telegram, reddit, instagram etc) aur telegram me bhi ye aaye par telegram pin ho aur uspe click karne par bot token se message jayega via wala jo abhi hai.
+7. desktop mode me search bar fix rahega hilega nahi.
+8. jitna % off hoga wo red colour me dikhao jisse user ko pata chale kitna % off hai.
+9. desktop mode me navigation ke righ side aur pc/laptop ke right side se left side me bahut jyada gap hai isliye uss gape ko sirf 50px rakho aur bache me products rakho (home aur explore me sirf), sayad abhi 3 hote hai isliye 5 rakho (size itna hi rakho jitna abhi hai).
+10. desktop mode me home page me jo Banners hai use chhota karo aur avlable na hone par frentent system ka banners dikhe jese - discover, free product (filter applay ho ke discover page open ho) 3-4 etc ho.
+11. jab koi products create hota hai to wo products images aur details wo aur open view product ka inline button wo sab ek sath hi aaye jabki abhi 2 alag alag me aata hai.
+12. 
