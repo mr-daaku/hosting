@@ -1,0 +1,35 @@
+Wallet page me se Language hatao.
+
+Wallet page me balance card me perfect nahi hai https://i.postimg.cc/gcBL7FS0/Screenshot-20261113-104207.jpg fix karo.
+
+Buy page me Price impact nahi dikhao, aur coin ka price dikhao niche, candel me.
+
+Admin panel me auto pay system do jisme auto pay on off  kar sakun aur dusre gajah se hatao. Auto pay settings me max auto pay, max per user auto pay, max time auto pay per user etc ho jisse admin ko aasano ho.
+
+Jab user withdrawal kare to auto pay hone par dekhe queue run ho raha hai to usme add ho jaye, aur agar nahi run ho raha hoga to run hoke paid ho jaye ya pending me save ho jaye.
+
+Channel par fir se post karo wahi post, wo pahle wala delete ho gaya isliye new post kar do accha sa.
+
+Level Map me niche se dikhao aur your leave sab kuch niche se dikhao, aur konse level par user hoga page usi gajah par leke jaye.
+
+Buy me buy on STON.fi ko niche karo aur direct app me hi buy system lao, jisme amount dale wallet se pay kare, chain se confirm ho, payment milne par TITM amount user ke wallet address me chala jaye. Hamara gole hai direct user app se buy kare jyada tar.
+
+App me long press karne par app ka urls nahi dikhna chahiye, chale wo pc/laptop ya phone ya paid ho kuch me bhi nahi dikh a chahiye.
+
+Aur TITM pay ke liye MNEMONIC_PHRASE se pay hoga, aur yesa security dena jisse multiple pay aur sirf aur sirf tumhare backend se hi pay ho, aur 24 secret wallet word leak nahi hona chahiye yesa security do Jo bade bade exchange use karte hain. w5 address match most - "UQAOzQktPbMOxY7EcK7BB-vuQ_AZ-5DxIJpYH5O1kZbhmr-F" MNEMONIC_PHRASE  ka hai.
+
+aur pay wallet me ye address match hona chahiye "UQCDtbD9_cHOPXDNM1FaB0h-ogzFlB0WFvp8mVGHWjx1ODVh" abhi ye hai "" aur isme 0.05 GRAM hai, ise nikal ke "UQCDtbD9_cHOPXDNM1FaB0h-ogzFlB0WFvp8mVGHWjx1ODVh" par bhejo.
+
+auto pay system test karo aur bhejo UQCVxhjBVJQ7ufjD1lLSZW967R1DrFvFuOtVhsECnU_lqArV ispe jo ki mera hi address hai. aur app hack/crash hone ka dar hai please tum internet se solution dekho aur wo add karo jese- indexing, cashing etc lagao please.
+
+
+New token create Kiya jiska contact address EQBr2UGHcRRkOycv_jLx0H0t5niyooMlQI0fLn26GBX9KTTM hai. Aur metadata official se lo.
+
+Jab me app ko claudflare pages par host kiya to ye error aa raha hai "Something went wrong. Please try again." Fix karo.
+
+
+New wala ye sab hai, pahle wala me jo mene bola usse replace karo-
+
+Contact address - EQBr2UGHcRRkOycv_jLx0H0t5niyooMlQI0fLn26GBX9KTTM
+Pay wallet - UQDLa4Jf6p1k4HoggtAJmWdM-Lv6ZWit7idNYR0sqF_SwavJ (V4R2)
+Fee deposit - UQDLa4Jf6p1k4HoggtAJmWdM-Lv6ZWit7idNYR0sqF_SwavJ
