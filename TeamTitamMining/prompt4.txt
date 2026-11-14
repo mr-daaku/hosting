@@ -1,0 +1,157 @@
+jab mene pura kam kiya to ye error aaya build me "2026-11-14T07:02:28.910941Z	Cloning repository...
+2026-11-14T07:02:29.936403Z	From https://github.com/mr-daaku/teamtitam
+2026-11-14T07:02:29.936786Z	 * branch            9cdc936ebb9e1e8544518032f168659664f0ad5c -> FETCH_HEAD
+2026-11-14T07:02:29.93687Z	
+2026-11-14T07:02:29.968845Z	HEAD is now at 9cdc936 Prompt 2: black theme, curved nav, live STON.fi price, real logo images, share message, bot notifications, pop-ups, back button fix, mining speed -25%
+2026-11-14T07:02:29.969205Z	
+2026-11-14T07:02:30.021767Z	
+2026-11-14T07:02:30.02219Z	Using v2 root directory strategy
+2026-11-14T07:02:30.037301Z	Success: Finished cloning repository files
+2026-11-14T07:02:31.188556Z	Restoring from dependencies cache
+2026-11-14T07:02:31.209568Z	Restoring from build output cache
+2026-11-14T07:02:34.375152Z	Success: Dependencies restored from build cache.
+2026-11-14T07:02:37.564355Z	Checking for configuration in a Wrangler configuration file (BETA)
+2026-11-14T07:02:37.564858Z	
+2026-11-14T07:02:37.714455Z	No Wrangler configuration file found. Continuing.
+2026-11-14T07:02:37.932069Z	Detected the following tools from environment: bun@1.4.4, nodejs@22.23.4
+2026-11-14T07:02:37.932809Z	Installing project dependencies: bun install --frozen-lockfile
+2026-11-14T07:02:39.406758Z	[0.13ms] ".env"
+2026-11-14T07:02:39.658446Z	bun install v1.4.4 (38afee6c8)
+2026-11-14T07:02:39.976496Z	
+2026-11-14T07:02:39.977163Z	+ @eslint/js@9.39.5
+2026-11-14T07:02:39.977397Z	+ @lovable.dev/vite-tanstack-config@2.26.5
+2026-11-14T07:02:39.977499Z	+ @testing-library/jest-dom@6.10.0
+2026-11-14T07:02:39.977596Z	+ @testing-library/react@16.3.3
+2026-11-14T07:02:39.977723Z	+ @types/node@22.20.1
+2026-11-14T07:02:39.97795Z	+ @types/react@19.2.17
+2026-11-14T07:02:39.978067Z	+ @types/react-dom@19.2.3
+2026-11-14T07:02:39.978283Z	+ @vitejs/plugin-react@5.2.0
+2026-11-14T07:02:39.978445Z	+ drizzle-kit@0.31.11
+2026-11-14T07:02:39.978665Z	+ drizzle-orm@0.45.4
+2026-11-14T07:02:39.978847Z	+ eslint@9.39.5
+2026-11-14T07:02:39.979044Z	+ eslint-config-prettier@10.1.8
+2026-11-14T07:02:39.979255Z	+ eslint-plugin-prettier@5.5.6
+2026-11-14T07:02:39.979418Z	+ eslint-plugin-react-hooks@5.2.0
+2026-11-14T07:02:39.979629Z	+ eslint-plugin-react-refresh@0.4.26
+2026-11-14T07:02:39.979807Z	+ globals@15.15.0
+2026-11-14T07:02:39.980067Z	+ jsdom@20.0.3
+2026-11-14T07:02:39.980242Z	+ nitro@3.0.260603-beta
+2026-11-14T07:02:39.980417Z	+ postgres@4.1.0
+2026-11-14T07:02:39.980689Z	+ prettier@3.9.6
+2026-11-14T07:02:39.980912Z	+ typescript@5.9.3
+2026-11-14T07:02:39.981084Z	+ typescript-eslint@8.65.0
+2026-11-14T07:02:39.981218Z	+ vite@8.1.5
+2026-11-14T07:02:39.981393Z	+ vitest@4.1.11
+2026-11-14T07:02:39.981588Z	+ @hookform/resolvers@5.5.7
+2026-11-14T07:02:39.981805Z	+ @radix-ui/react-accordion@1.2.20
+2026-11-14T07:02:39.982017Z	+ @radix-ui/react-alert-dialog@1.1.23
+2026-11-14T07:02:39.9822Z	+ @radix-ui/react-aspect-ratio@1.1.15
+2026-11-14T07:02:39.982377Z	+ @radix-ui/react-avatar@1.2.6
+2026-11-14T07:02:39.982562Z	+ @radix-ui/react-checkbox@1.3.11
+2026-11-14T07:02:39.982724Z	+ @radix-ui/react-collapsible@1.1.20
+2026-11-14T07:02:39.982901Z	+ @radix-ui/react-context-menu@2.3.7
+2026-11-14T07:02:39.983015Z	+ @radix-ui/react-dialog@1.1.23
+2026-11-14T07:02:39.983125Z	+ @radix-ui/react-dropdown-menu@2.1.24
+2026-11-14T07:02:39.983205Z	+ @radix-ui/react-hover-card@1.1.23
+2026-11-14T07:02:39.983363Z	+ @radix-ui/react-label@2.1.15
+2026-11-14T07:02:39.983467Z	+ @radix-ui/react-menubar@1.1.24
+2026-11-14T07:02:39.983614Z	+ @radix-ui/react-navigation-menu@1.2.22
+2026-11-14T07:02:39.983777Z	+ @radix-ui/react-popover@1.1.23
+2026-11-14T07:02:39.983982Z	+ @radix-ui/react-progress@1.1.16
+2026-11-14T07:02:39.984097Z	+ @radix-ui/react-radio-group@1.4.7
+2026-11-14T07:02:39.984231Z	+ @radix-ui/react-scroll-area@1.2.18
+2026-11-14T07:02:39.984309Z	+ @radix-ui/react-select@2.3.7
+2026-11-14T07:02:39.984432Z	+ @radix-ui/react-separator@1.1.15
+2026-11-14T07:02:39.984522Z	+ @radix-ui/react-slider@1.4.7
+2026-11-14T07:02:39.984768Z	+ @radix-ui/react-slot@1.3.3
+2026-11-14T07:02:39.984991Z	+ @radix-ui/react-switch@1.3.7
+2026-11-14T07:02:39.985184Z	+ @radix-ui/react-tabs@1.1.21
+2026-11-14T07:02:39.985371Z	+ @radix-ui/react-toggle@1.1.18
+2026-11-14T07:02:39.985543Z	+ @radix-ui/react-toggle-group@1.1.19
+2026-11-14T07:02:39.985679Z	+ @radix-ui/react-tooltip@1.2.16
+2026-11-14T07:02:39.985855Z	+ @supabase/supabase-js@2.119.0
+2026-11-14T07:02:39.986056Z	+ @tailwindcss/vite@4.3.3
+2026-11-14T07:02:39.986212Z	+ @tanstack/react-query@5.101.4
+2026-11-14T07:02:39.986379Z	+ @tanstack/react-router@1.170.41
+2026-11-14T07:02:39.98649Z	+ @tanstack/react-start@1.168.60
+2026-11-14T07:02:39.986573Z	+ @tanstack/router-plugin@1.168.42
+2026-11-14T07:02:39.986704Z	+ @ton/core@0.63.1
+2026-11-14T07:02:39.986808Z	+ @ton/crypto@3.3.0
+2026-11-14T07:02:39.986917Z	+ @ton/ton@16.3.0
+2026-11-14T07:02:39.987025Z	+ @tonconnect/ui-react@5.0.1
+2026-11-14T07:02:39.987142Z	+ class-variance-authority@0.7.1
+2026-11-14T07:02:39.987243Z	+ clsx@2.1.1
+2026-11-14T07:02:39.98739Z	+ cmdk@1.1.1
+2026-11-14T07:02:39.987579Z	+ date-fns@4.4.0
+2026-11-14T07:02:39.987705Z	+ embla-carousel-react@8.6.0
+2026-11-14T07:02:39.987819Z	+ input-otp@1.4.2
+2026-11-14T07:02:39.987935Z	+ lucide-react@0.575.0
+2026-11-14T07:02:39.988177Z	+ react@19.2.8
+2026-11-14T07:02:39.988359Z	+ react-day-picker@9.14.0
+2026-11-14T07:02:39.988575Z	+ react-dom@19.2.8
+2026-11-14T07:02:39.988757Z	+ react-hook-form@7.83.0
+2026-11-14T07:02:39.988954Z	+ react-resizable-panels@4.12.2
+2026-11-14T07:02:39.989143Z	+ recharts@2.15.4
+2026-11-14T07:02:39.989337Z	+ sonner@2.0.7
+2026-11-14T07:02:39.989498Z	+ tailwind-merge@3.6.0
+2026-11-14T07:02:39.989655Z	+ tailwindcss@4.3.3
+2026-11-14T07:02:39.98979Z	+ tw-animate-css@1.4.0
+2026-11-14T07:02:39.989973Z	+ vaul@1.1.2
+2026-11-14T07:02:39.99013Z	+ vite-tsconfig-paths@6.1.1
+2026-11-14T07:02:39.990331Z	+ zod@3.25.76
+2026-11-14T07:02:39.990495Z	
+2026-11-14T07:02:39.990671Z	570 packages installed [620.00ms]
+2026-11-14T07:02:39.990886Z	Executing user command: bun run build:pages
+2026-11-14T07:02:40.115155Z	error: Script not found "build:pages"
+2026-11-14T07:02:40.117067Z	Failed: Error while executing user command. Exited with error code: 1
+2026-11-14T07:02:40.122856Z	Failed: build command exited with code: 1
+2026-11-14T07:02:40.783698Z	Failed: error occurred while running build command"
+
+aur mene secrets me "Variables and secrets
+Define the text, secret or build variables for your project 
+
+Type
+
+Name
+
+Value
+
+Actions
+Type
+secret_text
+Name
+BOT_TOKEN
+ValueValue encrypted
+Type
+secret_text
+Name
+SUPABASE_PROJECT_ID
+ValueValue encrypted
+Type
+secret_text
+Name
+SUPABASE_PUBLISHABLE_KEY
+ValueValue encrypted
+Type
+secret_text
+Name
+SUPABASE_URL
+ValueValue encrypted
+Type
+secret_text
+Name
+VITE_SUPABASE_PROJECT_ID
+ValueValue encrypted
+Type
+secret_text
+Name
+VITE_SUPABASE_PUBLISHABLE_KEY
+ValueValue encrypted
+Type
+secret_text
+Name
+VITE_SUPABASE_URL
+ValueValue encrypted"
+
+
+ye sab add kar diya hai, sayad isme ROLE KEY bhi lagega, yesa karna role key ke liye tum ek system banana jisme mera domin se main domin (teamtitam.lovable.app) se aa jaye, ya ho sake to supabase/edge me hi yesa system kar dena jo ye url ko request de aur accept kare.
