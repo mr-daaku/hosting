@@ -1,0 +1,17 @@
+official url me sahi aaya par https://teamtitam.pages.dev/api/public/health url me-
+
+{
+  "ok": false,
+  "settings": {
+    "BOT_TOKEN": true,
+    "ADMIN_ID": true,
+    "TON_CENTER_API": true,
+    "MNEMONIC_PHRASE": true,
+    "SUPABASE_URL": true,
+    "SUPABASE_PUBLISHABLE_KEY": true
+  },
+  "database": false
+}
+
+ye database faulse aaya. fix karo please.
+isme yesa karo database direct main se aa jaye aur verify bhi karo. tum apne terminal me https://teamtitam.pages.dev/api/public/health run karke dekh lena.
