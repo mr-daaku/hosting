@@ -155,3 +155,4 @@ ValueValue encrypted"
 
 
 ye sab add kar diya hai, sayad isme ROLE KEY bhi lagega, yesa karna role key ke liye tum ek system banana jisme mera domin se main domin (teamtitam.lovable.app) se aa jaye, ya ho sake to supabase/edge me hi yesa system kar dena jo ye url ko request de aur accept kare.
+aur token ka price official se loge. aur bahut kam karo mining speed jese free me new user ko 50 daily mile, fir aage badhate jao. aur minimum withdraw defolt 1k karo, aur withdraw fee system lao aur defolt 70 fee lage.
