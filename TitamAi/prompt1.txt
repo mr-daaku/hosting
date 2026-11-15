@@ -63,4 +63,7 @@ aur ye sab hoga -> Mujhe ek Claude.ai jaisa AI chat web app banana hai (mobile +
 - UI clean aur Claude.ai jaisi ho: left sidebar, center chat, right artifact panel.
 
 ## Kaam ka tareeka
-Pehle poora folder structure aur plan batao, phir step-by-step build karo: pehle API settings + model loading + streaming chat (working MVP), uske baad baaki features ek-ek karke add karo. Har step ke baad batao kya complete hua.
+Pehle poora folder structure aur plan batao, phir step-by-step build karo: pehle API settings + model loading + streaming chat (working MVP), uske baad baaki features ek-ek karke add karo. Har step ke baad batao kya complete hua.<-
+
+
+aur ye me local me download karke run karunga isliye tum local ke liye customize karna okey. pahle think > fir file stakcher > fir banao > test > agar fail ya error > fix > fir verify done..
