@@ -1,0 +1,66 @@
+ek ai chat frentent banao jisme me api provider base urls dalun aur models load karun aur uska name load ho jaye aur usse chat bhi kar sakun, usme supported model me multiple images, multiple files, multiple kuch add kar sake aur etc hoga aur same yesa hoga - https://i.postimg.cc/0y852G0M/Screenshot-2026-11-15-183539.png
+https://i.postimg.cc/jSZxWWM2/Screenshot-2026-11-15-183550.png
+
+aur ye sab hoga -> Mujhe ek Claude.ai jaisa AI chat web app banana hai (mobile + desktop responsive, dark/light theme). Neeche saari requirements hain, sab implement karo.
+
+## 1. API Settings (sabse important)
+- Settings page me: "Base URL" aur "API Key" input fields, aur ek "Save" button.
+- Save ke baad "Load Models" button: base URL + "/models" ko call kare (Authorization: Bearer <API_KEY>) aur available models ki list dropdown me dikhaye.
+- Models list me search box ho, aur favorite models pin kar sako.
+- Chat ke upar model selector ho, aur conversation ke beech me model switch ho sake.
+- API key sirf user ke browser me (localStorage ya encrypted) save ho, kisi aur server pe nahi bhejni.
+- Chat requests OpenAI-compatible format me jayein: POST {baseUrl}/chat/completions, stream: true, aur streaming response token-by-token UI me dikhe.
+- Errors (wrong key, wrong URL, rate limit) ke liye saaf Hindi/English error messages.
+- Optional: Provider preset dropdown (OpenAI, Anthropic-compatible, OpenRouter, NVIDIA NIM, Custom).
+
+## 2. Chat Core
+- Naya chat, chat history sidebar, rename, delete, search past chats.
+- Markdown rendering, code blocks with copy button aur syntax highlighting, tables, LaTeX.
+- Message actions: copy, regenerate, edit & resend, stop generation button.
+- File/image/PDF upload (image vision support agar model kare, PDF/text ka content extract karke context me bheje).
+- System prompt / custom instructions field (global + per-chat).
+- Temperature, max tokens, top_p jaisi advanced settings.
+
+## 3. Artifacts (live preview)
+- Jab AI HTML/CSS/JS, React ya SVG code de, to side panel me live preview khule (sandboxed iframe).
+- Preview / Code tabs, copy aur download button, aur versions ka history.
+
+## 4. File Creation & Download
+- Code, .md, .txt, .html, .csv, .json files download karne ka option.
+- Optional: .docx, .xlsx, .pdf generate karne ke liye client-side libraries use karo.
+
+## 5. Web Search & Deep Research
+- Web search toggle: user apni search API key (Tavily / Brave / Serper) settings me dale. Results context me inject hon aur answer me source links dikhein.
+- Deep Research mode: multiple searches karke ek detailed report banaye jisme sources ho.
+
+## 6. Memory & Personalization
+- Memory on/off toggle. Chats se important facts save ho (user ke naam, preferences, projects) aur next chats me system prompt me auto inject hon.
+- Memory manager page: saari memories dekho, edit karo, delete karo.
+- User preferences: tone, language (Hindi/English/Hinglish), response length.
+- Styles: Concise, Explanatory, Formal, Casual, aur custom style banane ka option.
+
+## 7. Projects
+- Project banao: apna naam, custom instructions, uploaded knowledge files.
+- Project ke andar ke chats us project ke context aur files use karein.
+
+## 8. Voice
+- Mic button (speech-to-text via Web Speech API) aur "Read aloud" button (text-to-speech).
+- Voice mode: hands-free bolkar baat karna.
+
+## 9. Connectors / Tools
+- Custom tools / MCP server URL add karne ka section.
+- Function calling support agar model kare.
+
+## 10. Extra
+- Chat export (Markdown/JSON) aur import.
+- Keyboard shortcuts (Ctrl+Enter send, Ctrl+K search, Ctrl+Shift+O new chat).
+- Token/cost estimate (optional).
+- Incognito chat (history save na ho).
+
+## Tech Stack
+- Frontend: React + Vite + Tailwind (ya Next.js). Data ke liye IndexedDB (Dexie) use karo taaki sab local rahe.
+- Agar CORS problem aaye to ek chhota proxy option do (Cloudflare Worker ya Node/Express) jo requests forward kare.
+- UI clean aur Claude.ai jaisi ho: left sidebar, center chat, right artifact panel.
+
+## Kaam ka tareeka
+Pehle poora folder structure aur plan batao, phir step-by-step build karo: pehle API settings + model loading + streaming chat (working MVP), uske baad baaki features ek-ek karke add karo. Har step ke baad batao kya complete hua.
