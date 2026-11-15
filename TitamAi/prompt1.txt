@@ -67,3 +67,5 @@ Pehle poora folder structure aur plan batao, phir step-by-step build karo: pehle
 
 
 aur ye me local me download karke run karunga isliye tum local ke liye customize karna okey. pahle think > fir file stakcher > fir banao > test > agar fail ya error > fix > fir verify done..
+
+name Titam Ai.
