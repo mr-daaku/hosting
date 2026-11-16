@@ -1,1 +1,5 @@
 jab buy page me user jata hai to use price convert nahi hua hota hai jabki candle me dikhata hai price ye dekho problem - https://i.postimg.cc/cCMrZQ5r/Screenshot-20261116-085055.jpg https://i.postimg.cc/brjsK6LG/Screenshot-20261116-085101.jpg, yesa karo jonse amount hoga candle me wahi se into ho.
+
+jab new user aaye use mining start karne ke liye wallet ko verify kare tabhi mining start ho, aur wallet verify me are you human bhi do taki use pata chale konse kam ke liye verify ho raha hai. ye system on aur off ka bhi option dena.
+
+note- app ka sara system ka settings Cash me save ho taki har bar data database se load na ho, aur cashing to laga sakte ho na han ya nahi bolo, agar han to pura banao.
