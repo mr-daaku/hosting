@@ -38,4 +38,6 @@ Ek deposit test karo bsc aur eth me taki pata chale. Mene 1 deposit Kiya hai tes
 
 app me file bhi old wala nahi hona chahiye, sabhi gajah ominiai/omini etc se TotemAi karo.
 
+bot ko /start command ka reply karwao aur jo karna ho wo karo, aur pura system ko fir se start karo taki kuch bache na, aur sara firchers test karo.
+
 pura complete ke bad verify karo, fir test karo fir error dekho aur koi error aane par fix karo. aur security ka dhiyan rakho aur multiple user ko ek sath sambhalne ka system design karo, aur api limit hit na ho isliye check button par click karne par hi deposit check ho wo bhi sirf usi address ka. aur hack na ho aur rate limit bhi lagao.
