@@ -1,0 +1,41 @@
+App pursa change karo aur ye sab Chang karo-
+
+Bot name- TotemAi Bot
+Bot username- http://t.me/TotemxAiBot
+News- http://t.me/TotemxAi
+Payout- http://t.me/TotemAiPayout
+
+App logo Chang karo. Jahan Jahan image hai sara gajah ka image regenerate karo aur new wala lagao. Mene channels me bot ko admin dal diya hai, tum app logo do aur ho sake to bot token se bot me logo add kar do aur possible ho to payout aur news channel par bhi dal dena admin permission full hai.
+
+Deposit scan karne ke liye realnode ko hata ke Alchemy ka use karo aur wo yese hai-
+
+Base URLs - https://{chain}-mainnet.g.alchemy.com/v2/{api} 
+
+Chain= bnb, eth, solana, bitcoin, tron, dogecoin, base etc yese hoga.
+
+Api mene ALCHEMY_API me api save Kiya hai. Supported chain Chain= bnb, eth, solana, bitcoin, tron, dogecoin, base etc yese hoga. Aur jonse me stable coin support karta ho wo add karo.
+
+
+Payment Channel par yese post hoga, profile image ke sath - https://i.postimg.cc/9Q5sv7Z0/Screenshot-20261117-171341.jpg
+
+ETH_API aur BSC_API me bhi ALCHEMY_API same hai, isliye BSC_API aur ETH_API hata do.
+
+Index 0 se start hona chahiye user ko address milna, verify ke liye ye address mila lena index 0 ka hai - 
+
+ENV - 0x26720875a5bd6207218fb5290c166837b4fd53db
+
+Btc Native SegWit (bc1q) BIP-84 - 3DAmCtpekZ6XoHDxbPMRJb1dSyttRfQnxh
+
+SOL - 2PjNgyMWqaH8zS4sdUrdp4gffu33ebmr7p3MnAZdmnGa
+
+TON (native GRAM, W5) - UQC7slUkmyvZwzcP_KhGUIarsGzYsGqJklNWVxcy8wSAnPzJ
+
+DOGE - DEnc8kBAjGfuzQWG2oXSC3T78mUG3z7kBc
+
+TON deposit address bhi index me hoga ab.
+
+Ek deposit test karo bsc aur eth me taki pata chale. Mene 1 deposit Kiya hai test ke liye.
+
+app me file bhi old wala nahi hona chahiye, sabhi gajah ominiai/omini etc se TotemAi karo.
+
+pura complete ke bad verify karo, fir test karo fir error dekho aur koi error aane par fix karo. aur security ka dhiyan rakho aur multiple user ko ek sath sambhalne ka system design karo, aur api limit hit na ho isliye check button par click karne par hi deposit check ho wo bhi sirf usi address ka. aur hack na ho aur rate limit bhi lagao.
