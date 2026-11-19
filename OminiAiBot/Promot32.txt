@@ -4,4 +4,4 @@ Mene kuch apis ka secret delete kar diya hai jese ETH_API, BSC_API, ETHILIUM_API
 
 Share invite button par click karne par image + text + open app button wala message jaye jo telegram bot token se send hota hai wese, aur tum ye Internet par search kar lena.
 
-broadcast me yesa system banao jo sabhi user ko message bheje 50-50 karke, aur isme database se user ID nahi lo, yesa method hai telegram ke jo sabhi user ko message karne ka system deta hai, wo bhi bina database se user ID liye.
+broadcast me yesa system banao jo sabhi user ko message bheje 30-30 karke, aur isme database se user ID nahi lo, yesa method hai telegram ke jo sabhi user ko message karne ka system deta hai, wo bhi bina database se user ID liye.
