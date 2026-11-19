@@ -1,0 +1,1 @@
+public system hatao, app sirf telegram mini app me open hoga aur verify telegram bot token + initdata se hoga, taki koi aur me open na ho, aur admin login auto ho, jab userid matcha hoga wese hi admin panel access allow ho jaye. fix karo pura.
