@@ -1,0 +1,1 @@
+Error - "Telegram did not confirm the request. Check the channel before resending." Aa raha hai telegram channel add karne me, jabki telegram channel me admin hai bot. Aur test karo https://t.me/Ominiai (4314947194) ko.
