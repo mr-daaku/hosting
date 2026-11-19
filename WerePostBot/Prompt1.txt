@@ -1,0 +1,350 @@
+Build a Complete Telegram Multi-Channel Posting Bot – @WerePostBot
+
+Build a fully functional, production-ready Telegram Multi-Channel Posting Management System with a modern public dashboard and private admin panel.
+
+This is a PERSONAL-USE project. There is only one authorized administrator.
+
+1. Project Details
+
+- Bot Username: @WerePostBot
+- Telegram Bot Token: Read securely from environment variable "BOT_TOKEN".
+- Admin Telegram User ID: "7206619137"
+- Database: Supabase PostgreSQL.
+- Backend: Node.js with TypeScript.
+- Frontend: React + TypeScript + Tailwind CSS.
+- UI: Modern, premium, responsive dashboard.
+- Deployment-ready architecture.
+
+IMPORTANT:
+Never hardcode or expose BOT_TOKEN in frontend code. Store it in backend environment variables only. Never expose secrets in public APIs or dashboard responses.
+
+2. Telegram Bot Management
+
+Create a fully functional Telegram bot integration.
+
+The admin should be able to:
+
+- Add multiple Telegram channels.
+- Remove channels.
+- View all connected channels.
+- Check whether the bot has administrator permissions in each channel.
+- Verify posting permissions.
+- Automatically detect invalid or inaccessible channels.
+- Store channel ID, channel username, title and connection status.
+- Send posts to multiple selected channels simultaneously.
+- Select all channels or select individual channels.
+
+Only the authorized admin ID "7206619137" can control the bot.
+
+3. Advanced Post Composer
+
+Create a powerful post composer supporting:
+
+Text and Code
+
+- Plain text.
+- HTML formatting.
+- MarkdownV2 formatting.
+- Upload .html files.
+- Upload .md files.
+- Upload code files.
+- Syntax-highlighted code preview.
+- Copy formatted text.
+- Preview exactly how Telegram will display the post.
+
+Media Support
+
+Support multiple media attachments in one post:
+
+- Photos.
+- Videos.
+- Documents.
+- Audio.
+- GIF/animation.
+- Multiple images and videos together.
+- Telegram media groups/albums.
+
+Allow drag-and-drop uploads, attachment previews, removal and reordering.
+
+Support Telegram media group limitations and automatically split larger collections into valid batches.
+
+Inline Buttons
+
+Allow adding multiple inline keyboard buttons.
+
+Features:
+
+- Multiple buttons in one row.
+- Multiple rows.
+- Custom button text.
+- URL buttons.
+- Callback buttons.
+- Rearrange buttons using drag and drop.
+- Delete and edit buttons.
+- Attach inline keyboards to posts.
+
+Validate Telegram API limitations before sending.
+
+4. Multi-Channel Broadcasting
+
+This is one of the most important features.
+
+Allow the admin to publish one post to multiple Telegram channels simultaneously.
+
+Features:
+
+- Select multiple channels.
+- Select all channels.
+- Send to selected channels.
+- Individual delivery status for every channel.
+- Success and failure tracking.
+- Retry failed deliveries.
+- Avoid duplicate posting.
+- Display Telegram message IDs.
+- Store delivery timestamps.
+- Show detailed error messages.
+
+Use background jobs and a reliable queue system so large broadcasts do not block the dashboard.
+
+5. Post Scheduling
+
+Create a scheduling system.
+
+Features:
+
+- Schedule posts for future dates.
+- Select exact date and time.
+- Select target channels.
+- Edit scheduled posts.
+- Delete scheduled posts.
+- Cancel scheduled posts.
+- Automatic publishing at the scheduled time.
+- Timezone support (default Asia/Kolkata).
+- Retry failed scheduled posts.
+
+6. Public Dashboard
+
+Create a beautiful PUBLIC, READ-ONLY dashboard that anyone can visit without logging in.
+
+Dashboard URL: Main website.
+
+Display real-time statistics:
+
+- Total posts created.
+- Total posts successfully published.
+- Total failed posts.
+- Total pending posts.
+- Total scheduled posts.
+- Total connected channels.
+- Total successful deliveries.
+- Total failed deliveries.
+- Overall delivery success percentage.
+
+Add visual analytics:
+
+- Daily posting activity chart.
+- Weekly posting activity.
+- Monthly posting activity.
+- Channel-wise posting statistics.
+- Successful vs failed posting chart.
+- Recent posting activity.
+- Latest published posts.
+- Recent failures.
+
+Show channel names and posting statistics.
+
+IMPORTANT:
+The public dashboard must NEVER expose:
+
+- Bot token.
+- Admin credentials.
+- Private environment variables.
+- Sensitive API keys.
+- Private admin settings.
+
+Public dashboard must only display safe, non-sensitive statistics.
+
+7. Private Admin Dashboard
+
+Create a separate secure admin panel.
+
+Authentication requirements:
+
+- Only Telegram user ID 7206619137 is authorized.
+- Implement secure Telegram authentication using Telegram Login Widget or Telegram Mini App initData verification on the backend.
+- Never trust a client-submitted Telegram user ID without cryptographic verification.
+- Add secure session handling.
+- Unauthorized users must be rejected.
+
+Admin panel sections:
+
+1. Overview.
+2. Channel Management.
+3. Create New Post.
+4. Post History.
+5. Scheduled Posts.
+6. Failed Posts.
+7. Media Library.
+8. Inline Button Builder.
+9. Analytics.
+10. Bot Settings.
+11. Database Management.
+12. Activity Logs.
+
+8. Post History and Tracking
+
+Every post should have a unique post record.
+
+Track:
+
+- Post ID.
+- Post content.
+- Formatting type.
+- Attached media.
+- Inline buttons.
+- Selected channels.
+- Creation date.
+- Scheduled date.
+- Publishing date.
+- Success status.
+- Failure status.
+- Telegram message IDs.
+- Error details.
+
+Allow searching, filtering, editing and viewing post history.
+
+9. Open Database Architecture
+
+Use Supabase PostgreSQL as the primary database.
+
+I want an OPEN and TRANSPARENT database architecture.
+
+Requirements:
+
+- All tables accessible through my Supabase project.
+- Proper relational database design.
+- SQL schema and migration files.
+- No proprietary locked database.
+- Easy export of all records.
+- Database backup support.
+- Proper indexes.
+- Foreign keys.
+- Row Level Security (RLS).
+- Separate public read-only views for dashboard statistics.
+- Admin-only write permissions.
+- Secure storage for uploaded media.
+
+Create these database tables:
+
+1. admins
+2. channels
+3. posts
+4. post_media
+5. inline_buttons
+6. post_deliveries
+7. scheduled_posts
+8. media_library
+9. activity_logs
+10. bot_settings
+
+Make the database schema maintainable and scalable.
+
+10. UI/UX Design
+
+Create a premium SaaS-style interface.
+
+Design requirements:
+
+- Dark and light mode.
+- Modern sidebar navigation.
+- Responsive layout.
+- Professional statistic cards.
+- Clean charts.
+- Beautiful tables.
+- Search and filters.
+- Loading skeletons.
+- Toast notifications.
+- Confirmation dialogs.
+- Mobile-friendly design.
+
+Use a professional dark dashboard as the default theme.
+
+11. Technical Requirements
+
+- Use the official Telegram Bot API.
+- Use secure backend API routes.
+- Use Supabase PostgreSQL.
+- Use Supabase Storage for media.
+- Use reliable background job processing.
+- Implement Telegram API rate-limit handling.
+- Handle Telegram errors gracefully.
+- Implement retry logic with exponential backoff.
+- Prevent duplicate broadcasts using idempotency keys.
+- Add structured application logs.
+- Validate uploaded file types and sizes.
+- Never expose private API credentials.
+- Add proper error handling.
+
+12. Deployment and Environment Variables
+
+Create a complete ".env.example" file:
+
+BOT_TOKEN=
+ADMIN_TELEGRAM_ID=7206619137
+SUPABASE_URL=
+SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+DATABASE_URL=
+TELEGRAM_WEBHOOK_SECRET=
+PUBLIC_DASHBOARD_URL=
+
+Do not put real credentials in source code.
+
+Provide deployment instructions for the frontend, backend, database and Telegram webhook.
+
+13. Important Functional Requirements
+
+Do not create just a static UI or frontend prototype.
+
+Every button must work.
+
+Every form must save actual data.
+
+Channel management must communicate with Telegram.
+
+Posting must actually publish messages to Telegram channels.
+
+Media uploads must work.
+
+Inline buttons must be sent through Telegram Bot API.
+
+Statistics must come from real database records.
+
+Scheduled posts must publish automatically.
+
+Public dashboard must show actual statistics.
+
+14. Final Deliverables
+
+Build the entire working application, including:
+
+- Frontend.
+- Backend.
+- Telegram Bot integration.
+- Database schema.
+- Supabase integration.
+- Admin authentication.
+- Public dashboard.
+- Post composer.
+- Multi-channel broadcaster.
+- Media upload system.
+- Inline keyboard builder.
+- Scheduling engine.
+- Analytics.
+- Deployment documentation.
+
+First build the database and backend architecture, then implement Telegram integration, then the admin dashboard and public dashboard.
+
+Do not use mock data in the final production application. Do not mark any feature as completed until it actually works.
+
+The final result should be a complete personal Telegram broadcasting management platform for @WerePostBot.
