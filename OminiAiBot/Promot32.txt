@@ -1,4 +1,4 @@
-app me se sara datas ko delete karo aur sirf settings rakho, jese users daas, transection datas, refer, deposit, withdrawal etc sab kuch delete karo.
+app me se sara datas ko delete karo aur sirf settings rakho, jese users daas, transection datas, refer, deposit, withdrawal etc sab kuch delete karo. pahle wala datas save hai, tum delete karo yahan se, aur fir pura data ka tum ek zip do.
 
 Mene kuch apis ka secret delete kar diya hai jese ETH_API, BSC_API, ETHILIUM_API (kuch text galat hai), yese kuch, aur TON_API_KEY ka kya use hai? Koi use nahi to delete karo. Aur pay deposit sab ka alag alag secret nahi hoga sab ek me hi Dunga, isliye mene TON SECRET yese kuch secrets delete kar diya hai. Sirf MNEMONIC hoga, iske index 0 se pay hoga (GRAM - USDT/BSC - USDT) aur deposit bhi isi secret wallet MNEMONIC se hoga. Aur mene MNEMONIC Chang kar diya hai, isliye deposit history delete kar do. Aur scan api NODEREAL_API se lo. Aur deposit method me ye sab coin aur chain rakho - Chain= bnb, eth, solana, bitcoin, tron, dogecoin, base etc yese hoga, aur stable coin me USDT aur USDC bhi hoga jon se chain me supported hoga wahi chain me.
 
