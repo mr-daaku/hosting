@@ -1,0 +1,3 @@
+App me settings do new user withdrawal on aur off ka, jisme new user withdrawal kar sakta hai, on hone par.
+
+Top-up aur withdrawal button ke niche ek section do promo code ka, jisme promo code claim kar sakega user aur uske niche option "task and earn (0.05$ per task)" button, aur usme channel/bot/group/other task hoga jo Admin create karega. Aur ye task user create kar sake, per user 0.005$ per user, aur min create compilation me 250 user ka rakho, aur channel/group check hoga ya nahi wo wahan option dena enable or disable ka (enable hone par jyada price) aur sirf link dale auto type select ho jaye aur channel/bot/group ka tital auto load ho jaye, sirf link aur Total completion dale aur pay kare task create
