@@ -1,0 +1,35 @@
+broadcast """<b>🚀 OminiAi – IMPORTANT SYSTEM UPDATE</b>
+
+━━━━━━━━━━━━━━━━━━━━
+
+🎉 <b>GOOD NEWS, OminiAi FAMILY!</b>
+
+We are happy to announce that the OminiAi system is now fully OPEN! 💚
+
+Our technical team has successfully completed the bug-fixing process.
+
+<b>✅ All Bugs & Technical Issues – FIXED</b>
+<b>✅ Complete System – OPEN</b>
+<b>✅ Deposit System – WORKING</b>
+<b>✅ App Services – AVAILABLE</b>
+
+━━━━━━━━━━━━━━━━━━━━
+
+💚 <b>OminiAi Is Back in Action!</b>
+
+You can now log in to your OminiAi account and start using the available features.
+
+💰 Deposit functionality is available again. Please verify your payment details before making any transaction.
+
+🔥 <b>Don't Miss Out!</b>
+
+Open OminiAi now and enjoy your wallet, rewards and more exciting opportunities.
+
+━━━━━━━━━━━━━━━━━━━━
+
+❤️ Thank you for your patience and continued support.
+
+<b>TEAM OminiAi 🚀</b>
+<i>Your Wallet • Your Rewards • A Brighter Tomorrow</i>"""
+
+broadcast me fast message nahi ja raha hai, koi accha sa system banao jisse bahut speed message jaye, aur test karo abhi ka broadcast dalke, aur message speed 30 mene bola tha, kya isse jyada ho sakta hai to karo aur koi accha sa system banao
