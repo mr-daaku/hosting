@@ -1,0 +1,1 @@
+bot start command ka replay nahi de raha hai aur na hi deshbord dikha raha hai fix karo.
