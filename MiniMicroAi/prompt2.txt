@@ -7,3 +7,4 @@ app me jab user long press kare to user ko webapp url nahi dikhe isliye pc me ri
 jab user invite button par click kare to use bot token se jo message jata hai wesa wala banao aur usme image + beautifull (with emoji) + open app button ke sath hoga.
 
 ton chain deposit me dekho index 0 ka v4r2 version UQA32jRTp3PGtxvI0QxttF420v_oVOob0o7UQJd0q0rWQm94 ye address milta hai ya nahi? agar nahi milta hai to isse matcha karo taki me same version use kar sakun.
+aur evm 0xe41f0003168895aabc13ed70a0e5cb23a4644ec7
