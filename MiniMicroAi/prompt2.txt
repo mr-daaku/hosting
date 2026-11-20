@@ -18,3 +18,5 @@ Src\style.css me ye code add karo-
 .safe-bottom {
   padding-bottom: calc(max(env(safe-area-inset-bottom, 0px), var(--tg-safe-area-inset-bottom, 0px)) + 0.75rem);
 }
+
+aur jab me prommp{number}.txt bhejun to tum https://github.com/mr-daaku/hosting/blob/main/MiniMicroAi/prommp{number}.txt samjha karo.
