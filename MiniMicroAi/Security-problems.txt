@@ -1,0 +1,243 @@
+COMPLETE TELEGRAM MINI APP SECURITY & VULNERABILITY AUDIT
+
+Mere project mein Telegram Mini App hai jisme:
+
+- Multiple crypto networks supported hain.
+- Automatic crypto deposit address generation hai.
+- Internal wallet balance system hai.
+- Users internal wallet balance se payment karte hain.
+- Crypto deposit automatically detect aur credit hota hai.
+
+Mujhe project ka complete security audit chahiye.
+
+Har possible vulnerability identify karo aur batao ki attacker uska misuse kaise kar sakta hai. Sirf authorized testing environment mein safe attack simulation karo. Production funds ya real users ko target mat karo.
+
+1. Telegram Authentication Vulnerabilities
+
+- Fake Telegram user ID injection.
+- Fake initData submission.
+- initData signature verification bypass.
+- Expired authentication data reuse.
+- Session hijacking.
+- User impersonation.
+- Frontend user ID manipulation.
+- Authentication bypass.
+- Unauthorized API access.
+
+2. Crypto Deposit Vulnerabilities
+
+- Fake deposit notification.
+- Fake transaction hash submission.
+- Duplicate deposit credit.
+- Same transaction multiple times process hona.
+- Wrong network deposit.
+- Wrong token contract acceptance.
+- Deposit amount manipulation.
+- Decimal precision errors.
+- Unconfirmed transaction credit.
+- Blockchain reorganization handling failure.
+- Webhook spoofing.
+- Webhook replay attacks.
+- Missing blockchain event detection.
+- Deposit credited to wrong user.
+- Address mapping manipulation.
+- Minimum deposit bypass.
+- Token transfer event validation failure.
+
+3. Multi-Chain Vulnerabilities
+
+- Chain ID validation bypass.
+- Cross-chain transaction confusion.
+- Same token symbol different contract acceptance.
+- Wrong network RPC response.
+- Malicious or compromised RPC provider.
+- Chain-specific confirmation errors.
+- TON transaction/message trace validation errors.
+- TRON event verification errors.
+- Ethereum log index validation errors.
+- BNB Chain event verification errors.
+
+4. Internal Wallet Vulnerabilities
+
+- User balance manipulation.
+- Negative balance attack.
+- Unlimited balance credit.
+- Unauthorized balance update.
+- Double spending.
+- Race condition.
+- Concurrent payment exploit.
+- Duplicate ledger entry.
+- Missing debit entry.
+- Missing credit entry.
+- Ledger and wallet balance mismatch.
+- Floating-point precision errors.
+- Unauthorized wallet access.
+- User A accessing User B's balance.
+- Transaction history manipulation.
+
+5. Internal Payment Vulnerabilities
+
+- Payment without sufficient balance.
+- Double-click double payment.
+- Duplicate order settlement.
+- Payment status manipulation.
+- Payment success without actual debit.
+- Balance deducted but order not created.
+- Order created without debit.
+- Payment timeout causing duplicate debit.
+- Unauthorized refund.
+- Duplicate refund.
+- Cancelled order still marked successful.
+- Payment ownership validation failure.
+- Idempotency failure.
+
+6. Crypto Withdrawal Vulnerabilities (if supported)
+
+- Unauthorized withdrawal.
+- Withdrawal amount manipulation.
+- Withdrawal address manipulation.
+- Duplicate withdrawal.
+- Withdrawal limit bypass.
+- Insufficient balance withdrawal.
+- Race condition during withdrawal.
+- Admin approval bypass.
+- Private key exposure.
+- Unauthorized transaction signing.
+- Withdrawal replay.
+- Incorrect network withdrawal.
+
+7. API & Backend Vulnerabilities
+
+- SQL injection.
+- NoSQL injection.
+- IDOR.
+- Broken object-level authorization.
+- Broken authentication.
+- Privilege escalation.
+- Mass assignment.
+- API rate-limit bypass.
+- Brute-force attacks.
+- Parameter tampering.
+- Server-side request forgery.
+- Sensitive data exposure.
+- Insecure error messages.
+- CORS misconfiguration.
+- Missing input validation.
+
+8. Admin Panel Vulnerabilities
+
+- Admin login bypass.
+- Admin session hijacking.
+- Unauthorized admin access.
+- Role privilege escalation.
+- Unauthorized balance adjustment.
+- Unauthorized deposit approval.
+- Withdrawal approval manipulation.
+- API key exposure.
+- Missing admin activity logs.
+- Single-admin critical financial actions.
+
+9. Database Vulnerabilities
+
+- SQL injection.
+- Unauthorized database access.
+- Missing unique transaction constraints.
+- Duplicate transaction records.
+- Database race conditions.
+- Missing atomic transactions.
+- Ledger inconsistency.
+- Sensitive data leakage.
+- Backup exposure.
+- Database backup restoration failure.
+- Improper access permissions.
+
+10. Private Key & Wallet Security
+
+- Private key stored in source code.
+- Private key stored in frontend.
+- Private key exposure through API.
+- Environment variable leakage.
+- Server compromise.
+- Hot wallet compromise.
+- Unauthorized signing.
+- Seed phrase exposure.
+- Insecure key backup.
+- Unauthorized fund sweeping.
+
+11. Webhook & Background Worker Vulnerabilities
+
+- Fake webhook requests.
+- Missing signature validation.
+- Webhook replay.
+- Duplicate event processing.
+- Worker crash during deposit processing.
+- Queue message duplication.
+- Queue message loss.
+- Failed retry handling.
+- Missing event reconciliation.
+- Race conditions between workers.
+
+12. Telegram Mini App Frontend Vulnerabilities
+
+- JavaScript manipulation.
+- Local storage balance manipulation.
+- Frontend payment status manipulation.
+- Hidden API endpoint discovery.
+- XSS.
+- CSRF where applicable.
+- Insecure deep links.
+- Malicious URL handling.
+- Telegram WebView compatibility issues.
+- Sensitive data exposed in browser logs.
+
+13. Server & Infrastructure Vulnerabilities
+
+- SSH brute-force.
+- Exposed database ports.
+- Exposed Redis.
+- Exposed RPC credentials.
+- Exposed API keys.
+- Misconfigured firewall.
+- Missing security updates.
+- DDoS.
+- Resource exhaustion.
+- Insecure Docker configuration.
+- Missing monitoring.
+- Missing disaster recovery.
+
+14. Required Audit Report
+
+Har vulnerability ke liye ye information do:
+
+1. Vulnerability name.
+2. Severity: Critical / High / Medium / Low.
+3. Affected file and API endpoint.
+4. Root cause.
+5. Attacker ka possible misuse scenario.
+6. Safe reproduction steps in local/staging environment.
+7. Expected secure behaviour.
+8. Exact code-level fix.
+9. Regression test.
+10. Fix verify karne ka method.
+
+15. Important Instructions
+
+- Pehle complete codebase read aur understand karo.
+- Existing architecture ko bina samjhe rewrite mat karo.
+- Sirf actual vulnerabilities report karo, imaginary issues nahi.
+- Har issue ka evidence do.
+- Financial transactions ko atomic banao.
+- Double-entry ledger implement aur verify karo.
+- Deposit processing idempotent rakho.
+- All blockchain transactions independently verify karo.
+- Frontend balance ko kabhi trusted mat mano.
+- Private keys frontend aur logs mein expose nahi hone chahiye.
+- Admin actions audit log mein record hone chahiye.
+- Existing working features break nahi hone chahiye.
+- Production database ya real funds par testing mat karo.
+- Har fix ke baad automated regression tests run karo.
+- Changes ke pehle backup aur version-control checkpoint banao.
+
+Pehle audit report banao. Uske baad Critical aur High vulnerabilities fix karo. Har fix ke baad test results aur remaining risks report karo.
+
+Goal: Production-grade, secure, reliable Multi-Chain Crypto Deposit + Internal Wallet + Payment Telegram Mini App.
