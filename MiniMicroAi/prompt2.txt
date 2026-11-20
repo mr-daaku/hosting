@@ -1,8 +1,9 @@
-are yaar me flash usdt ek name diya hun bhai, withdraw to real usdt hi hoga, falsh usdt to sirf balance dikheyega jo 1$ deposit par 100 Flash usdt milega, aur 0.02% daily read usdt milega ji withdraw hoga. ye dekho- 
+new iser ko 100 point free do, jab user app open kare first time to welcome bunus pop-up dena jisme claim 100 point do, aur agar user claim na kare to unclamed rakho agle bar claim ka pop-up dena. aur ye value admin change kar sakta hai. aur ek option add karo free withdraw ka, jisme jitna amount ho usse jyada user bina deposit ke withdraw nahi kar paye, mano agar 0.1$ free withdraw hai to user free me 0.1$ hi withdraw kar sakega.
 
-flash usdt = ye deposit karne par x100 aayeg jo app me mining speed badhane ke liye hoga.
-usdt = ye real usdt hoga jo mining se claim hua hoga ji withdraw kar sakega user.
+app ko fullScreen request karo telegram se aur full screen me app design karo, aur jab user /start commanda ka replay aat hai to use ek image bhi aaye welcome image jo tum create karo aur lagao.
 
-isme 2 tarah ka balance hoga ek FLASH_USDT aur ek USDT jo withdraw hoga. 😂😂😂 kya yaar tum bhi na.
+app me jab user long press kare to user ko webapp url nahi dikhe isliye pc me right button disable karo aur phone ya browser me long press disable karo, aur kahin bhi koi kimat par nahi link dikhana chahiye.
 
-ab fir se padho https://github.com/mr-daaku/hosting/blob/main/MiniMicroAi/Prompt1.txt aur banao ek bar me hi.
+jab user invite button par click kare to use bot token se jo message jata hai wesa wala banao aur usme image + beautifull (with emoji) + open app button ke sath hoga.
+
+ton chain deposit me dekho index 0 ka w5 version UQAOzQktPbMOxY7EcK7BB-vuQ_AZ-5DxIJpYH5O1kZbhmr-F ye address milta hai ya nahi? agar nahi milta hai to isse matcha karo taki me same version use kar sakun.
