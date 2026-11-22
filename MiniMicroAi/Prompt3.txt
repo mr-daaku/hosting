@@ -1,0 +1,47 @@
+App ka pura page uper le jao, mano abhi 100% niche hai to use uper abhi 50% le jao.
+
+Aur main bot support ke liye nahi hai to isliye tum "Reply to a received support message to answer that user. You can also use Admin → Support." Ye message main bot se nahi reply karwao.
+
+Aur new bot jo hai support bot usme user message bhejega aur support bot me hi admin ko message receive hoga, aur support button par click karne par support bot open hoga na ki chat, aur support bot username MiniMicroSupportBot hai. Aur iska bot token Support_Bot_Token secret me save hai to tum iska use karo aur support bot message system banao, no app direct message aur received ✅ message. Aur support message database me save nahi hoga.
+
+Aur promo code ka section hatao.
+
+Aur gifts page me gifts jo hai use background ko transparent karo aur ek line me 2 hi gift dikhe, aur use open karne par jo pop-up aata hai usme bhi background transparent ho aur ek close button aaye uske niche, pop-up me koi border nahi koi text nahi. Aur gift open ho tab Confetti Popper open (party Popper ) ure taki accha lage user ko.
+
+Aur jab user invest button pr click kre to ek pop-up nahi aaye jo confirm karta hai send karna hai ya nahi, wo direct bot token se bot ko call karega aur wo users ko send karne ke liye ready ho jayega. https://i.postimg.cc/FzcrT0hx/Screenshot-20261122-150216.jpg
+
+Aur task page me jo create button hai wo pura yellow dikh raha hai, use accha banao aur ek new page banao jisme task create ka hoga.
+
+Invite page me jo invite user ka image hai (jo sabhi me aata hai) use dusra bano aur background transparent rakho, aur gifts page me refer ka system nahi hoga, sirf gifts boxes hoga nahi to imprty.
+
+Account/profile page tumhen iska https://github.com/mr-daaku/hosting/blob/main/MiniMicroAi/MiniMicroAi-source.zip jesa nahi Kiya, tum iske jesa karo aur demo ke liye ye image use kar sakte ho-
+
+Screenshots:
+https://i.postimg.cc/g0v6XpWx/Screenshot-20261120-102900.jpg
+https://i.postimg.cc/TPrWLx6L/Screenshot-20261120-102906.jpg
+https://i.postimg.cc/wBhsyzp6/Screenshot-20261120-102916.jpg
+https://i.postimg.cc/DzVXwZt0/Screenshot-20261120-102931.jpg
+https://i.postimg.cc/43zh7GgZ/Screenshot-20261120-102939.jpg
+https://i.postimg.cc/yNFSgKH6/Screenshot-20261120-102943.jpg
+https://i.postimg.cc/Bvx1L30n/Screenshot-20261120-102954.jpg
+https://i.postimg.cc/BvWKn6dv/Screenshot-20261120-103000.jpg
+https://i.postimg.cc/QMLTdtRd/Screenshot-20261120-103012.jpg
+https://i.postimg.cc/y65YHGMr/Screenshot-20261120-103732.jpg
+
+Aur legal page apna rakho. Aur deposit page me bhi same design rakho jese screenshot me hai.
+
+Aur task page me se back button hatao
+
+Aur admin panel ka tabs aur subtabas pahle jesa karo.
+
+Withdraw method me sirf BEP-20 USDT hoga isliye TON USDT ka option hata do, aur jab user withdrawal page me jate to direct withdrawal form mile, na ki method select kare, method me sirf BEP-20 USDT hoga fix.
+
+Aur bahut sare button par pure yellow hai, jisme text nahi dikha raha hai, tum dekho aur pura fix karo aur sabhi buttons ko ek ek karke verify karo taki koi chhut na jaye.
+
+Mene MNEMONIC change Kiya, ab dekho kesa address banta hai aur ek bar verify bhi karo script run karke.
+
+Aur live mining dikhao home page par jese pahle dikhata tha, aur deposit & withdrawal button ke niche ek line hai use hatao aur uske niche claim button thik hai, aur claim button ke niche jo line hai use bhi hatao aur "estimated, not granted • ..." Text ko hatao. Aur estimated profit text aur mining bhi hatao wahan se (deposit aur claim button ke bich wala) aur live mining balance me hi dikhayega. Yese - ek balance hai aur dusra mining wo dono milke Total balance dikho aur usi me live mining dikhao. Man lo agar user ke pass 10 USDT hai aur mining ho raha hai mano abhi 0.003 unclamed mining balance hai to total balance me 10.003... dikhaoge. Kya tum samjhe? Agar han to pura banao please.
+
+Gifts ka ek new image banao aur usme background transparent ho aur accha lage image.
+
+Aur app me top par jo tital aur logo hai wo fix rahe aur background me kuch na ho na ho heading patti ho.
