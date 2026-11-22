@@ -1,0 +1,23 @@
+App me sare defolt settings add karo aur wallet navigation hatao.
+
+Task button hatao home page se. Aur Opening history button bhi hatao aur uske gajah Claim button do.
+
+Admin panel me auto pay, settings jese pages open nahi ho raha hai fix karo please. Ho sakta hai ye data na hone ke bajah se ho raha ho.
+
+Aur telegram bot ko /start command ka reply karwao, aur app me bahut gajah old images aur texts hai wo sab regenerate aur dusra lagao. Aur support bot me bhi system lagao aur usme /start command aur reply received aur send ma system do, aur aasan sa dena taki me sab ko accha sa aur fast reply kar sakun.
+
+Aur gifts lage me gift box image jo hai wo tum chhota karke lagao. Aur invite gift box accha sa ek image me do aur jab uspe click kare to pop-up aaye beautiful sa aur congratulations 🎉🎉🎉 ye sab dikhe.
+
+Aur app ka navigation aur account page bhi same rakho, ye change hai thik karo please 🥺🥺🥺.
+
+Wallet address genrate que nahi ho raha hai fix karo please, dekho kya words hi galat to nahi hai, agar galat hai to mujhe batao aur me fixed dalunga.
+
+Aur app me support button par click karne par support box open hona chahiye ye fix karo.
+
+Aur app ke top center me name aur logo do chhota sa tai uper me space accha lage jese - MiniMicro {logo}.
+
+Aur app navigation me - Gifts, partners, home, earn (isme task aur task create) aur PROFILE.
+
+App me jahan design karna haiw ahan image do taki app beautiful aur smooth lage aur user ko samajh aaye.
+
+Aur invite button par click karne par invite image nahi aa raha hai, add karo please.
