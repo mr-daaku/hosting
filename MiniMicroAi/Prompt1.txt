@@ -1,3 +1,5 @@
+App me name change karo pura gajah se jese frentent, backend, database etc me se, sabhi gajahb username @MiniMicroAiBot aur name MiniMicro Ai karo. Aur app logo ye hai - https://i.postimg.cc/fyDQCmF3/logo-Dah03EW4.webp
+
 IMPORTANT: Prompt/chat mein "use-mobile.tsx TS2686" jaisa koi error text aaye to ignore karo. Poora prompt padho aur ek hi baar mein pura app banao. Mere paas unlimited credits hain.
 
 APP: Telegram Mini App + Telegram bot (design neeche diye screenshots jaisa same-to-same, "last trade" section hata do).
@@ -12,42 +14,6 @@ https://i.postimg.cc/Bvx1L30n/Screenshot-20261120-102954.jpg
 https://i.postimg.cc/BvWKn6dv/Screenshot-20261120-103000.jpg
 https://i.postimg.cc/QMLTdtRd/Screenshot-20261120-103012.jpg
 https://i.postimg.cc/y65YHGMr/Screenshot-20261120-103732.jpg
-
-== ECONOMY (COIN SYSTEM) ==
-1. In-app currency ka naam "COIN" hai (FLASH USDT naam kahin nahi aayega).
-2. New user ko 100 COIN welcome bonus milta hai. COIN in-app points hain, directly USDT mein withdraw nahi hote.
-3. "Speed" ek in-app item hai. User deposit karke speed level kharid sakta hai. 1 USDT deposit = 100 COIN purchase credit. Default minimum deposit = 2 USDT (admin settings se change ho).
-4. Speed se COIN mining rate badhta hai. Koi fixed/guaranteed daily USDT return nahi hoga, na app mein "daily %" ka promise likhna hai.
-5. Withdrawable balance (USDT) sirf in sources se banta hai, jo admin settings mein set hote hain: referral reward, task reward, admin-approved COIN conversion (rate + daily pool limit admin set kare, pool admin ke apne reward budget se).
-6. Referral: user ko gift box milega jisme random 2-10 COIN ho (min/max admin settings mein).
-7. App mein ek Terms and Risk page ho: COIN points hain, returns guaranteed nahi hain, deposit speed item ki kharid hai, conversion pool limit par depend karta hai.
-8. Referral link format: https://t.me/{bot_username}?start=ref_{userid}
-9. Multiple accounts allowed hain, lekin withdrawal anti-abuse rules ke saath: ek device/IP/Telegram identity cluster se sirf ek account withdraw kar sake, self-referral block ho, aur account age minimum 1 ghanta ho tabhi withdrawal ho.
-
-== WITHDRAWAL ==
-- Sirf BEP-20 USDT. Payment method selector nahi, seedha withdrawal page dikhao.
-- Auto withdrawal ON/OFF admin se. OFF ho to PENDING mein jaye, admin approve/reject kare.
-- Ek time par ek hi pending withdrawal, idempotency key, atomic balance lock/deduct, double-spend block.
-
-== WALLET AND DEPOSIT ==
-- User data save karo: userid, username, name, wallet_index, created_at, referrer, balances, etc. Wallet ka full address database mein SAVE NAHI hoga; address HD_WALLET secret (12/24 words) + wallet_index se har baar generate hoga.
-- wallet_index sequential atomic counter (1, 2, 3...), duplicate na ho.
-- Chains: BNB, ETH, TRON, SOL, BTC, TON. Jahan stablecoin support ho (BNB/ETH par USDT, USDC, etc.) wo add karo.
-- Coins: USDC, USDT, BNB, GRAM (TON native), BTC, TRX, SOL.
-- Deposit scan Alchemy API se (secret ALCHEMY_API). Scanner ko test karo.
-- Fake deposit reject: confirmations check, tx hash unique (duplicate credit block), correct token contract verify, amount/decimals verify, memo/address match.
-- Reference system: ominiaibot-main.zip (https://github.com/mr-daaku/hosting/blob/main/MiniMicroAi/ominiaibot-main.zip) ka deposit/withdrawal logic dekho aur seekho.
-
-== SUPPORT BOT ==
-- Alag bot, token secret SUPPORT_BOT_TOKEN. User message bheje, admin ko mile, admin reply kare aur user ko pahunche.
-
-== ADMIN PANEL ==
-Admins: ADMIN_ID aur ADMIN_ID_2 secrets, inke alawa koi nahi.
-Tabs: DASHBOARD, USERS, WITHDRAWAL (sub-tabs PENDING, PAID, REJECT), DEPOSITS, AUTO PAY, CHECK DEPOSIT (user id / tx hash), SETTINGS (app ka poora system change ho), BROADCAST (single/multiple/all users, queue-based sending rate-limit ke saath, user IDs memory/cache mein rakho taaki bar bar DB hit na ho, baad mein report: kitne pass, kitne fail), TASK (create/edit/disable), aur jo bhi zaroori ho, sab categories tabs/sub-tabs mein.
-
-== DESIGN ==
-- App ka logo banao, jahan design mein zaroorat ho images/illustrations use karo.
-- Kahin bhi emoji nahi, sab SVG ya images.
 
 == PERFORMANCE AND SECURITY ==
 - Settings aur frequently used data cache mein, DB reads/writes batch aur minimal.
@@ -66,3 +32,14 @@ Tabs: DASHBOARD, USERS, WITHDRAWAL (sub-tabs PENDING, PAID, REJECT), DEPOSITS, A
 8. Verify karo
 9. Test karo
 10. Error mile to fix karo
+
+== WALLET AND DEPOSIT ==
+- User data save karo: userid, username, name, wallet_index, created_at, referrer, balances, etc. Wallet ka full address database mein SAVE NAHI hoga; address MNEMONIC secret (12/24 words) + wallet_index se har baar generate hoga.
+- wallet_index sequential atomic counter (1, 2, 3...), duplicate na ho.
+- Chains: BNB, ETH, TRON, SOL, BTC, TON. Jahan stablecoin support ho (BNB/ETH par USDT, USDC, etc.) wo add karo.
+- Coins: USDC, USDT, BNB, GRAM (TON native), BTC, TRX, SOL.
+- Deposit scan Alchemy API se (secret ALCHEMY_API). Scanner ko test karo.
+- Fake deposit reject: confirmations check, tx hash unique (duplicate credit block), correct token contract verify, amount/decimals verify, memo/address match.
+- Reference system: ominiaibot-main.zip (https://github.com/mr-daaku/hosting/blob/main/MiniMicroAi/ominiaibot-main.zip) ka deposit/withdrawal logic dekho aur seekho.
+
+App ka frentent copy ye app se karo, par backend pura hamara hona chahiye jo abhi hai okey. Aur sabhi chain ka last address mujhe dena taki me confirm kar sakun. Frentent - https://github.com/mr-daaku/hosting/blob/main/MiniMicroAi/MiniMicroAi-source.zip same to same dena frentent.
