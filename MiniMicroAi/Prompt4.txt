@@ -1,0 +1,26 @@
+Jab withdrawal requests dalta hai user aur auto pay on hota hai to withdrawal processing me chala jata hai, par wahan se pay nahi hota hai, yesa karo processing me tab rahe jab multiple withdrawal aa raha ho, aur single withdrawal aaye to usi time withdrawal ho jaye, withdrawal instant dikhao aur payment process background me karo taki app fast feel ho aur user bor na ho.
+
+Aur home page me per day, per week aur per month ka speed dikhao accha sa.
+
+Aur open app ka url "https://t.me/MiniMicroAiBot" yesa nahi walki "https://t.me/MiniMicroAiBot/Trade" yesa do.
+
+
+Aur home page me balance + mining balance nahi walki sirf mining balance dikhao, aur balance profile.
+
+Task me ye sab task fix hoga sirf admin change kar sakega - post story (daily), add link in bio (daily), add username in your telegram name (daily) ye fix hoga aur admin add/delete/edit kar sakega.
+
+Jab user deposit kare aur minimum deposit se 0.05$ tak kam bhi aaye to use deposit kar do aur use full amount mano.
+
+Jab withdrawal paid ho aur channel par post jo to wahan ek image bhi post jo tum banao, aur add karo.
+
+Aur coin ka name USD kar do aur uska logo bhi usdt wala do, aur jahan jahan coin hai sabhi gajah usd karo, aur withdrawal USDT hoga jisme tumhe kuch nahi cherna/Change/edit hai.
+
+Banane ke bad pura verify karo aur test karo.
+
+Aur withdrawal paid text "💸 +3.17 USDT sent to P***n
+
+ID : {full id}
+
+Funds have been successfully credited to the external wallet." aur 2 button jisme open app aur transection link. Aur ek image dena yese wala - https://i.postimg.cc/VvK91SCb/IMG-20261124-122512-822.jpg par same nahi dena tum new genrate karo taki copy na lage.
+
+Jab new user aaye to account ko verify karne ke liye bot ek message bheje user ko, agar user ko message chala jayega to real user nahi to bot aur use andarbtab tak nahi Jane do jab tak ki message delevery na ho jaye, aur ek verify button dena jisme click karne par https://t.me/MiniMicroAiBot?start=start bjena aur fir verify karo, aur isme database me sirf verify status save karna aur fail hone par verify again ka button.
