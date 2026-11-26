@@ -1,1 +1,3 @@
 ek post karo channel me english me, bolo usme kabhi kabhi jo deposit problem aata tha wo fix ho gaya hai, aur jo bhi koi problem aaye wo aap support bot me report ke sakten hai aur aaj ka ai trading result - BTC 1.2% 186.7$, TRX -1.01 29.6$, SOL 2.1% 201.2$, GRAM -1% -9$, BNB +3.3% 360.01$, ETH +1.4% 421$ post kar do aur isme profit me ^ dena aur loss me ulta.
+
+aur app ke admin panel me ek post tab dena jisme me html ya txt ya markdown code dalke post kar sakun aur photo aur multiple button add kar sakun. aur ek ai image ka option (button) de sakte ho to de dena, jispe click karun aur wo post hisab se image bana de aur wo download karke kahin host kar dunga aur post/broadcast me add kar dunga, ai model tum de dena agar ho sake to nahi to ye ai option nahi do.
