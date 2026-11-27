@@ -1,0 +1,9 @@
+Jab user website open karta hai to open in app button que aata hai, jabki mene bola tha jese hi user website kare aur app download ho to direct app khule, na ki website.
+
+Aur bar bar login que karna padta hai app me, fix karo aur koi yesa method lao jisse local me data nahi rahe par fir bhi auto login ho jaye.
+
+Share product button par click karne par social media ka icon me svg icons ho, wo tum internet se lo, sabhi social media ka icon ka svg.
+
+App me dark aur lite mode add karo, defolt system ho. Aur dark mode me.
+
+Aur jab user logout button par click kare to pahle confirm kare fir logout ho.
