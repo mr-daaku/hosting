@@ -11,3 +11,15 @@
 6. jab me ye bola tha [desktop mode me navigation ke righ side aur pc/laptop ke right side se left side me bahut jyada gap hai isliye uss gape ko sirf 50px rakho aur bache me products rakho (home aur explore me sirf), sayad abhi 3 hote hai isliye 5 rakho (size itna hi rakho jitna abhi hai).] https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/prpmpt10.txt ke 9 no problem me to mene bola tha ye home aur Browse jese  page ke alawe dusre page me bhi karne jo tumne nahi kiya, ab tum bache ke sabhi page me gap sirf 50px rakho aur banane ke bad verify karo aur bacha hoga to fir se bache hue banao.
 
 7. tum app me https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/1795718953240_616997246bcf0d76_01-security-19-checklist.pdf ye security level add karo aur wahi karo jo hamare app me use ho raha hai usme sirf aur banane ke bad verify karo aur test bhi karo.
+
+8. product ke images me jo images dikhata hai use tum https://i.postimg.cc/cL1w1j7D/Screenshot-20261127-200857.jpg yesa dikhao aur images ke background me thoda sa black in white color hai use bhi pure white karo. aur < aur > button bhi do jisse user images bhi hata sake, aur full screen image dekhne par bhi < aur > ka button do.
+
+9. jab user google se login kare aur fir agar github se login kare to same email hone par wahi account login ho. aur hacker koi method se callback me email kisi use ka de sakta hai, isliye security bhi lagao jisse login na kar sake.
+
+10. aur jab user pay karne keliye check payment button par click karta hai to ye error aata ahi fix karo - "Payment scanning is not configured yet".
+
+11. already apis set hone par wo api saved dikho aur change ka option bhi dikhao. aur twestes (message) accha nahi dikha raha hai, beautifull design me do jo app se match kare.
+
+12. DPDP act ko padho aur uske hisab se app me security aur firchers aur pages do. aur pura dpdp act padho aur kuch chhutna nahi chahiye.
+
+note- ye pura banao aur number by number batao tumne kon kon se kam kiya aur konsa bacha hai. pura kam karo ek bar me aur verify bhi karo.
