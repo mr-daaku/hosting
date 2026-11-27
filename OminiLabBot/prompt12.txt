@@ -1,9 +1,13 @@
-Jab user website open karta hai to open in app button que aata hai, jabki mene bola tha jese hi user website kare aur app download ho to direct app khule, na ki website.
+1. Jab user website open karta hai to open in app button que aata hai, jabki mene bola tha jese hi user website kare aur app download ho to direct app khule, na ki website.
 
-Aur bar bar login que karna padta hai app me, fix karo aur koi yesa method lao jisse local me data nahi rahe par fir bhi auto login ho jaye.
+2. Aur bar bar login que karna padta hai app me, fix karo aur koi yesa method lao jisse local me data nahi rahe par fir bhi auto login ho jaye.
 
-Share product button par click karne par social media ka icon me svg icons ho, wo tum internet se lo, sabhi social media ka icon ka svg.
+3. Share product button par click karne par social media ka icon me svg icons ho, wo tum internet se lo, sabhi social media ka icon ka svg.
 
-App me dark aur lite mode add karo, defolt system ho. Aur dark mode me.
+4. App me dark aur lite mode add karo, defolt system ho. Aur dark mode me.
 
-Aur jab user logout button par click kare to pahle confirm kare fir logout ho.
+5. Aur jab user logout button par click kare to pahle confirm kare fir logout ho.
+
+6. jab me ye bola tha [desktop mode me navigation ke righ side aur pc/laptop ke right side se left side me bahut jyada gap hai isliye uss gape ko sirf 50px rakho aur bache me products rakho (home aur explore me sirf), sayad abhi 3 hote hai isliye 5 rakho (size itna hi rakho jitna abhi hai).] https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/prpmpt10.txt ke 9 no problem me to mene bola tha ye home aur Browse jese  page ke alawe dusre page me bhi karne jo tumne nahi kiya, ab tum bache ke sabhi page me gap sirf 50px rakho aur banane ke bad verify karo aur bacha hoga to fir se bache hue banao.
+
+7. tum app me https://github.com/mr-daaku/hosting/blob/main/OminiLabBot/1795718953240_616997246bcf0d76_01-security-19-checklist.pdf ye security level add karo aur wahi karo jo hamare app me use ho raha hai usme sirf aur banane ke bad verify karo aur test bhi karo.
