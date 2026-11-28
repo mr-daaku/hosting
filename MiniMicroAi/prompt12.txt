@@ -1,0 +1,3 @@
+app me jo deposits dikha raha hai wo mere script ke index me nahi dikha raha hai (USDT) , ye mera script https://github.com/mr-daaku/hosting/blob/main/MiniMicroAi/wd-eth.mjs aur https://github.com/mr-daaku/hosting/blob/main/MiniMicroAi/wd-bsc.mjs hai, tum backend me hi set kar do jo  me wahin se withdraw button par click karke withdraw kar sakun, aur direct index 0 me jayega jiska address - "0xe41f0003168895aABc13ED70a0E5CB23a4644ec7". tum abhi ka sara usdt scan karke withdraw kar doplease, bad me aane wala me withdraw kar lunga.
+
+aur user 8203546964 ka deposit page me qr aur address genrate que nahi ho raha hai? deposit page me account not found batata hai, fix karo.
